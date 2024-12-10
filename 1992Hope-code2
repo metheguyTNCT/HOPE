@@ -30,18 +30,6 @@ customStyling.innerHTML = `
   border-style: double;
   border-color: #C9C9C9;
 }
-#running_mate_pic {
-  height: 28%;
-  border: double;
-    border-top-color: currentcolor;
-    border-right-color: currentcolor;
-    border-bottom-color: currentcolor;
-    border-left-color: currentcolor;
-  border-color: #c9c9c9;
-  float: right;
-  margin-right: 13em;
-  width: 14.3%;
-}
 #state_info {
   margin: 5% 0 0;
   height: 120%;
