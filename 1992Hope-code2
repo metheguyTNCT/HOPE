@@ -13596,17 +13596,17 @@ campaignTrail_temp.answer_feedback_json = [
 
 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/GeLlEzg.png";
 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/18NaHTT.png";
-campaignTrail_temp.candidate_last_name = "Clinton";
-campaignTrail_temp.running_mate_last_name = "Gore";
+campaignTrail_temp.candidate_last_name = "";
+campaignTrail_temp.running_mate_last_name = "";
 
 
 
 campaignTrail_temp.jet_data = [{
     "banner_enabled": true,
     "banner_data": {
-        "canName": "Clinton",
+        "canName": "",
         "canImage": "https://i.imgur.com/GeLlEzg.png",
-        "runName": "Gore",
+        "runName": "",
         "runImage": "https://i.imgur.com/18NaHTT.png"
     },
     "cyoa_enabled": true,
