@@ -7561,7 +7561,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3494,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.005
+            "global_multiplier": 0.015
         }
     },
     {
@@ -7571,7 +7571,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3493,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.005
+            "global_multiplier": 0.015
         }
     },
     {
@@ -7581,7 +7581,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12241,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.005
+            "global_multiplier": 0.015
         }
     },
     {
@@ -7591,7 +7591,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12245,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.006
+            "global_multiplier": 0.0156
         }
     },
     {
@@ -7774,7 +7774,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 3493,
             "issue": 27,
             "issue_score": 0.2,
-            "issue_importance": 2
+            "issue_importance": 1
         }
     },
     {
@@ -7784,6 +7784,26 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 3493,
             "issue": 28,
             "issue_score": 0.2,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 772,
+        "fields": {
+            "answer": 3494,
+            "issue": 27,
+            "issue_score": 0.1,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 772,
+        "fields": {
+            "answer": 12245,
+            "issue": 28,
+            "issue_score": -0.1,
             "issue_importance": 2
         }
     },
