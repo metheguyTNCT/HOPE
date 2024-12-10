@@ -12500,7 +12500,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3310,
             "candidate": 77,
-            "answer_feedback": "In the chaos of the gas attack, the Davidians start a fire, engulfing the entire building in flames. 28 children perish."
+            "answer_feedback": "In the chaos of the gas attack, the Davidians apparently start a fire, engulfing the entire building in flames. 28 children perish."
         }
     },
     {
