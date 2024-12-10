@@ -11,7 +11,7 @@ customStyling.innerHTML = `
     background-position: center;
     width: 100%; 
     height: 104px; 
-    margin-left: -0.07em;
+    margin-left: -0.025em;
   }
 #campaign_sign p {
     color: rgb(0 0 0 / 0%);
