@@ -14132,9 +14132,6 @@ cyoAdventure = function(a) {
         LEGWin += 3;
         Legacy += 1;
     }
-    if (ans == 12351) {
-        HealthcareFail += 1;
-    }
     if (ans == 3405) {
         DOMWin += 1;
     }
