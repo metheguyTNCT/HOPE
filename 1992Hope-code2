@@ -2847,7 +2847,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 198,
             "issue": 31,
-            "state_issue_score": 0.125,
+            "state_issue_score": 0.175,
             "weight": 1
         }
     },
