@@ -13605,9 +13605,9 @@ campaignTrail_temp.jet_data = [{
     "banner_enabled": true,
     "banner_data": {
         "canName": "Clinton",
-        "canImage": "https://i.imgur.com/dlDdc09.jpeg",
+        "canImage": "https://i.imgur.com/GeLlEzg.png",
         "runName": "Gore",
-        "runImage": "https://i.imgur.com/u4fe5cO.jpeg"
+        "runImage": "https://i.imgur.com/18NaHTT.png"
     },
     "cyoa_enabled": true,
     "cyoa_data": {}
