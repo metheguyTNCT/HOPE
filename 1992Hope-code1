@@ -93,7 +93,7 @@ campaignTrail_temp.candidate_json = [
         "pk": 80,
         "fields": {
             "first_name": "Norman",
-            "last_name": "Reforms",
+            "last_name": "Reformists",
             "election": 9,
             "party": "Reform",
             "state": "Virginia",
