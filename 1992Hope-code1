@@ -311,7 +311,7 @@ jet_data = {
     "headerColor": "#5687fb",
     "windowColor": "#ffffff",
     "containerColor": "#ffffff",
-    "innerWindowColor": "#adebff",
+    "innerWindowColor": "#5987F8",
     "bannerImageUrl": "https://i.imgur.com/TJUtgqI.png",
     "backgroundImageUrl": "https://i.imgur.com/qQ0B4wr.jpeg",
     "endingTextColor": "#000000",
@@ -365,10 +365,10 @@ document.getElementById("header").src = "https://i.imgur.com/TJUtgqI.png";
 document.body.background = "https://i.imgur.com/qQ0B4wr.jpeg";
 
 
-document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#adebff!important;}</style>";
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#5987F8!important;}</style>";
 
 
-document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#adebff!important;}</style>";
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#5987F8!important;}</style>";
 document.head.innerHTML +=`
 <style>
  .game_header {
