@@ -338,8 +338,6 @@ corrr=`\n<h2>HOPE</h2><font id='wittyquote' size='3' color='white'><em>`+customq
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#5687fb";
 
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ffffff";
-
 
 $("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/TMPyrtF.png)"
 
