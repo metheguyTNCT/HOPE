@@ -341,7 +341,7 @@ nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#5987F8";
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ffffff";
 
 
-$("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/FxVmdlR.png)"
+$("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/xAvLWbK.png)"
 
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#5987F8"
