@@ -66,7 +66,7 @@ campaignTrail_temp.questions_json = [
         "pk": 393,
         "fields": {
             "priority": 0,
-            "description": " Yesterday, you knelt at the grave of your hero, John F. Kennedy, in Arlington Cemetery. After placing a white rose, you silently vowed to continue the work the late President started. Today, after Chief Justice Rehnquist administered the oath of office, you delivered your inaugural address to the American people. What message would you like to deliver on this historic occasion? \n \n",
+            "description": " Yesterday, you knelt at the grave of your hero, John F. Kennedy, in Arlington Cemetery. After placing a white rose, you silently vowed to continue the work he began. Today, having taken the oath of office administered by Chief Justice Rehnquist, you stand ready to deliver your inaugural address to the American people. What message will you share on this historic day? \n \n",
             "likelihood": 1
         }
     },
@@ -75,7 +75,7 @@ campaignTrail_temp.questions_json = [
         "pk": 369,
         "fields": {
             "priority": 1,
-            "description": "A month has passed and it still feels so surreal to really be in the White House, to really be \nThe President. Already you’ve have had a setback involving a fiasco dubbed “Nannygate” with appointing \nan attorney general, but you quickly come back with signing The Family Medical Leave Act. You’re eating \nyour lunch plus a leftover box of chocolates Hillary got you for Valentine’s day, when Mack McLarty, your \nchildhood friend and Chief of Staff, comes in hurriedly. “Bill, the World Trade Center has just been \nbombed.” What’s your first plan of action?",
+            "description": "A month has passed, and it still feels surreal to truly be in the White House, to actually be the President. Already, you’ve faced a setback with a fiasco dubbed ''Nannygate'' over appointing an attorney general. However, you quickly rebounded by signing the Family and Medical Leave Act. As you’re eating lunch, along with a leftover box of chocolates Hillary gave you for Valentine’s Day, your childhood friend and Chief of Staff, Mack McLarty, rushes in. ''Bill, the World Trade Center has just been bombed.'' What’s your first course of action?",
             "likelihood": 1
         }
     },
@@ -690,7 +690,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3405,
         "fields": {
             "question": 369,
-            "description": "My thoughts and prayers go out those who lost their lives, I will fly out to the Big Apple and mourn the dead."
+            "description": "My thoughts and prayers are with those who lost their lives. Hillary and I will travel to New York City to mourn the victims and honor their memory. At this moment, that’s all we can do."
         }
     },
     {
@@ -698,7 +698,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3406,
         "fields": {
             "question": 369,
-            "description": "Let’s work together with the FBI and Governor Cuomo to find out who was involved and why this happened."
+            "description": "Jesus fucking Christ. Let’s coordinate with the FBI and Governor Cuomo to determine who was responsible and uncover why this happened."
         }
     },
     {
@@ -706,7 +706,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3407,
         "fields": {
             "question": 369,
-            "description": "No one punches us without getting punched back. When we find out who did this we’ll strike back with swift force."
+            "description": "No one punches us without getting punched back. Once we find out who is responsible, we’ll strike back swiftly and decisively. Mark my words."
         }
     },
     {
@@ -882,7 +882,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3493,
         "fields": {
             "question": 393,
-            "description": "Thomas Jefferson believed that to preserve the very foundations of our nation, we would need dramatic change from time to time. Well, my fellow citizens, this is our time. Let us embrace it.\n\n"
+            "description": "Thomas Jefferson believed that preserving the very foundations of our nation would require bold and dramatic change from time to time. Well, my fellow citizens, that time is now. Let us embrace it."
         }
     },
     {
@@ -890,7 +890,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3494,
         "fields": {
             "question": 393,
-            "description": "Our democracy must be not only the envy of the world but the engine of our own renewal. There is nothing wrong\nwith America that cannot be cured by what’s right with America."
+            "description": "Our democracy should not only be the envy of the world but also the driving force behind our nation’s renewal. There is nothing wrong with America that cannot be fixed by what is right with America."
         }
     },
     {
@@ -898,7 +898,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12241,
         "fields": {
             "question": 393,
-            "description": "While America rebuilds at home, we will not shrink from the challenges, nor fail to seize the opportunities of this new\nworld. Together with our friends and allies, we will work to shape change, lest it engulf us."
+            "description": "While America rebuilds at home, we will not shy away from the challenges or miss the opportunities of this new world. Together with our friends and allies, we will work to guide and shape change, rather than let it overwhelm us."
         }
     },
     {
@@ -906,7 +906,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12245,
         "fields": {
             "question": 393,
-            "description": "On behalf of our nation, I salute my predecessor, President Bush, for his half-century of service to America. And I\nthank the millions of men and women whose steadfastness and sacrifice triumphed Depression, Fascism and\nCommunism."
+            "description": "On behalf of our nation, I salute my predecessor, President Bush, for his half-century of dedicated service to America. I also thank the millions of men and women whose steadfastness and sacrifice enabled us to triumph over the Great Depression, Fascism, and Communism"
         }
     },
     {
