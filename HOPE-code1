@@ -367,7 +367,7 @@ document.body.background = "https://i.imgur.com/qQ0B4wr.jpeg";
   corrr = `
   <div style="font-size: 11px; font-family: monospace; color: white;">
     <h2 style="font-style: normal;">
-      <div class="noise"></div><img src="https://i.imgur.com/lZVo0yO.png" alt="HOPE" style="margin-top: 0.1px;">
+      <div class="noise"></div><img src="https://i.imgur.com/LUQLv6s.png" alt="HOPE" style="margin-top: 0.1px;">
     </h2>
   </div>
   `;
