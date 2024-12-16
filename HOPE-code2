@@ -138,7 +138,7 @@ campaignTrail_temp.questions_json = [
         "pk": 344,
         "fields": {
             "priority": 2,
-            "description": "Its finally time to sign the North American Free Trade Agreement (NAFTA), which will lower tarrifs and other barriers during trade between the USA, Mexico and Canada. Do you have any comments?",
+            "description": "It’s finally time to sign the North American Free Trade Agreement (NAFTA), a landmark, and bipartisan deal designed to lower tariffs and eliminate trade barriers between the United States, Mexico, and Canada. The ink on the agreement feels heavier than paper, it carries the weight of the entire continent... Do you have any comments as history waits for your words?",
             "likelihood": 1
         }
     },
@@ -426,7 +426,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3317,
         "fields": {
             "question": 344,
-            "description": "I believe we have made a decision now that will permit us to create an economic order in the world \nthat will promote more growth, more equality, better preservation of the environment, and a greater \npossibility of world peace. We are on the verge of a global economic expansion that is sparked by \nthe fact that the United States at this critical moment decided that we would compete, not retreat."
+            "description": "I believe that with this decision, we’ve taken a major step toward building a new economic order, one that will drive growth, expand opportunity, and foster greater fairness across the globe. By lowering barriers and encouraging trade, we can ensure better environmental stewardship and lay a stronger foundation for world peace. At this critical moment, the United States has chosen to lead, compete, and embrace the future, setting the stage for a global economic expansion that will benefit generations to come."
         }
     },
     {
@@ -10728,7 +10728,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3317,
             "candidate": 77,
-            "answer_feedback": "You give a beautiful speech that makes even Buchanan’s heart soar with patriotism. Expect it \nto pass easily through congress."
+            "answer_feedback": "Your beautiful words make the hearts of centrists in the journalistic and political class soar. You’ve accomplished what George Bush couldn’t by signing NAFTA. Sure, figures like Ross Perot, Pat Buchanan, and Ralph Nader will complain, but they’re merely distractions from the old world. Who cares? You have more important work to do."
         }
     },
     {
