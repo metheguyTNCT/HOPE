@@ -946,7 +946,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12292,
         "fields": {
             "question": 12291,
-            "description": "Listen up Teddy, the key to getting the bill passed is to circle the wagons. I don’t care what we need to do but I want every democrat voting yes."
+            "description": "Now listen here, Teddy, the key to getting this bill through is simple: we’ve gotta circle the wagons. I don’t care what we’ve gotta promise or who we’ve gotta talk to, but I want every single Democrat on board, voting yes."
         }
     },
     {
@@ -954,7 +954,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12294,
         "fields": {
             "question": 12291,
-            "description": "Ok Ted, we need to make it palatable to the southerners and moderates in the caucus. Give Byrd some decent input to the final bill, alright?"
+            "description": "Alright, Ted, here’s what we’re gonna do. We need to make this thing more palatable for the Southerners and the moderates in the caucus. Now, I want you to loop in Byrd, make sure he feels like he’s got some meaningful input on the final bill, okay?"
         }
     },
     {
@@ -962,7 +962,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12296,
         "fields": {
             "question": 12291,
-            "description": " Ted, the way we gotta do this is to make it bipartisan. It needs to be built to last, and not end up getting repealed in the first term of a Republican president. A public option seems a lot more palatable to a few of the Republicans, why don’t we try that?\n\n\n"
+            "description": " Ted, here’s the thing, we’ve gotta make this bipartisan. If we don’t, it’s not gonna last. You and I both know, if this thing gets rammed through on a party-line vote, it’ll be the first thing a Republican president tears up in his first term.\n\n\n"
         }
     },
     {
@@ -11147,7 +11147,7 @@ cyoAdventure = function(a) {
             "pk": 12291,
             "fields": {
             "priority": 1,
-            "description": "Ted’s been working his ass off for the healthcare initiative, and it’s gonna take a lot of blood sweat and tears to pass, but it can be done. He comes to you asking if you have any ideas to help it pass.",
+            "description": "Teddy Kennedy has been working his ass off for the healthcare initiative, and it’s gonna take a lot of blood sweat and tears to pass, but it can be done. He approaches you and asks if you have any ideas to help ensure its success...",
             "likelihood": 1
             }
         }
