@@ -10620,7 +10620,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3493,
             "candidate": 77,
-            "answer_feedback": "Thirty-two years ago, the beloved President Jack Kennedy gave his inaugural address and famously said “let us begin anew”. As long as you keep your promises, the American people will remember the same way\n"
+            "answer_feedback": "Thirty-two years ago, the beloved President John F. Kennedy delivered his inaugural address and famously said, 'Let us begin anew.' If you keep your promises, and stay above Washington fighting, the American people will remember you in the same way."
         }
     },
     {
@@ -10629,7 +10629,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3494,
             "candidate": 77,
-            "answer_feedback": " “And so today, we pledge an end to the era of deadlock and drift; a new season of American renewal has \nbegun.”"
+            "answer_feedback": " ''And so today, we pledge to end the era of deadlock and drift. A new season of American renewal is upon us.'' "
         }
     },
     {
@@ -10638,7 +10638,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12241,
             "candidate": 77,
-            "answer_feedback": "The old world of the great Soviet giant is gone, and as the clock quickly ticks to the next millennium, it seems \nobvious that you are the leader destined to guide America into the future."
+            "answer_feedback": "The old world of the Soviet giant is gone, and as the clock ticks closer to the new millennium, it’s clear that you are the leader destined to guide America into the future, at least for now."
         }
     },
     {
@@ -10647,7 +10647,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12245,
             "candidate": 77,
-            "answer_feedback": "You salute President Bush and applause follows. Later you find a letter left behind in the oval office, written by \nBush. It reads… https://images.app.goo.gl/Ni1nfTHX5jFGQ75e8"
+            "answer_feedback": "You salute President Bush, and the stage, and crowd erupts in applause. Later, you discover a letter he left behind in the Oval Office, written just for you, and, it's more touching than you would've expected. It reads… https://images.app.goo.gl/Ni1nfTHX5jFGQ75e8"
         }
     },
     {
