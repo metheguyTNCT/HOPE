@@ -10701,7 +10701,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12292,
             "candidate": 77,
-            "answer_feedback": "Ted does the rounds on the Sunday talk shows and giving speeches and you see a noticeable increase in enthusiasm among the base. The next time you see Mitchell, he looks conflicted."
+            "answer_feedback": "Ted makes the rounds on the Sunday talk shows and delivers speeches, leading to a noticeable surge in enthusiasm among the base. The next time you see Mitchell, he appears conflicted."
         }
     },
     {
@@ -10710,7 +10710,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12294,
             "candidate": 77,
-            "answer_feedback": "The last of the Kennedy brothers is far from willing to set down the legacy of his slain brothers for political convenience. So much so that he blatantly ignores you, and the meeting is leaked. This may spell death for your healthcare plan, and Ted’s race is looking a little dicey too.\n"
+            "answer_feedback": "The last of the Kennedy brothers is unwilling to abandon the legacy of his slain brothers for political convenience. He blatantly ignores you, and details of the meeting are leaked. This could spell the end for your healthcare plan, and Ted’s own race is starting to look dicey as well...\n"
         }
     },
     {
@@ -10719,7 +10719,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12296,
             "candidate": 77,
-            "answer_feedback": "Ted wants to go along with it, he really does, but he’s been fighting for a national health insurance since he was still in school. He isn’t going to water down his life’s work for politics."
+            "answer_feedback": "Ted truly wants to go along with it, but he’s been fighting for national health insurance since his school days. He refuses to water down his life’s work for the sake of politics."
         }
     },
     {
