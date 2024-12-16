@@ -10341,7 +10341,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3405,
             "candidate": 77,
-            "answer_feedback": "It’s a somber saturday evening in New York City. A candlelight vigil surrounds the basement entrance, joining the mourning crowd, you \nhug and comfort the families who lost their fathers, husbands and friends. You promise the families that you, and the American people \nwill never forget this tragic day."
+            "answer_feedback": "It’s a somber Saturday evening in New York City. A candlelight vigil surrounds the basement entrance as you join the mourning crowd. You embrace and console the families who lost their fathers, husbands, and friends, promising them that you, and the American people, will never forget this tragic day."
         }
     },
     {
@@ -10350,7 +10350,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3406,
             "candidate": 77,
-            "answer_feedback": "Some years would pass before Ramzi Yousef and other co-conspirators would be caught and arrested for the bombing. Although by \nnow and then have already forgotten the attack, those who lost someone on that day will never forget. You shouldn’t either."
+            "answer_feedback": "Years would pass before Ramzi Yousef and his co-conspirators were caught and arrested for the bombing. While many may have already forgotten the attack, those who lost loved ones that day never will, and neither should you, Bill. "
         }
     },
     {
@@ -10359,7 +10359,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3407,
             "candidate": 77,
-            "answer_feedback": "You soon find the culprits responsible and air strike the supposed training camp where they planned it all. Could it actually the base \nwhere they planned it? Who knows, but does it really matter? You gave them a message they’ll never forget, and the American people \nare grateful."
+            "answer_feedback": "You soon locate the culprits and order an airstrike on the suspected training camp where the attack was planned. Was it truly the base where they orchestrated it? Who knows, but does it really matter? You sent a message they won’t forget, and the American people are grateful."
         }
     },
     {
