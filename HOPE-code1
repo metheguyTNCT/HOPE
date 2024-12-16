@@ -29,7 +29,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Democrat",
             "state": "Arkansas",
             "priority": 1,
-            "description": "<p>Bill Clinton cannot believe he's here. He's gone from absolutely nothing to the leader of the free world, the holder of the highest office in land, the President of the United States of America. To get there, he's slain more than a few sacred cows, proclaiming himself a New Democrat, who can solve the problems of today with even-handedness and moderation. If he can guide the nation through his tenure with these values in mind, re-election should be a cakewalk.</p><p>But public opinion is slippery, just like him, despite our unprecedented good times. Clinton thus must avoid drenching himself in the muck of Washington, lest it overtake him and his image.\n\n</p>",
+            "description": "<p>Bill Clinton cannot believe he’s here. From a childhood in Hope, Arkansas, to the holder of the highest office in the land, the presidency of the United States, his journey feels nothing short of Hollywood. To reach this point, he’s challenged conventions and broken with tradition, proclaiming himself a ''New'' Democrat, a leader who believes that the problems of today can be solved with pragmatism, moderation, and a steady hand.</p><p>If he can guide the nation through his presidency with these principles intact, re-election should be a breeze. But public opinion is a fickle thing, as slippery as his own charm. Even in these unprecedented good times, Clinton must tread carefully to avoid being dragged into the mire of Washington, where the muck can swallow a man whole.\n\n</p>",
             "color_hex": "#0910B5",
             "secondary_color_hex": "#73A4FD",
             "is_active": 1,
@@ -129,7 +129,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>Al Gore has always devoted himself to the people he serves. In Congress, he's alternatively been classified as a business-minded Atari Democrat, a Southern-fried Conservative Democrat, and an environmentalist hippie. The truth? He has at all times sided with what he viewed as best for the nation, not for his own factional relations. <p><p> When he was brought on the ticket, political observers were baffled. Two young Southern Democrats? Yet he and Slick Willy charmed the nation, and he now sits in the Naval Observatory. His role in the administration is as of yet unclear, but one thing is already noted: he is a clear heir apparent.\n\n</p>",
+            "description_as_running_mate": "<p>Al Gore has always dedicated himself to the people he serves. In Congress, he has been labeled at various times as a business-savvy Atari Democrat, a Southern-fried conservative, and an environmentalist crusader. The truth? He has always aligned himself with what he believes to be best for the country, even if it meant straddling factions. <p><p> When he was added to the ticket, pundits were baffled-two young Southern Democrats? Yet, alongside Slick Willy, he charmed the nation and helped usher in a new political era. Now, from his seat at the Naval Observatory, his role in the administration remains undefined, but one thing is clear: he is the natural heir apparent and like it or not, will remain by his boss's side. \n\n</p>",
             "candidate_score": 0,
             "running_mate": true
         }
