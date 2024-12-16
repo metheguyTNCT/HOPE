@@ -84,7 +84,7 @@ campaignTrail_temp.questions_json = [
         "pk": 366,
         "fields": {
             "priority": 1,
-            "description": "For all their talk of “fiscal responsibility”, twelve years of The Gipper and Old Bush have left America in \na new “red scare”, not of communism, but of ink. Tax recesses for the playmates of the two presidents has left \nAmerica struggling to play hopscotch. When the bell rang, fiscal year ‘92 saw both a recession and a deficit to the \ntune of 290 Billion. Your money men-Bentsen, Panetta, Reich and Rubin- come to you with plans. The Texan and \nhis pals want to reduce the deficit to ensure investor confidence, but Reich wants you to instead pursue reducing \nstagnant earnings and promoting consumer spending..",
+            "description": "For all their talk of ''fiscal responsibility,'' twelve years under the Gipper and Old Man Bush have plunged America into a new kind of ''red scare'', not of communism, but of debt. Tax breaks for the wealthy, favored by both presidents, have left the country struggling to stay afloat. By the end of fiscal year 1992, the nation faced both a recession and a staggering $290 billion deficit. Your economic team, Bentsen, Panetta, Reich, and Rubin, presents you with conflicting plans. Bentsen and his allies advocate for deficit reduction to boost investor confidence, while Reich pushes for policies aimed at reducing stagnant wages and stimulating consumer spending.",
             "likelihood": 1
         }
     },
@@ -93,7 +93,7 @@ campaignTrail_temp.questions_json = [
         "pk": 343,
         "fields": {
             "priority": 2,
-            "description": "After engaging in an intense gunfight, ATF and FBI agents have begun a siege in Waco, \nTexas against Branch Davidians inside the Mount Carmel Center. Reno has approved an assault to \nend the siege. Saying that children are being abused within the building. FBI have also been given \nclearance to use CS gas during the assault. Will you stand by her decision? Or do you have another \nidea as to how end the siege?",
+            "description": "After a tense gunfight, ATF and FBI agents have initiated a siege in Waco, Texas, against the Branch Davidians inside the Mount Carmel Center. Attorney General Janet Reno has approved an assault to end the standoff, citing concerns that children are being abused inside the compound. The FBI has also been authorized to use CS gas during the operation. Will you support her decision, or do you have another plan to resolve the siege?",
             "likelihood": 1
         }
     },
@@ -102,7 +102,7 @@ campaignTrail_temp.questions_json = [
         "pk": 348,
         "fields": {
             "priority": 2,
-            "description": "You’re number one goal as you said during your campaign has been healthcare, Who will you appoint to \nlead your Healthcare Task Force? ",
+            "description": "Your number one goal, as you emphasized over, and over during your campaign, is healthcare reform. Who will you appoint to lead your Healthcare Task Force?",
             "likelihood": 1
         }
     },
@@ -111,7 +111,7 @@ campaignTrail_temp.questions_json = [
         "pk": 349,
         "fields": {
             "priority": 2,
-            "description": "You’re plans for members of the homosexual community to serve openly in the military has been a hard \nsell to the brass, which wasn’t unexpected but this is more than you thought. Now party leaders have pledged to \noverturn any executive order attempting such a policy. It looks like the plan is dead till Colin Powell comes to you with \na compromise, recruiters would not ask the orientation of the individual but have the right to discharge to those who \nare gay. How will you go forward with this?",
+            "description": "Your plans to allow members of the homosexual community to serve openly in the military have faced significant resistance from military leadership, as expected, but the backlash has been stronger than anticipated. Now, party leaders are threatening to overturn any executive order implementing such a policy. It seems the plan is dead until Colin Powell presents you with a compromise: recruiters would not ask about an individual's sexual orientation, but the military would retain the right to discharge those who are openly gay. How will you proceed?",
             "likelihood": 1
         }
     },
@@ -120,7 +120,7 @@ campaignTrail_temp.questions_json = [
         "pk": 345,
         "fields": {
             "priority": 2,
-            "description": "Alright Bill, yet another problem you’ve inherited from Bush is the crime rate. It soared under Reagan and \nseems to be remaining largely higher than it was 13 years ago. What are we gonna do about this?",
+            "description": "Alright, Mr. President, yet another issue you’ve inherited from the Bush administration is the high crime rate. It skyrocketed under Reagan and remains significantly higher than it was 13 years ago. What’s the plan to address this?",
             "likelihood": 1
         }
     },
@@ -129,7 +129,7 @@ campaignTrail_temp.questions_json = [
         "pk": 346,
         "fields": {
             "priority": 2,
-            "description": "The Somali people have turned against USA and UNOSOM II forces after a \nbotched raid on a villa owned by Warlord Mohamed Aideed* killed many innocent women \nchildren and community leaders. This has sparked outcry from human rights organizations, \ncalling it a massacre. It’s become clear that we must change tactics to salvage what little \nsupport we have left with the people quickly or else who knows what they’ll do.",
+            "description": "The Somali people have turned against the U.S. and UNOSOM II forces following a botched raid on a villa owned by Warlord Mohamed Aideed, which resulted in the deaths of many innocent women, children, and community leaders. The incident has sparked outrage from human rights organizations, labeling it a massacre. It’s clear that we must quickly change tactics to salvage what little support remains among the Somali population, otherwise, the situation could escalate unpredictably.",
             "likelihood": 1
         }
     },
@@ -273,7 +273,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12291,
         "fields": {
             "priority": 2,
-            "description": "Ted’s been working his ass off for the healthcare initiative, and it’s gonna take a lot of blood sweat and tears to pass, but it can be done. He comes to you asking if you have any ideas to help it pass.",
+            "description": "Teddy Kennedy has been working his ass off for the healthcare initiative, and it’s gonna take a lot of blood sweat and tears to pass, but it can be done. He approaches you and asks if you have any ideas to help ensure its success...",
             "likelihood": 1
         }
     },
