@@ -92,7 +92,7 @@ campaignTrail_temp.questions_json = [
         "pk": 343,
         "fields": {
             "priority": 2,
-            "description": "After a tense gunfight, ATF and FBI agents have initiated a siege in Waco, Texas, against the Branch Davidians inside the Mount Carmel Center. Attorney General Janet Reno has approved an assault to end the standoff, citing concerns that children are being abused inside the compound. The FBI has also been authorized to use CS gas during the operation. Will you support her decision, or do you have another plan to resolve the siege?",
+            "description": "After a tense gunfight, ATF and FBI agents have begun a siege at the Branch Davidians’ Mount Carmel Center in Waco, Texas. Attorney General Janet Reno has approved an assault to end the standoff, citing concerns of child abuse inside the compound. The FBI has also been authorized to use CS gas during the operation. Will you back her decision, or propose another plan to resolve the siege?",
             "likelihood": 1
         }
     },
@@ -383,7 +383,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3310,
         "fields": {
             "question": 343,
-            "description": "If you think this is the right thing to do Reno, then go ahead. I trust your judgement."
+            "description": "If you think this is the right call, Janet, then you have my support. I trust your judgment, you’ve thought this through, and I know you’ll do what’s best."
         }
     },
     {
@@ -391,7 +391,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3311,
         "fields": {
             "question": 343,
-            "description": "When I was Governor of Arkansas, we had CSA militia and all it took was a little blockade and they surrendered \nwithout a drop of blood being spilled. What’s wrong with waiting them out?"
+            "description": "When I was Governor of Arkansas, we dealt with a CSA militia. All it took was a simple blockade, and they surrendered without any bloodshed. So let me ask you: what’s wrong with waiting them out? We’ve got time, and I’ll take patience over tragedy any day."
         }
     },
     {
@@ -399,7 +399,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3312,
         "fields": {
             "question": 343,
-            "description": "Did I hear CS gas being authorised? And we’re using that while children are still inside? I won’t stand for it, tell \nthem the gas won’t be allowed under any circumstance. Our boys are trained for this for a reason."
+            "description": "Did I hear CS gas has been authorized? And with children still inside that building? I won’t stand for it. You go back and tell them the gas is off the table, no exceptions, no circumstances. Our boys are trained for this."
         }
     },
     {
@@ -471,7 +471,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3330,
         "fields": {
             "question": 348,
-            "description": "Ted Kennedy’s life mission has always been healthcare and he has the influence to whip the votes needed."
+            "description": "Ted Kennedy has spent his life fighting for healthcare, it’s his mission, his legacy. And if anyone has the passion and the influence to bring people together and get the votes we need, it’s Ted."
         }
     },
     {
@@ -479,7 +479,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3331,
         "fields": {
             "question": 348,
-            "description": "Why, Hillary, of course! My wife has served this country well. She will be able to convince the moderates to get on \nboard."
+            "description": "Well, Hillary, of course. She’s as smart as they come, and she’s been working on these issues her whole life. If anyone can sit down with the moderates, talk to ‘em, and get ‘em on board, it’s her. She’s got the talent, the heart, and the grit to get it done."
         }
     },
     {
@@ -487,7 +487,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3332,
         "fields": {
             "question": 348,
-            "description": "Mitchell and Foley, I can’t think of a better solution to unite the party then the both of them working together to bring \nabout clear and concise Healthcare policy."
+            "description": "Mitchell and Foley, well, I can’t think of a better team to bring this party together. If anyone can work side by side to deliver clear, thoughtful healthcare policy, it’s those two."
         }
     },
     {
@@ -839,7 +839,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12252,
         "fields": {
             "question": 348,
-            "description": "Let bring the doctors, health insurers and experts to run the force"
+            "description": "Let’s bring the doctors, the health insurers, and the experts together to lead this effort. If we’re gonna do this right, we need the people who know the system inside and out, and who can help us get it done."
         }
     },
     {
@@ -9240,7 +9240,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3310,
             "candidate": 77,
-            "answer_feedback": "In the chaos of the gas attack, the Davidians apparently start a fire, engulfing the entire building in flames. 28 children perish."
+            "answer_feedback": "Amid the chaos of the gas attack, the Davidians apparently start a fire that engulfs the entire building in flames. Twenty-eight children perish, and you’re left grappling with the weight of the guilt."
         }
     },
     {
@@ -9249,7 +9249,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3311,
             "candidate": 77,
-            "answer_feedback": "Months pass, but eventually nearly all of the Davidians surrender to the authorities. Only the most devoted stay \nwith Koresh, and when the hostage team patience runs out, they die with him."
+            "answer_feedback": "Months pass, and nearly all of the Davidians eventually surrender to authorities. Only Koresh's most devoted followers remain by his side. When the hostage team's patience runs out, they perish with him."
         }
     },
     {
@@ -9258,7 +9258,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3312,
             "candidate": 77,
-            "answer_feedback": "The bloody room to room combat is interrupted when a fire breaks out. Who started it remains unknown, but what \nis know and seen are ATF and FBI agents running run out of the inferno while Branch Davidians gun them down, \nas their world falls around them."
+            "answer_feedback": "The brutal room-to-room combat is suddenly interrupted by a fire. Who started it remains unclear, but what is known, and painfully visible, are ATF and FBI agents fleeing the flames while Branch Davidians gun them down, their world collapsing in fire and chaos."
         }
     },
     {
