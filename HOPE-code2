@@ -1055,7 +1055,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12442,
         "fields": {
             "question": 12441,
-            "description": "I’ll congratulate Newt Gingrich on his victory and send him a note saying, ‘I’m looking forward to working with the new Speaker of the House.’ We’ve got a lot of work ahead of us, but I’m confident we can get it done."
+            "description": "I will congratulate Newt Gingrich on his victory and say ‘I am looking forward to working with the new Speaker of the house’.\n"
         }
     },
     {
@@ -1063,7 +1063,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12443,
         "fields": {
             "question": 12441,
-            "description": "Fight. There was a fight to end Nazi Germany, a fight for Civil Rights... heck, we even had to fight to gain our independence. We lost some battles, but we didn't lose the war. And now, I’ll stand firm, Stonewall Congress's bills, if that’s what it takes to do what's right."
+            "description": "Fight. There was a fight to end Nazi Germany, there was a fight to get Civil Rights… heck, we even had to fight to get our independence. We lost the battle… but we didn't lose the war. I will.. Uh, well Stonewall all of Congress's bills."
         }
     },
     {
@@ -1071,7 +1071,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12444,
         "fields": {
             "question": 12441,
-            "description": "Alright, here’s the plan: We’ll deliver a fiery speech in front of the Capitol, kick off negotiations with Gingrich, take a close look at this... Contract with America. I’ll give Foley a cabinet position, Attorney General, yes, that’ll be a perfect fit. And I’ll use the time from now until January to push through as much as we can. We’ve got a fucking window, and we’re gonna make it count."
+            "description": "Okay.. Uh so this is the plan: deliver a fiery speech in front of the Capitol Building, begin negotiations with Gingrich,read this uh…. Contract with America thing, Give Foley a cabinet position; um… Attorney General, yes that will be a great fit for him and I will use the time from now to January to get as much things passed as we can get. \n"
         }
     },
     {
@@ -10106,7 +10106,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12442,
             "candidate": 77,
-            "answer_feedback": "Gingrich is clearly pleased that you're allowing him to push through his Contract with America, but liberals and Democrats, not so much. You need to adjust your posture, sir."
+            "answer_feedback": "Gingrich is certainly happy that you are letting him pass his Contract with America, liberals and Democrats, not so much.\n"
         }
     },
     {
@@ -10124,7 +10124,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12444,
             "candidate": 77,
-            "answer_feedback": "This is a solid strategy. The meeting with Gingrich goes well, and he softens his rhetoric a bit. However, he insists that you abandon some of your more liberal policies. The liberals, not happy with your concessions to Gingrich, are now threatening a legislative blackout unless you take urgent action."
+            "answer_feedback": "This is pretty good strategy. The meeting with Gingrich goes very well and he moderates his rhetoric a bit. On the other hand, he wants to you to give up your more Liberal ideas and policies Liberals aren't happy that you have given in to Gingrich and are currently threatening to a walkout unless you do something urgently. \n"
         }
     },
     {
@@ -10151,7 +10151,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12509,
             "candidate": 77,
-            "answer_feedback": "This is a solid strategy. The meeting with Gingrich goes well, and he softens his rhetoric a bit. However, he insists that you abandon some of your more liberal policies. The liberals, not happy with your concessions to Gingrich, are now threatening a legislative blackout unless you take urgent action."
+            "answer_feedback": "This is pretty good strategy. The meeting with Gingrich goes very well and he moderates his rhetoric a bit. On the other hand, he wants to you to give up your more Liberal ideas and policies Liberals aren't happy that you have given in to Gingrich and are currently threatening to a walkout unless you do something urgently. \n"
         }
     },
     {
@@ -10178,7 +10178,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12527,
             "candidate": 77,
-            "answer_feedback": "This is a solid strategy. The meeting with Gingrich goes well, and he softens his rhetoric a bit. However, he insists that you abandon some of your more liberal policies. The liberals, not happy with your concessions to Gingrich, are now threatening a legislative blackout unless you take urgent action."
+            "answer_feedback": "This is pretty good strategy. The meeting with Gingrich goes very well and he moderates his rhetoric a bit. On the other hand, he wants to you to give up your more Liberal ideas and policies Liberals aren't happy that you have given in to Gingrich and are currently threatening to a walkout unless you do something urgently. \n"
         }
     },
     {
@@ -10205,7 +10205,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12537,
             "candidate": 77,
-            "answer_feedback": "This is a solid strategy. The meeting with Gingrich goes well, and he softens his rhetoric a bit. However, he insists that you abandon some of your more liberal policies. The liberals, not happy with your concessions to Gingrich, are now threatening a legislative blackout unless you take urgent action."
+            "answer_feedback": "This is pretty good strategy. The meeting with Gingrich goes very well and he moderates his rhetoric a bit. On the other hand, he wants to you to give up your more Liberal ideas and policies Liberals aren't happy that you have given in to Gingrich and are currently threatening to a walkout unless you do something urgently. \n"
         }
     },
     {
@@ -10232,7 +10232,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12568,
             "candidate": 77,
-            "answer_feedback": "This is a solid strategy. The meeting with Gingrich goes well, and he softens his rhetoric a bit. However, he insists that you abandon some of your more liberal policies. The liberals, not happy with your concessions to Gingrich, are now threatening a legislative blackout unless you take urgent action."
+            "answer_feedback": "This is pretty good strategy. The meeting with Gingrich goes very well and he moderates his rhetoric a bit. On the other hand, he wants to you to give up your more Liberal ideas and policies Liberals aren't happy that you have given in to Gingrich and are currently threatening to a walkout unless you do something urgently. This situation is worse since they have no congressional leverage.\n"
         }
     },
     {
@@ -10259,7 +10259,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12580,
             "candidate": 77,
-            "answer_feedback": "This is a solid strategy. The meeting with Gingrich goes well, and he softens his rhetoric a bit. However, he insists that you abandon some of your more liberal policies. The liberals, not happy with your concessions to Gingrich, are now threatening a legislative blackout unless you take urgent action."
+            "answer_feedback": "This is pretty good strategy. The meeting with Gingrich goes very well and he moderates his rhetoric a bit. On the other hand, he wants to you to give up your more Liberal ideas and policies Liberals aren't happy that you have given in to Gingrich and are currently threatening to a walkout unless you do something urgently. This situation is worse since they have no congressional leverage.\n"
         }
     },
     {
