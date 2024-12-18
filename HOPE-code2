@@ -10982,7 +10982,7 @@ if(ans == 12636){
     campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/pz9sYma.jpeg";
     campaignTrail_temp.candidate_json[1]["fields"].first_name = "Bob";
 }
- //Ross Perot CYOA CYOA
+ //Ross Perot CYOA
     if (ans == 3388){
         campaignTrail_temp.candidate_json[3]["fields"].last_name = "Perot";
         campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#800080";
@@ -10996,10 +10996,10 @@ if (ans == 3389){
     campaignTrail_temp.candidate_json[3]["fields"].first_name = "H. Ross";
 }
 if(ans == 12636){
-    campaignTrail_temp.candidate_json[1]["fields"].last_name = "Perot";
-    campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#800080";
-    campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/1tw9fG2.jpeg";
-    campaignTrail_temp.candidate_json[1]["fields"].first_name = "H. Ross";
+    campaignTrail_temp.candidate_json[3]["fields"].last_name = "Perot";
+    campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#800080";
+    campaignTrail_temp.candidate_json[3]["fields"].image_url = "https://i.imgur.com/1tw9fG2.jpeg";
+    campaignTrail_temp.candidate_json[3]["fields"].first_name = "H. Ross";
 }
     if (e.question_number+1 == 14){
      if (e.player_answers.includes(3311) && (3348) && GotHealthcare == 1){
@@ -11169,7 +11169,7 @@ if(ans == 12636){
     let current_page = 0; // Start on page 0
 
     const page_list = [
-        ["Congressional Majority:", "Page one content line 2", "Page one content line 3"],
+        ["Congressional Majority:", "Page one content line 2", "Congressional Approval:", "Page one content line 2",],
         ["Page two content line 1", "Page two content line 2"],
         ["Page three content line 1", "Page three content line 2", "Page three content line 3", "Page three content line 4"]
     ];
@@ -11178,12 +11178,16 @@ if(ans == 12636){
     function updatePageList() {
     if (DemCongress === 1) {
         page_list[0][1] = `<span style="font-weight: bold; color: blue; font-size: 24px;">SLIM DEM MAJORITY</span>`; // Style DEM
+        page_list[0][3] = `<span style="font-weight: bold; color: gray; font-size: 24px;"> Average</span>`; // Style Congressional Approval
     } else if (RepublicanRevolution == 1) {
         page_list[0][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> HUGE GOP MAJORITY</span>`; // Style GOP
+        page_list[0][3] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Horrible</span>`; // Style Congressional Approval
     } else if (SlimGOPCongress == 1) {
         page_list[0][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> SLIM GOP MAJORITY</span>`; // Style GOP
-    }else if (GOPSupermajority == 1) {
+        page_list[0][3] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Bad</span>`; // Style Congressional Approval
+    } else if (GOPSupermajority == 1) {
         page_list[0][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> GOP SUPERMAJORITY</span>`; // Style GOP
+        page_list[0][3] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Abysmal</span>`; // Style Congressional Approval
     }
     
 }
