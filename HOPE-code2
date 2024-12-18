@@ -519,7 +519,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3347,
         "fields": {
             "question": 353,
-            "description": "Didn’t I just kick Bush’s butt? And now he’s sending his fucked up heir out to pasture? Well, I’ll be meeting with Governor Richards right away to make sure she keeps her office."
+            "description": "Didn't I just kick Bush's butt? And now he's sending his nepo baby out to pasture? I'll be meeting with Governor Richards immediately to insure she keeps her office."
         }
     },
     {
@@ -527,7 +527,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3348,
         "fields": {
             "question": 353,
-            "description": "They’re saying New England could never break, huh? Well, you can never be too cautious, right? Let’s go ahead and fly out there, and while we’re at it, let’s make sure to stop by New York City and have a word with Governor Cuomo."
+            "description": "They’re saying that New England could never break, huh? Well, you can never be too safe am I right? Let’s fly out there, make sure we visit New York City and Governor Cuomo along the way."
         }
     },
     {
@@ -535,7 +535,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3349,
         "fields": {
             "question": 353,
-            "description": "The Midwest looks vulnerable, and I’ll get out there and highlight our goals and achievements. Hopefully, we can quiet those anti-NAFTA union bozos, they don’t quite understand what’s really best for them."
+            "description": "The Midwest looks vulnerable, I’ll come out and boast our goals and accomplishments. Hopefully we can quiet that Ross Perot buzz over there."
         }
     },
     {
@@ -543,7 +543,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3350,
         "fields": {
             "question": 353,
-            "description": "They can’t break the Solid South, not in my lifetime, and not with me in the Oval Office. I’ll rally our loyal voters to turn out in record numbers. I’m a proud southerner, born and raised, and I’m not afraid to let that show."
+            "description": "They can’t break the Solid South. Not in my life time, I’ll rally our faithful voters to come out in record numbers. I'm a proud born and raised southerner, and I ain't afraid to show it."
         }
     },
     {
@@ -551,7 +551,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3355,
         "fields": {
             "question": 355,
-            "description": "I have my own plan to balance the budget, and I’ll be submitting it soon. I’m not willing to sign the Gingrich bill, which sacrifices vital investments in our future just to score political points. But I do believe Congress can come together and find a way to compromise."
+            "description": "I have my own plan to balance the budget, which I plan to submit. I am not willing to sign the Gingrich bill, which cuts needed investments in on our future to score political points. But I believe Congress can find a compromise. "
         }
     },
     {
@@ -7141,7 +7141,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3494,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.03265
+            "global_multiplier": 0.04765
         }
     },
     {
@@ -7151,7 +7151,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3493,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.03265
+            "global_multiplier": 0.04765
         }
     },
     {
@@ -7161,7 +7161,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12241,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.03265
+            "global_multiplier": 0.04765
         }
     },
     {
@@ -7171,7 +7171,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12245,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.0331675
+            "global_multiplier": 0.0481675
         }
     },
     {
@@ -7532,36 +7532,6 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 77,
             "affected_candidate": 77,
             "global_multiplier": 0.001
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 12582,
-        "fields": {
-            "answer": 3349,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "global_multiplier": -0.0315
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 12582,
-        "fields": {
-            "answer": 3348,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "global_multiplier": -0.0289
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 12582,
-        "fields": {
-            "answer": 3348,
-            "candidate": 77,
-            "affected_candidate": 78,
-            "global_multiplier": 0.005
         }
     },
     {
@@ -9485,7 +9455,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3347,
             "candidate": 77,
-            "answer_feedback": "Governor Richards appreciates the visit, and the rally seemed to go well. But as the presidential motorcade winds through Austin, you can't shake the feeling that you're not exactly welcome. "Good people, but an ugly state," you mention to Hillary."
+            "answer_feedback": "Governor Richards appreciates the visit, and you think your rally went well. But as the presidential motorcade drives around Austin, you can't help but feel as if you're not welcome. "
         }
     },
     {
@@ -9494,7 +9464,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3348,
             "candidate": 77,
-            "answer_feedback": "The large crowds in NYC always impress you. As you shake hands with Cuomo, you sense a hint of envy from him. Maybe he's still holding a grudge from '92, or maybe that's just his way with everyone. Either way, that's behind you now."
+            "answer_feedback": "The large NYC crowds never fail to amaze you, as you shake hands with Cuomo, you can sense a bit of envy on his part. Perhaps he's still mad about '92. Either way, that's in the past now."
         }
     },
     {
@@ -9503,7 +9473,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3349,
             "candidate": 77,
-            "answer_feedback": "There's been some animosity toward you ever since you signed NAFTA, but for the most part, you get your point across. The college students and the diverse supporters in the crowd really seem to eat up everything you say, right?"
+            "answer_feedback": "There's definitely been some animosity for you there ever since you signed NAFTA, but you do for the most part get your point across."
         }
     },
     {
@@ -9512,7 +9482,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3350,
             "candidate": 77,
-            "answer_feedback": "Your visit to the South draws massive applause, and the signs reading 'We love Billy Clinton' always warm your heart. You can almost hear Dixieland playing in the background, wait, that is Dixieland. Home sweet home, eh?"
+            "answer_feedback": "your visit to the south brings massive applause, and the signs reading \"We love Billy Clinton\" always warm your heart. You can almost hear Dixieland play in the-wait that is Dixieland"
         }
     },
     {
