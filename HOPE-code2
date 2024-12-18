@@ -263,7 +263,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12324,
         "fields": {
             "priority": 2,
-            "description": "Majority Leader Mitchell and Speaker Tom Foley are discussing your healthcare initiative. Their proposal includes mandating health insurance, requiring businesses to provide coverage for full-time employees, and offering subsidies for those who can't afford it.",
+            "description": "Majority Leader Mitchell and Speaker Tom Foley are meeting with you about your healthcare \ninitiative. Their plan consists of mandating health insurance, requiring businesses to give their full time employees insurance, \nand subsidizing it for people who can’t afford it.",
             "likelihood": 1
         }
     },
@@ -272,7 +272,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12331,
         "fields": {
             "priority": 2,
-            "description": "The doctors finally unveiled their plan, and it's a mess. Gore’s confused, Hillary’s lost, and Reich is furious, he never liked the doctors' approach, but now he’s livid. Any real healthcare expert can see it’s a GOP-friendly disaster, with big pharma getting their cut. Your party's backing away, but the Republicans? They’re all in. They think they’ve got the narrative against you, but no one outplays Slick Willy.",
+            "description": "The doctor’s finally brought their plan to the public, and it’s a goddamn mess. Gore is scratching his \nhead, Hillary can't understand what they've come up with, and Reich? Well, he was always angry with the doctors from the beginning, but \nnow he’s furious. Any REAL healthcare expert can see this plan looks like something out of a coloring book with GOP flare and a sprinkle \nof big pharma concessions. Many in your party have already disavowed the plan, the Republicans on the other hand, have completely \nendorsed it. You understand why. Those sons of bitches are trying to turn the narrative against you, they think they’re slick huh? Well, no \none out slick’s Slick Willy.",
             "likelihood": 1
         }
     },
@@ -407,7 +407,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3317,
         "fields": {
             "question": 344,
-            "description": "My fellow Americans, the fall of the Berlin Wall showed us that no society can resist the winds of change. Our only choice is to embrace it and create tomorrow's jobs. NAFTA will create two hundred thousand jobs in two years and a million in five. These export jobs pay better, and while some will be lost, the net result will be more jobs, helping us lead and compete globally."
+            "description": "I believe that with this decision, we’ve taken a major step toward building a new economic order, one that will drive growth, expand opportunity, and foster greater fairness across the globe. By lowering barriers and encouraging trade, we can ensure a better environment and lay a stronger foundation for world peace. At this critical moment, the United States has chosen to lead, compete, and embrace the future, setting the stage for a global economic expansion that will benefit generations to come."
         }
     },
     {
@@ -4820,7 +4820,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 77,
             "state": 182,
-            "state_multiplier": 0.854
+            "state_multiplier": 0.865
         }
     },
     {
@@ -4829,7 +4829,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 77,
             "state": 183,
-            "state_multiplier": 0.7286251
+            "state_multiplier": 0.7333
         }
     },
     {
@@ -4928,7 +4928,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 77,
             "state": 194,
-            "state_multiplier": 0.9134
+            "state_multiplier": 0.924
         }
     },
     {
@@ -4946,7 +4946,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 77,
             "state": 196,
-            "state_multiplier": 0.9912345
+            "state_multiplier": 1
         }
     },
     {
@@ -5000,7 +5000,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 77,
             "state": 202,
-            "state_multiplier": 0.98121955
+            "state_multiplier": 0.955
         }
     },
     {
@@ -5189,7 +5189,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 77,
             "state": 223,
-            "state_multiplier": 0.9499989991
+            "state_multiplier": 0.957
         }
     },
     {
@@ -5234,7 +5234,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 77,
             "state": 228,
-            "state_multiplier": 1.11519898625
+            "state_multiplier": 1.0949898625
         }
     },
     {
@@ -5252,7 +5252,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 77,
             "state": 230,
-            "state_multiplier": 0.93989
+            "state_multiplier": 0.921
         }
     },
     {
@@ -5648,7 +5648,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 78,
             "state": 223,
-            "state_multiplier": 1.00499
+            "state_multiplier": 0.999
         }
     },
     {
@@ -7141,7 +7141,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3494,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.05214765
+            "global_multiplier": 0.03265
         }
     },
     {
@@ -7151,7 +7151,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3493,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.05214765
+            "global_multiplier": 0.03265
         }
     },
     {
@@ -7161,7 +7161,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12241,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.05214765
+            "global_multiplier": 0.03265
         }
     },
     {
@@ -7171,7 +7171,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12245,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.0522481675
+            "global_multiplier": 0.0331675
         }
     },
     {
@@ -10311,8 +10311,11 @@ var NorthWin = 0
 var Legacy = 0
 var GotHealthcare = 0
 var BangedMonica = 0
-var midterms = 0
 var NAFTA = 0
+var DemCongress = 1
+var SlimGOPCongress = 0
+var RepublicanRevolution = 0
+var GOPSupermajority = 0
 cyoAdventure = function(a) {
     ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
    //Healthcare Update Inserter
@@ -10970,6 +10973,8 @@ if(ans == 12636){
 }
     if (e.question_number+1 == 14){
      if (e.player_answers.includes(3311) && (3348) && GotHealthcare == 1){
+            DemCongress -= 1;
+            SlimGOPCongress += 1;
             Legacy += 1;
             RichardsBeatW += 1;
             question_insert(353, 
@@ -10985,6 +10990,8 @@ if(ans == 12636){
             );
             console.log("e.player_answers.includes(3311) && (3348) && GotHealthcare == 1")
         } else if (e.player_answers.includes(3311) &&  e.player_answers.includes(3350) && GotHealthcare == 1){
+            DemCongress -= 1;
+            SlimGOPCongress += 1;
             Legacy += 1;
             RichardsBeatW += 1;
             question_insert(353, 
@@ -11000,6 +11007,8 @@ if(ans == 12636){
             );
             console.log("e.player_answers.includes(3311) &&  e.player_answers.includes(3350) && GotHealthcare == 1")
         } else if (e.player_answers.includes(3405) &&  e.player_answers.includes(3348) && GotHealthcare == 1){
+            DemCongress -= 1;
+            SlimGOPCongress += 1;
             Legacy += 1;
             CuomoBeatPataki += 1;
             question_insert(353, 
@@ -11014,7 +11023,9 @@ if(ans == 12636){
 				}
             );
         } else if (LEGWin <= 2 && DOMWin <= 3 && FPWin <= 3 && KennedyFails == 1){
-			RomneyWin += 1;
+			DemCongress -= 1;
+            RepublicanRevolution += 1;
+            RomneyWin += 1;
 			question_insert(353, 
 				{
 					"model": "campaign_trail.question",
@@ -11028,7 +11039,9 @@ if(ans == 12636){
 			);
             console.log("LEGWin <= 2 && DOMWin <= 3 && FPWin <= 3 && KennedyFails == 1")
 		} else if (e.player_answers.includes(3323) &&  e.player_answers.includes(12383) && e.player_answers.includes(12425) && GotHealthcare == 0){
-			NorthWin += 1;
+			DemCongress -= 1;
+            RepublicanRevolution += 1;
+            NorthWin += 1;
 			question_insert(353, 
 				{
 					"model": "campaign_trail.question",
@@ -11042,7 +11055,9 @@ if(ans == 12636){
 			);
             console.log("e.player_answers.includes(3323) &&  e.player_answers.includes(12383) && e.player_answers.includes(12425) && GotHealthcare == 0")
 		} else if (e.player_answers.includes(3323) &&  e.player_answers.includes(12416) && e.player_answers.includes(12425) && GotHealthcare == 0){
-			NorthWin += 1;
+			DemCongress -= 1;
+            RepublicanRevolution += 1;
+            NorthWin += 1;
 			question_insert(353, 
 				{
 					"model": "campaign_trail.question",
@@ -11056,6 +11071,8 @@ if(ans == 12636){
 			);	
             console.log("e.player_answers.includes(3323) &&  e.player_answers.includes(12416) && e.player_answers.includes(12425) && GotHealthcare == 0")
         } else if (NAFTA == 1 && GotHealthcare == 0){
+           DemCongress -= 1;
+            RepublicanRevolution += 1;
             question_insert(353, 
             {
                 "model": "campaign_trail.question",
@@ -11069,6 +11086,8 @@ if(ans == 12636){
         );    
         console.log("NAFTA == 1 && GotHealthcare == 0")
         } else if (NAFTA == 1 && GotHealthcare == 1){
+            DemCongress -= 1;
+            SlimGOPCongress += 1;
             Legacy += 1;
 			question_insert(353, 
             {
@@ -11116,127 +11135,162 @@ if(ans == 12636){
       questions.parentNode.insertBefore(relationsDiv, questions.nextSibling);
   }
   
-  function setupRelationsArea(parentDiv, toggleDiv) {  
+  function setupRelationsArea(parentDiv, toggleDiv) {
     let current_page = 0; // Start on page 0
 
     const page_list = [
-        "Page one contents here",
-        "Page two contents here",
-        "Page three contents here"
+        ["Congressional Majority:", "Page one content line 2", "Page one content line 3"],
+        ["Page two content line 1", "Page two content line 2"],
+        ["Page three content line 1", "Page three content line 2", "Page three content line 3", "Page three content line 4"]
     ];
 
-    const government_text = document.createElement('p');
-    government_text.innerHTML = page_list[current_page]; // Set initial content
+ // Function to update page_list based on conditions
+    function updatePageList() {
+    if (DemCongress === 1) {
+        page_list[0][1] = `<span style="font-weight: bold; color: blue; font-size: 24px;">SLIM DEM MAJORITY</span>`; // Style DEM
+    } else if (RepublicanRevolution == 1) {
+        page_list[0][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> HUGE GOP MAJORITY</span>`; // Style GOP
+    } else if (SlimGOPCongress == 1) {
+        page_list[0][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> SLIM GOP MAJORITY</span>`; // Style GOP
+    }else if (GOPSupermajority == 1) {
+        page_list[0][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> GOP SUPERMAJORITY</span>`; // Style GOP
+    }
+    
+}
 
-    let headerDiv = createHeader(parentDiv, toggleDiv, page_list, government_text, current_page);
+    // Update page_list before rendering
+    updatePageList();
+
+
+    // Create the header
+    let headerDiv = createHeader(parentDiv, toggleDiv, page_list);
     parentDiv.appendChild(headerDiv);
 
-    let containerDiv = document.createElement('div');
-    containerDiv.id = 'govcontainer';
-    containerDiv.style.display = 'flex';
-    containerDiv.style.gap = '20px';
-    containerDiv.style.padding = '10px';
-    parentDiv.appendChild(containerDiv);
+    // Create the container for the page content
+    const textContainer = document.createElement('div');
+    textContainer.style.width = '80%';
+    textContainer.style.height = '300px';
+    textContainer.style.margin = '20px auto';
+    textContainer.style.border = '1px solid lightgray';
+    textContainer.style.borderRadius = '12px';
+    textContainer.style.backgroundColor = 'white';
+    textContainer.style.display = 'flex';
+    textContainer.style.flexDirection = 'column';
+    textContainer.style.justifyContent = 'center'; // Center content vertically
+    textContainer.style.alignItems = 'center'; // Center content horizontally
+    textContainer.style.padding = '20px';
+    textContainer.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
+    parentDiv.appendChild(textContainer);
 
-    const government_button = document.createElement('div');
-    government_button.id = 'governmentButton';
-    government_button.appendChild(government_text);
-    containerDiv.appendChild(government_button);
+    // Function to render content for the current page
+    function renderPage(pageIndex) {
+        textContainer.innerHTML = ''; // Clear previous content
+        const pageContent = page_list[pageIndex];
+
+        pageContent.forEach(content => {
+            const paragraph = document.createElement('p');
+            paragraph.innerHTML = content;
+            paragraph.style.fontSize = '20px';
+            paragraph.style.margin = '10px 0';
+            paragraph.style.textAlign = 'center'; // Center align text
+            textContainer.appendChild(paragraph);
+        });
+    }
+
+    // Initial page render
+    renderPage(current_page);
+
+    // Function to create the header
+    function createHeader(parentDiv, toggleDiv, page_list) {
+        let headerDiv = document.createElement('div');
+        headerDiv.style.display = 'flex';
+        headerDiv.style.color = 'black';
+        headerDiv.style.justifyContent = 'space-between';
+        headerDiv.style.alignItems = 'center';
+        headerDiv.style.backgroundColor = '#d8dde6';
+        headerDiv.style.borderRadius = '12px';
+        headerDiv.style.padding = '12px 12px';
+        headerDiv.style.width = '250px';
+        headerDiv.style.maxWidth = '100%';
+        headerDiv.style.margin = '0 auto';
+
+        headerDiv.appendChild(createBackButton(parentDiv, toggleDiv));
+        headerDiv.appendChild(createHeaderText('Government'));
+        headerDiv.appendChild(createNextButton());
+        return headerDiv;
+    }
+
+    // Create a back button to exit
+    function createBackButton(parentDiv, toggleDiv) {
+        let backButton = document.createElement('button');
+        backButton.innerText = 'Back';
+        backButton.style.margin = '5px';
+        backButton.style.backgroundColor = '#223b61';
+        backButton.style.color = '#fff';
+        backButton.onclick = function () {
+            parentDiv.remove();
+            toggleDiv.style.display = '';
+        };
+        return backButton;
+    }
+
+    // Create a next button to navigate pages
+    function createNextButton() {
+        let nextButton = document.createElement('button');
+        nextButton.innerText = 'Next';
+        nextButton.style.margin = '5px';
+        nextButton.style.backgroundColor = '#223b61';
+        nextButton.style.color = '#fff';
+        nextButton.style.cursor = 'pointer';
+
+        // Handle navigation to the next page
+        nextButton.addEventListener('click', () => {
+            current_page = (current_page + 1) % page_list.length; // Cycle through pages
+            renderPage(current_page);
+        });
+
+        return nextButton;
+    }
+
+    // Create the header title
+    function createHeaderText(title) {
+        const headerTitle = document.createElement('h3');
+        headerTitle.innerText = title;
+        headerTitle.style.margin = '0';
+        return headerTitle;
+    }
 }
 
-// Create a header with back button, title, and next button
-function createHeader(parentDiv, toggleDiv, page_list, government_text, current_page) {
-    let headerDiv = document.createElement('div');
-    headerDiv.style.display = 'flex';
-    headerDiv.style.color = 'black'; 
-    headerDiv.style.justifyContent = 'space-between';
-    headerDiv.style.alignItems = 'center';
-    headerDiv.style.backgroundColor = '#d8dde6'; 
-    headerDiv.style.borderRadius = '12px'; 
-    headerDiv.style.padding = '12px 12px'; 
-    headerDiv.style.width = '250px'; 
-    headerDiv.style.maxWidth = '100%';
-    headerDiv.style.margin = '0 auto'; 
-
-    headerDiv.appendChild(createBackButton(parentDiv, toggleDiv));
-    headerDiv.appendChild(createNextButton(page_list, government_text, current_page));
-    headerDiv.appendChild(createHeaderText('Government'));
-    return headerDiv;
+// Mutation observer setup
+let observerRunning = false;
+let element = document.getElementById('controlElement');
+if (!element) {
+    let singleObserver = new MutationObserver(handleMutations);
+    singleObserver.observe(document.documentElement, { childList: true, subtree: true });
+    let controlElement = document.createElement('div');
+    controlElement.style.display = 'none';
+    controlElement.id = 'controlElement';
+    document.body.appendChild(controlElement);
 }
 
-// Create a back button to return to the previous view
-function createBackButton(parentDiv, toggleDiv) {
-    let backButton = document.createElement('button');
-    backButton.innerText = 'Back';
-    backButton.style.margin = '5px';
-    backButton.style.backgroundColor = '#223b61';
-    backButton.style.color = '#fff';
-    backButton.onclick = function () {
-        parentDiv.remove();
-        toggleDiv.style.display = '';
-    };
-    return backButton;
+// Handle DOM mutations to add the button in case the target is not present
+function handleMutations(mutationsList, observer) {
+    if (observerRunning) return;
+    observerRunning = true;
+    addGovernmentButton();
+    observer.observe(document.documentElement, { childList: true, subtree: true });
+    observerRunning = false;
 }
 
-// Create a next button to navigate through pages
-function createNextButton(page_list, government_text, current_page) {
-    let nextButton = document.createElement('button');
-    nextButton.innerText = 'Next';
-    nextButton.style.margin = '5px';
-    nextButton.style.backgroundColor = '#223b61';
-    nextButton.style.color = '#fff';
-    nextButton.style.cursor = 'pointer';
-
-    // Define the next_page function for the button
-    nextButton.next_page = function () {
-        current_page = (current_page + 1) % page_list.length; // Increment and wrap around
-        government_text.innerHTML = page_list[current_page];
-    };
-
-    // Attach the next_page function to the button's click event
-    nextButton.addEventListener('click', nextButton.next_page);
-
-    return nextButton;
+// Function to refresh relations view
+function refreshRelationsView() {
+    let relationsDiv = document.getElementById('relations_view');
+    if (relationsDiv) {
+        relationsDiv.innerHTML = ''; // Clear the existing content
+        setupRelationsArea(relationsDiv, document.querySelector(".inner_window_question"));
+    }
 }
 
-// Create the header title
-function createHeaderText(title) {
-    const headerTitle = document.createElement('h3');
-    headerTitle.innerText = title;
-    headerTitle.style.margin = '0';
-    return headerTitle;
-}
-
-  
-  // Mutation observer setup
-  let observerRunning = false;
-  let element = document.getElementById('controlElement');
-  if (!element) {
-      let singleObserver = new MutationObserver(handleMutations);
-      singleObserver.observe(document.documentElement, { childList: true, subtree: true });
-      let controlElement = document.createElement('div');
-      controlElement.style.display = 'none';
-      controlElement.id = 'controlElement';
-      document.body.appendChild(controlElement);
-  }
-  
-  // Handle DOM mutations to add the button in case the target is not present
-  function handleMutations(mutationsList, observer) {
-      if (observerRunning) return;
-      observerRunning = true;
-      addGovernmentButton();
-      observer.observe(document.documentElement, { childList: true, subtree: true });
-      observerRunning = false;
-  }
-  
-  // Function to refresh relations view
-  function refreshRelationsView() {
-      let relationsDiv = document.getElementById('relations_view');
-      if (relationsDiv) {
-          relationsDiv.innerHTML = ''; // Clear the existing content
-          setupRelationsArea(relationsDiv, document.querySelector(".inner_window_question"));
-      }
-  }
 // Since you're going to be doing a lot of inserting, you don't want to be using exact positions. 
 // Position 8 could be any number of questions depending on previous CYOA. 
 // This function goes by pk values.
