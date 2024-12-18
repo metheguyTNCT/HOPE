@@ -495,7 +495,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3333,
         "fields": {
             "question": 349,
-            "description": " No dice Powell, but I’m not stupid, I’ll wait for the right moment to push this again later on"
+            "description": " No dice, Powell, but I’m no fool. I’ll wait. Timing matters, and when the moment’s right, we’ll push this through again."
         }
     },
     {
@@ -503,7 +503,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3335,
         "fields": {
             "question": 349,
-            "description": "I made a promise to these folks and I’m not gonna break it now. I’m ordering this and that's it the last word."
+            "description": "I made a promise to these folks, and I intend to keep it. I’m not backing down now. I’m giving the order, and that’s the last word on it."
         }
     },
     {
@@ -511,7 +511,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3336,
         "fields": {
             "question": 349,
-            "description": " I don’t like it, but I don’t hate it. This is probably gonna be the best I can get at this time. I’ll bring this \ncompromise to congress. "
+            "description": " I don’t love it, but I don’t hate it either. Truth is, this is probably the best we’re gonna get right now. I’ll take this compromise to Congress and see it through. "
         }
     },
     {
@@ -9321,7 +9321,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3330,
             "candidate": 77,
-            "answer_feedback": "Kennedy has never been willing to compromise in what believes in. He will do everything in his power \nto get universal healthcare passed - including refuse anything less than his complete vision. This \noption means you’re putting all your eggs in one basket. It’s his way or the highway."
+            "answer_feedback": "Kennedy has never been willing to compromise in what believes in. He’ll stop at nothing to get universal healthcare passed, even if it means rejecting anything short of his full vision. Choosing this path means putting all your eggs in one basket, it’s his way or the highway."
         }
     },
     {
@@ -9330,7 +9330,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3331,
             "candidate": 77,
-            "answer_feedback": "Hillary is Lady Macbeth, whispering in your ear for the sake of her own ambition. This move might put you at\nrisk of litigation, and might open her up to be publicly attacked."
+            "answer_feedback": "Hillary is like Lady Macbeth, whispering in your ear, driven by her own ambition. And while it may sting your ego, you can’t deny she’s smarter than you. This move could expose you to litigation and leave her vulnerable to public attacks."
         }
     },
     {
@@ -9339,7 +9339,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3332,
             "candidate": 77,
-            "answer_feedback": "The both of them know the ins and outs of the halls of power, they’re your best shot at getting a \npractical bill that satisfies all wings of the party."
+            "answer_feedback": "It's true, both of them know the ins and outs of the halls of power, and seemingly they’re your best chance at crafting a practical bill that satisfies all wings of the party."
         }
     },
     {
@@ -9348,7 +9348,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3333,
             "candidate": 77,
-            "answer_feedback": "You really let down the LGBTQ community with this. Expect no favors from them in the future. For \neveryone else however, you’re actions, or rather lack of action, this is seen as you coming to your \nsenses for the better."
+            "answer_feedback": "You’ve deeply disappointed the LGBT community with this decision, don’t expect any favors from them moving forward. For most everyone else, though, your actions, or lack thereof, are seen as a sign that you’ve come to your senses for the better."
         }
     },
     {
@@ -9357,7 +9357,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3335,
             "candidate": 77,
-            "answer_feedback": "Oh Bill, you should know better than to upset the status quo too soon. Generals threaten to resign in \nmass if their deadline to reverse the executive order is not met in time. Republicans and Democrats \nhold their hands together in unity to easily reverse your order just in time. How embarrassing."
+            "answer_feedback": "Oh, Bill, you should’ve known better than to push the status quo too soon. Generals threaten to resign en masse if their deadline to reverse the executive order isn’t met. In a rare show of unity, Republicans and Democrats join forces to swiftly overturn your order, just in time. How fucking embarrassing."
         }
     },
     {
@@ -9366,7 +9366,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3336,
             "candidate": 77,
-            "answer_feedback": "“Don’t ask, don’t tell” or DADT becomes effective in late december of 93. Leaving everyone in the \nroom unsatisfied. Perfect, that’s how you know it’s a good compromise."
+            "answer_feedback": "‘Don’t Ask, Don’t Tell’ (DADT) takes effect in late December of 1993, leaving everyone in the room dissatisfied. Perfect, that’s how you know it’s a good, true compromise."
         }
     },
     {
@@ -9735,7 +9735,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12252,
             "candidate": 77,
-            "answer_feedback": "Very technocratic of you Bill, Gore and remaining Atari Democrats appreciate this approach."
+            "answer_feedback": "That’s a very technocratic move, sir. Gore, the Atari Democrats, and the so-called Clinton coalition of business and middle-class voters will certainly appreciate this approach."
         }
     },
     {
