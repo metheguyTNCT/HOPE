@@ -263,7 +263,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12324,
         "fields": {
             "priority": 2,
-            "description": "Majority Leader Mitchell and Speaker Tom Foley are meeting with you about your healthcare \ninitiative. Their plan consists of mandating health insurance, requiring businesses to give their full time employees insurance, \nand subsidizing it for people who can’t afford it.",
+            "description": "Majority Leader Mitchell and Speaker Tom Foley are discussing your healthcare initiative. Their proposal includes mandating health insurance, requiring businesses to provide coverage for full-time employees, and offering subsidies for those who can't afford it.",
             "likelihood": 1
         }
     },
@@ -272,7 +272,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12331,
         "fields": {
             "priority": 2,
-            "description": "The doctor’s finally brought their plan to the public, and it’s a goddamn mess. Gore is scratching his \nhead, Hillary can't understand what they've come up with, and Reich? Well, he was always angry with the doctors from the beginning, but \nnow he’s furious. Any REAL healthcare expert can see this plan looks like something out of a coloring book with GOP flare and a sprinkle \nof big pharma concessions. Many in your party have already disavowed the plan, the Republicans on the other hand, have completely \nendorsed it. You understand why. Those sons of bitches are trying to turn the narrative against you, they think they’re slick huh? Well, no \none out slick’s Slick Willy.",
+            "description": "The doctors finally unveiled their plan, and it's a mess. Gore’s confused, Hillary’s lost, and Reich is furious, he never liked the doctors' approach, but now he’s livid. Any real healthcare expert can see it’s a GOP-friendly disaster, with big pharma getting their cut. Your party's backing away, but the Republicans? They’re all in. They think they’ve got the narrative against you, but no one outplays Slick Willy.",
             "likelihood": 1
         }
     },
