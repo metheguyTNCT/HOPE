@@ -335,7 +335,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12481,
         "fields": {
             "priority": 0,
-            "description": "Well, this is interesting… I have good news and I have bad news. The Bad News is… um how do I say this, you lost. But don't worry Mr. President, the polls were still way off. The Republican Majority is slim and all it takes is for John McCain’s vote for most of your policies to pass.",
+            "description": "Well, this is interesting… I’ve got good news and bad news. The bad news? You lost. But don’t worry, Mr. President, the polls were way off. The good news is Governor Richards has defeated George W. Bush in Texas. The Republican majority is razor-thin, and all it takes is John McCain’s vote for most of your policies to pass.",
             "likelihood": 1
         }
     },
@@ -344,7 +344,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12520,
         "fields": {
             "priority": 0,
-            "description": "Well, this is interesting… I have good news and I have bad news. The Bad News is… um how do I say this, you lost. But don't worry Mr. President, the polls were still way off. Also, Governor Richards has defeated George W. Bush in the Texas race. The Republican Majority is slim and all it takes is for John McCain’s vote for most of your policies to pass.",
+            "description": "Well, this is interesting… I’ve got good news and bad news. The bad news? You lost. But don’t worry, Mr. President, the polls were way off. The good news is Governor Richards has defeated George W. Bush in Texas. The Republican majority is razor-thin, and all it takes is John McCain’s vote for most of your policies to pass.",
             "likelihood": 1
         }
     },
@@ -353,7 +353,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12530,
         "fields": {
             "priority": 0,
-            "description": "Well, this is interesting… I have good news and I have bad news. The Bad News is… um how do I say this, you lost. But don't worry Mr. President, the polls were still way off. Also, Governor Cuomo has defeated George Pataki in the New York race. The Republican Majority is slim and all it takes is for John McCain’s vote for most of your policies to pass.",
+            "description": "Well, this is interesting… I’ve got good news and bad news. The bad news? You lost. But don’t worry, Mr. President, the polls were way off. The good news is Governor Richards has defeated George W. Bush in Texas. The Republican majority is razor-thin, and all it takes is John McCain’s vote for most of your policies to pass.",
             "likelihood": 1
         }
     },
