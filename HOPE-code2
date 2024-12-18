@@ -415,7 +415,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3318,
         "fields": {
             "question": 345,
-            "description": "Now look, getting crime under control is absolutely critical, and we’ve got to crack down—no two ways about it. Get me that senator from Delaware, Joe Biden, that fella. He’s tough as nails on this issue, and if it came down to it, he’d make himself a martyr if that’s what it took."
+            "description": "Now look, getting crime under control is absolutely critical, and we’ve got to crack down, no two ways about it. Get me that senator from Delaware, Joe Biden, that fella. He’s tough as nails on this issue, and if it came down to it, he’d make himself a martyr if that’s what it took."
         }
     },
     {
@@ -423,7 +423,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3319,
         "fields": {
             "question": 345,
-            "description": "Some common-sense regulations are the right way to go here, but we’ve got to remember—what works for a gun owner in rural Alaska isn’t the same as what’s needed in midtown Manhattan. I’ll propose an assault weapons ban for major population centers, paired with stricter licensing standards. This is what works."
+            "description": "Some common-sense regulations are the right way to go here, but we’ve got to remember, what works for a gun owner in rural Alaska isn’t the same as what’s needed in midtown Manhattan. I’ll propose an assault weapons ban for major population centers, paired with stricter licensing standards. This is what works."
         }
     },
     {
