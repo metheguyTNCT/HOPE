@@ -83,7 +83,7 @@ campaignTrail_temp.questions_json = [
         "pk": 366,
         "fields": {
             "priority": 1,
-            "description": "For all their talk of ''fiscal responsibility,'' twelve years under the Gipper and Old Man Bush have plunged America into a new kind of ''red scare'', not of communism, but of debt. Tax breaks for the wealthy, favored by both presidents, have left the country struggling to stay afloat. By the end of fiscal year 1992, the nation faced both a recession and a staggering $290 billion deficit. Your economic team, Bentsen, Panetta, Reich, and Rubin, presents you with conflicting plans. Bentsen and his allies advocate for deficit reduction to boost investor confidence, while Reich pushes for policies aimed at reducing stagnant wages and stimulating consumer spending.",
+            "description": "Twelve years of the Gipper and Old Man Bush's so-called ''fiscal responsibility'' have left America drowning in a new kind of 'red scare'; not communism, but debt. Tax breaks for the wealthy drained the coffers, and by fiscal year 1992, the nation faced a recession and a $290 billion deficit. Now, your economic team, Bentsen, Panetta, Reich, and Rubin, clash over the path forward. Bentsen urges deficit reduction to restore investor confidence, while Reich argues for policies to tackle stagnant wages and drive consumer spending.",
             "likelihood": 1
         }
     },
