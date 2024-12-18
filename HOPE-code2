@@ -155,7 +155,7 @@ campaignTrail_temp.questions_json = [
         "pk": 353,
         "fields": {
             "priority": 3,
-            "description": "Just two years into your presidency, America is already yearning for change. The midterms of ‘94 are coming, and your advisors are sounding the alarm bells. Warning you that Jersey and Virginia weren’t just flukes, that it’s a sign, a sign of impending doom. How do you try to reverse this?\n",
+            "description": "Just two years into your presidency, America is already yearning for change. The midterms of ‘94 are coming, and your advisors are sounding the alarm bells. They warn that the '93 gubernatorial losses in New Jersey and Virginia weren’t flukes but a clear warning sign. How do you turn the tide and stop this slide? ",
             "likelihood": 1
         }
     },
