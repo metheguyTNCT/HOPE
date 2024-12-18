@@ -591,7 +591,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3381,
         "fields": {
             "question": 362,
-            "description": "It’s time we upheld democracy by bringing an end to Haiti’s dictator Raoul Cédras. From what I hear from the Carter delegation* he still thinks we’re bluffing, a tape of a fully loaded 82nd Airborne aircraft will show just how serious I am."
+            "description": "It’s time we stood up for democracy and put an end to Raoul Cédras’ dictatorship in Haiti. From what I hear, the Carter delegation says he still thinks we’re bluffing. Well, he won’t when he sees a tape of the 82nd Airborne fully loaded and ready to go. That’ll show him just how serious we are."
         }
     },
     {
@@ -599,7 +599,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3382,
         "fields": {
             "question": 362,
-            "description": "I’ll lift the embargo on Vietnam. Opening up could lead to them implementing more reforms towards democracy and the free market. Not only that, we could bring to rest the question of surviving POWs during the war. "
+            "description": "I’ll work with a bipartisan group of veterans to lift the embargo on Vietnam and normalize relations. This could encourage reforms, more democracy, a stronger free market, and finally lay to rest the lingering questions about POWs. It’s time we close that long, long chapter. "
         }
     },
     {
@@ -607,7 +607,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3383,
         "fields": {
             "question": 362,
-            "description": "Jimmy Carter may have gone rogue on us when he visited Kim Il Sung without my approval, but what he’s done doing that is astounding. He’s got the groundwork done, now it’s up to us to write up an agreement of sorts."
+            "description": "Jimmy Carter might’ve gone a little rogue visiting Kim Il Sung without my say-so, but I’ll tell you what-what he’s managed to pull off is nothing short of remarkable. He’s laid the groundwork, now it’s up to us to build on it and get an agreement in place."
         }
     },
     {
@@ -1047,7 +1047,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12425,
         "fields": {
             "question": 362,
-            "description": "There’s a genocide happening in Rwanda as we speak, and I’ll be dammed to hell if I do nothing about it. I’ll convene with the joint chiefs of staff on how to best handle the crisis."
+            "description": "There’s a genocide unfolding in Rwanda as we speak, and I’ll be damned if I sit by and do nothing. I’m calling in the Joint Chiefs, let’s figure out how we can act, and act fast, to stop this tragedy."
         }
     },
     {
