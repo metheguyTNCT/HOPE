@@ -943,7 +943,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12344,
         "fields": {
             "question": 12343,
-            "description": "We got the votes for this to pass, I’m 100% sure of it! Do it."
+            "description": "We’ve got the votes, I’m 100% sure of it. Let’s not wait. Call it up and get it done."
         }
     },
     {
@@ -951,7 +951,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12345,
         "fields": {
             "question": 12343,
-            "description": "It’s too risky to do it now. We’ll come back to this later, when I know It’ll pass."
+            "description": "It’s too risky to push this right now. Timing matters, and we’ll come back to it when I know we’ve got the votes to make it stick."
         }
     },
     {
@@ -959,7 +959,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12351,
         "fields": {
             "question": 12350,
-            "description": "We got the votes for this to pass, I’m 100% sure of it! Do it."
+            "description": "We’ve got the votes, I’m 100% sure of it. Let’s not wait. Call it up and get it done."
         }
     },
     {
@@ -967,7 +967,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12354,
         "fields": {
             "question": 12350,
-            "description": "It’s too risky to do it now. We’ll come back to this later, when I know It’ll pass."
+            "description": "It’s too risky to push this right now. Timing matters, and we’ll come back to it when I know we’ve got the votes to make it stick."
         }
     },
     {
