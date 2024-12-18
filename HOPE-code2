@@ -308,7 +308,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12370,
         "fields": {
             "priority": 2,
-            "description": "To think just a few years ago us and Russians were mortal enemies, \nalways on the cusp of ending it all. But here you are now, at the End of History,\nand your friendship with Boris Yeltsin’s is bordering outright lovers to critics and \nsupporters alike. Now that you're here in the Kremlin, what topic will be the main \npriority of these negotiations?",
+            "description": "Just a few years ago, the U.S. and Russia were mortal enemies, teetering on the edge of mutual destruction. Now, at what some are calling ''the End of History,'' your friendship with Boris Yeltsin is so close that critics and supporters alike compare it to a love affair. Standing here in the Kremlin, what will you prioritize in these negotiations?",
             "likelihood": 1
         }
     },
@@ -317,7 +317,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12403,
         "fields": {
             "priority": 2,
-            "description": "To think just a few years ago us and Russians were mortal enemies, \nalways on the cusp of ending it all. But here you are now, at the End of History,\nand your friendship with Boris Yeltsin’s is bordering outright lovers to critics and \nsupporters alike. Now that you're here in the Kremlin, what topic will be the main \npriority of these negotiations?",
+            "description": "Just a few years ago, the U.S. and Russia were mortal enemies, teetering on the edge of mutual destruction. Now, at what some are calling ''the End of History,'' your friendship with Boris Yeltsin is so close that critics and supporters alike compare it to a love affair. Standing here in the Kremlin, what will you prioritize in these negotiations?",
             "likelihood": 1
         }
     },
@@ -415,7 +415,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3318,
         "fields": {
             "question": 345,
-            "description": "Now, look, getting crime under control is of the utmost importance, and we’re gonna have to crack down \nhere. Get me that senator from Delaware. He’d be a martyr on this issue if he had to be."
+            "description": "Now look, getting crime under control is absolutely critical, and we’ve got to crack down—no two ways about it. Get me that senator from Delaware, Joe Biden, that fella. He’s tough as nails on this issue, and if it came down to it, he’d make himself a martyr if that’s what it took."
         }
     },
     {
@@ -423,7 +423,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3319,
         "fields": {
             "question": 345,
-            "description": "Some common sense regulations are acceptable, but we also must keep in mind the difference in needs \nbetween a gun owner in rural Alaska and one in midtown Manhattan, I'll propose an assault weapons ban in \nmajor population centres along with stricter licensing norms"
+            "description": "Some common-sense regulations are the right way to go here, but we’ve got to remember—what works for a gun owner in rural Alaska isn’t the same as what’s needed in midtown Manhattan. I’ll propose an assault weapons ban for major population centers, paired with stricter licensing standards. This is what works."
         }
     },
     {
@@ -431,7 +431,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3320,
         "fields": {
             "question": 345,
-            "description": "Look, we just don’t have the votes for any substantial reform, and I’m not going to stoop to Reagan’s level \nand become a fearmonger. We’ll sideline this until after the midterms, when our majority is a bit larger."
+            "description": "Look, the truth is we just don’t have the votes for real reform right now. And I’m not about to stoop to Reagan’s level and start fearmongering just to get it through. We’ll shelve this for now and come back after the midterms, when, God willing, our majority’s a little bigger."
         }
     },
     {
@@ -439,7 +439,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3322,
         "fields": {
             "question": 346,
-            "description": "This is all awful, but the fact remains that General Aidid must go. That is why I’m authorizing Operation Gothic Serpent to find \nand end his reign of terror. Then, and only then will the people come back to us with open arms."
+            "description": "This is a terrible situation, but the fact remains, General Aidid has to go. That’s why I’m authorizing Operation Gothic Serpent to track him down and put an end to his reign of terror. Only after that, will the people have a chance to come back to us with open arms."
         }
     },
     {
@@ -447,7 +447,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3323,
         "fields": {
             "question": 346,
-            "description": "This is the most costly war the UN has fought, and then this happens. I think it’s time to cut our losses and pull out of Somalia. I \njust can’t see a way forward."
+            "description": "This has become the most costly operation the UN has ever undertaken, and now this. I think it’s time we face the facts, we need to cut our losses and pull out of Somalia. I just don’t see a path forward here that makes sense."
         }
     },
     {
@@ -455,7 +455,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3324,
         "fields": {
             "question": 346,
-            "description": "We need to go back to basics after all of this, you know? Self-defense, nation-building, humanitarian aid, all of it. I’ll urge \nUNOSOM to hold off on military operations for the time being and increase aid for food, water, anything that can get these folks \nsome semblance of stability."
+            "description": "We’ve got to get back to basics after all this, you know? Self-defense, nation-building, real humanitarian aid. I’ll push UNOSOM to hold off on further military operations for now and shift our efforts toward food, clean water, medicine, anything that can bring these folks a little stability."
         }
     },
     {
@@ -463,7 +463,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3325,
         "fields": {
             "question": 346,
-            "description": "Are we just gonna let him elude us again? No, I know he’ll be trying to leave the country, but I won’t have it. I will announce more \nAmerican involvement into keeping the peace in Somalia and expand the search for Aideed into neighboring countries if he does \nsomehow escape."
+            "description": "Are we really going to let him slip through our fingers again? No, I won’t allow it. I know he’ll try to flee the country, but we can’t let that happen. I’ll announce expanded American involvement to help maintain the peace in Somalia, and if he does manage to escape, we’ll extend the search into neighboring countries."
         }
     },
     {
@@ -9267,7 +9267,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3318,
             "candidate": 77,
-            "answer_feedback": "“Don’t worry about a thing Jack, let me work my magic and I’ll have the bill through the Senate by \nDecember.” Joe says. His loose demeanor and patented smile put you at ease, and you can’t help but \nwonder if he could be president himself someday. True to his word, the bill passes nearly unanimously \non November 19th."
+            "answer_feedback": "''Don’t worry about a thing, Bil-Mr. President. Let me work my magic, and I’ll have this bill through the Senate by December,'' Joe says with that familiar, easy grin of his. There’s something reassuring about his confidence, it’s why you trust him to get the job done. True to his word, the bill sails through nearly unanimously on November 19th."
         }
     },
     {
@@ -9276,7 +9276,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3319,
             "candidate": 77,
-            "answer_feedback": "“I’m sorry Bill, I really am, but I’m not dying on this hill. I’ve told membership to vote their conscience” \nByrd goes on about the glaring loopholes. You don’t listen. You’re just more determined to get \nsomething passed. You WILL leave a legacy of success."
+            "answer_feedback": "''I’m sorry, Bill, I really am, but I’m not dying on this hill. I’ve told the membership to vote their conscience,'' Byrd says, pointing out the glaring loopholes. You barely hear him. All you can think about is pushing this through. You will get something passed, you will leave a legacy of success!"
         }
     },
     {
@@ -9285,7 +9285,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3320,
             "candidate": 77,
-            "answer_feedback": "This just isn’t gonna cut it Bill. If you don’t start being more decisive, there won’t be a majority after the \nmidterms!"
+            "answer_feedback": "This isn’t going to cut it, Mr. President! If you don’t start making decisions, real ones, there won’t be a majority after the midterms!"
         }
     },
     {
@@ -9294,7 +9294,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3322,
             "candidate": 77,
-            "answer_feedback": "After the Battle of Mogadishu, Somalis drag the corpses of dead american soldiers into the streets. Although you won the battle, you know you’ve \nlost the war, and pull out in early March of 94, the UN follows suit."
+            "answer_feedback": "After the Battle of Mogadishu, Somali civilians drag the bodies of dead American soldiers through the streets. Though the battle was won, you know the war is lost. You order a withdrawal in early March of ’94, and the UN soon follows suit."
         }
     },
     {
@@ -9303,7 +9303,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3324,
             "candidate": 77,
-            "answer_feedback": "UN humanitarian workers are harassed at first, but slowly, very slowly, the people begin to trust the mission again. It also unfortunately helps \nthat whenever General Aidid attacks these workers, he kills many of his own countrymen and women in the crossfire, turning support against \nhim, slowly, very slowly."
+            "answer_feedback": "At first, UN humanitarian workers face harassment, but slowly, very slowly, the people begin to trust the mission again. Ironically, General Aidid’s attacks on these workers only accelerate this shift, as the crossfire claims the lives of many of his own countrymen and women, gradually turning support against him."
         }
     },
     {
@@ -9744,7 +9744,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3323,
             "candidate": 77,
-            "answer_feedback": "The UN agrees. Somalia falls into a brief period of chaos, one that gives General Aideed a perfect opportunity to takeover in an unseen \nswiftness since vietnam. The world collectively groans."
+            "answer_feedback": "The UN agrees. Somalia descends into a brief period of chaos, providing General Aidid with the perfect opening to seize control with a swiftness not seen since Vietnam. The world collectively groans, and you light a cigar."
         }
     },
     {
@@ -10303,7 +10303,7 @@ cyoAdventure = function(a) {
         "pk": 12370,
         "fields": {
             "priority": 2,
-            "description": "To think just a few years ago us and Russians were mortal enemies, \nalways on the cusp of ending it all. But here you are now, at the End of History,\nand your friendship with Boris Yeltsin’s is bordering outright lovers to critics and \nsupporters alike. Now that you're here in the Kremlin, what topic will be the main \npriority of these negotiations?",
+            "description": "Just a few years ago, the U.S. and Russia were mortal enemies, teetering on the edge of mutual destruction. Now, at what some are calling ''the End of History,'' your friendship with Boris Yeltsin is so close that critics and supporters alike compare it to a love affair. Standing here in the Kremlin, what will you prioritize in these negotiations?",
             "likelihood": 1
             }
         }
@@ -10319,7 +10319,7 @@ cyoAdventure = function(a) {
         "pk": 12403,
         "fields": {
             "priority": 2,
-            "description": "To think just a few years ago us and Russians were mortal enemies, \nalways on the cusp of ending it all. But here you are now, at the End of History,\nand your friendship with Boris Yeltsin’s is bordering outright lovers to critics and \nsupporters alike. Now that you're here in the Kremlin, what topic will be the main \npriority of these negotiations?",
+            "description": "Just a few years ago, the U.S. and Russia were mortal enemies, teetering on the edge of mutual destruction. Now, at what some are calling ''the End of History,'' your friendship with Boris Yeltsin is so close that critics and supporters alike compare it to a love affair. Standing here in the Kremlin, what will you prioritize in these negotiations?",
             "likelihood": 1
             }
         }
@@ -10334,7 +10334,7 @@ cyoAdventure = function(a) {
         "pk": 12403,
         "fields": {
             "priority": 2,
-            "description": "To think just a few years ago us and Russians were mortal enemies, \nalways on the cusp of ending it all. But here you are now, at the End of History,\nand your friendship with Boris Yeltsin’s is bordering outright lovers to critics and \nsupporters alike. Now that you're here in the Kremlin, what topic will be the main \npriority of these negotiations?",
+            "description": "Just a few years ago, the U.S. and Russia were mortal enemies, teetering on the edge of mutual destruction. Now, at what some are calling ''the End of History,'' your friendship with Boris Yeltsin is so close that critics and supporters alike compare it to a love affair. Standing here in the Kremlin, what will you prioritize in these negotiations?",
             "likelihood": 1
             }
         }
@@ -10350,7 +10350,7 @@ cyoAdventure = function(a) {
         "pk": 12403,
         "fields": {
             "priority": 2,
-            "description": "To think just a few years ago us and Russians were mortal enemies, \nalways on the cusp of ending it all. But here you are now, at the End of History,\nand your friendship with Boris Yeltsin’s is bordering outright lovers to critics and \nsupporters alike. Now that you're here in the Kremlin, what topic will be the main \npriority of these negotiations?",
+            "description": "Just a few years ago, the U.S. and Russia were mortal enemies, teetering on the edge of mutual destruction. Now, at what some are calling ''the End of History,'' your friendship with Boris Yeltsin is so close that critics and supporters alike compare it to a love affair. Standing here in the Kremlin, what will you prioritize in these negotiations?",
             "likelihood": 1
             }
         }
