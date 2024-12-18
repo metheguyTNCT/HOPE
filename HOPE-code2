@@ -631,7 +631,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3393,
         "fields": {
             "question": 366,
-            "description": " I’ll go with Bentsen’s plan: let’s focus on reducing the deficit to encourage Greenspan and investors. That means we gotta mix in spending cuts \nwith tax hikes. Hey, we’re not “tax and spend’ Democrats no more!"
+            "description": " I’ll go with Bentsen’s plan: let’s focus on reducing the deficit to keep Greenspan and the investors on board. We’ll balance spending cuts with tax increases, smart and steady. Look, we’re not ‘tax-and-spend’ Democrats anymore, and it’s time folks knew it!"
         }
     },
     {
@@ -639,7 +639,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3394,
         "fields": {
             "question": 366,
-            "description": "I know there are a lot of reservations but I’m gonna trust Reich on this one. The deficit can be taken care of after we’ve begun the programs to \nbuild up the middle class. We can’t take care of the deficit until we know how big it’s going to be."
+            "description": "I know folks are uneasy, but I’m putting my faith in Reich here. We’ve got to invest in building up the middle class first, that’s how we grow the economy. The deficit? We’ll tackle it once we know the full picture, but we can’t cut our way to prosperity. "
         }
     },
     {
@@ -647,7 +647,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3395,
         "fields": {
             "question": 366,
-            "description": "I’ll go with Bentsen’s plan: let’s focus on reducing the deficit to encourage investors, but I won’t go back on my promise for serious middle-class \ntax cuts. I can’t renege on my promises like Bush."
+            "description": "I’ll go with Bentsen’s plan: let’s focus on reducing the deficit to keep investors confident, but I’m not turning my back on middle-class tax cuts. I made a promise, and I won’t break it like Bush did. We can balance the books and keep our word."
         }
     },
     {
@@ -655,7 +655,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3396,
         "fields": {
             "question": 366,
-            "description": "We can have our cake and eat it too with this. Let’s focus on reducing the deficit, mix in both budget cuts and new taxes, and then pivot to cutting \ntaxes and promoting wage increases. However, this year we won’t back out of our expansion of the Earned Income Tax Credit."
+            "description": "We can have our cake and eat it with this too. Let’s focus on reducing the deficit, mixing in both budget cuts and new taxes, and then we pivot: cut taxes where we can, push for wage growth, and make sure working families see real relief. And let’s be clear, we’re not backing down on expanding the Earned Income Tax Credit."
         }
     },
     {
