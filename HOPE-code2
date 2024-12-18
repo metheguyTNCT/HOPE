@@ -245,7 +245,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12284,
         "fields": {
             "priority": 2,
-            "description": "Hillary has been in contact with party leaders for months now, trying to negotiate a healthcare plan that will pass. Is there anywhere you want her to focus her energy on?\n",
+            "description": "Hillary’s been working the phones with party leaders for months now, tirelessly pushing for a healthcare plan that can actually pass. Sometimes, it feels like she’s more invested in the presidency than you are. So, where do you want her to focus her energy next?",
             "likelihood": 1
         }
     },
@@ -847,7 +847,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12285,
         "fields": {
             "question": 12284,
-            "description": "You know Hillary, you really ought to get Mitchell on board first and foremost. The man holds an iron-grip on a decent handful of our caucus."
+            "description": "Hillary, you should get on the phone with Mitchell. He’s got a firm grip on a big chunk of the caucus, and if we get him on board, the rest will follow."
         }
     },
     {
@@ -855,7 +855,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12287,
         "fields": {
             "question": 12284,
-            "description": "Alright Hillary, Ted’s the guy you’re gonna wanna see. He’s got a large influence within the caucus, there’s a reason he’s the lion of the senate.\n"
+            "description": "Alright, Hillary, Ted’s your man, you know that. He’s got the influence to move mountains in that caucus, there’s a reason they call him the Lion of the Senate. "
         }
     },
     {
@@ -863,7 +863,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12289,
         "fields": {
             "question": 12284,
-            "description": "There’s a middle ground we have to walk. We can’t be too ambitious, but it needs to have some substance to it."
+            "description": "There’s a balance we’ve got to strike here. It can’t be too ambitious, but it’s gotta have real substance, something folks can believe in."
         }
     },
     {
@@ -9833,7 +9833,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12285,
             "candidate": 77,
-            "answer_feedback": " Hillary obliges, and starts meeting with Majority Leader Mitchell on a more regular basis. There are rumblings of discontent from the left, but they’ll fall in line… you think, anyway\n"
+            "answer_feedback": " Hillary obliges, meeting with Majority Leader Mitchell more regularly. She seems energized, even joyful, and you can’t help but feel proud of her. There are murmurs of discontent from the left, but for now, you’re confident they’ll fall in line, or at least, you hope they will. "
         }
     },
     {
@@ -9842,7 +9842,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12287,
             "candidate": 77,
-            "answer_feedback": "Hillary happily listens to your advice, and gives Ted significant input on the healthcare agenda. The next time you see Mitchell, he looks a little upset.\n"
+            "answer_feedback": "Hillary takes your advice to heart, sharing her thoughts with Ted on the healthcare agenda. Later that night, the two of you chuckle in bed, mimicking Ted’s unmistakable mannerisms. The next time you see Mitchell, however, his expression says it all, he’s not happy. "
         }
     },
     {
@@ -9851,7 +9851,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12289,
             "candidate": 77,
-            "answer_feedback": "Hillary continues her agonizingly slow progress, with both ends of the caucus being unhappy with the attempt at compromise."
+            "answer_feedback": "Hillary presses on with slow, grinding progress, her patience wearing thin as the nights grow longer. You notice her tone sharpening, more pointed than usual, even with you. Both ends of the caucus are growing restless, and compromise feels like a losing battle."
         }
     },
     {
@@ -9860,7 +9860,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12292,
             "candidate": 77,
-            "answer_feedback": "Ted makes the rounds on the Sunday talk shows and delivers speeches, leading to a noticeable surge in enthusiasm among the base. The next time you see Mitchell, he appears conflicted."
+            "answer_feedback": "Ted makes the rounds on the Sunday talk shows and delivers speeches, leading to a noticeable surge in enthusiasm among the base. The next time you see Mitchell, he appears truly torn."
         }
     },
     {
