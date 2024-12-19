@@ -4937,7 +4937,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 77,
             "state": 195,
-            "state_multiplier": 1
+            "state_multiplier": 1.025
         }
     },
     {
@@ -5009,7 +5009,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 77,
             "state": 203,
-            "state_multiplier": 1
+            "state_multiplier": 1.0275
         }
     },
     {
@@ -10009,7 +10009,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12345,
             "candidate": 77,
-            "answer_feedback": "As the midterms get closer, it becomes less likely the democratic majority will stick, meaning you missed your only shot at this."
+            "answer_feedback": "As the midterms approach, it’s looking more and more like the Democratic majority won’t hold, which means you’ve missed your only shot at this. Another promise down the fucking drain."
         }
     },
     {
@@ -10027,7 +10027,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12354,
             "candidate": 77,
-            "answer_feedback": "As the midterms get closer, it becomes less likely the democratic majority will stick, meaning you missed your only shot at this."
+            "answer_feedback": "As the midterms approach, it’s looking more and more like the Democratic majority won’t hold, which means you’ve missed your only shot at this. Another promise down the fucking drain."
         }
     },
     {
@@ -10045,7 +10045,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12371,
             "candidate": 77,
-            "answer_feedback": "This is a good, stabilizing deal that satisfies everyone involved. Although you do face GOP criticism as to how \nwe’ll know Russia kept their missiles detargeted, you know that Boris wouldn’t lie to you… Right?"
+            "answer_feedback": "This is a solid, stabilizing deal that satisfies everyone involved. However, you’re facing GOP criticism over how we’ll verify that Russia kept their missiles detargeted. Still, you trust Boris, right?"
         }
     },
     {
