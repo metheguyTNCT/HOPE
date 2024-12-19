@@ -326,7 +326,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12441,
         "fields": {
             "priority": 0,
-            "description": "Bad news: The Republican Party emerged as the clear winner in the Congressional elections. Some are even dubbing this a ''Republican Revolution''. What will be your response?",
+            "description": "Bad news: The Republican Party emerged as the clear winner in the 1994 Congressional elections. Some, including the incoming Speaker are even dubbing this a ''Republican Revolution.'' What will be your response?",
             "likelihood": 1
         }
     },
