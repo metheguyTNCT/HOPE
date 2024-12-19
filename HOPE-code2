@@ -164,7 +164,7 @@ campaignTrail_temp.questions_json = [
         "pk": 374,
         "fields": {
             "priority": 3,
-            "description": "Mr. President, chaos has just erupted in Mexico. The Mexican Government has devalued to Mexican Peso as they abandoned their exchange rate policy causing for the Peso’s value to plummet overnight. Now, Mexico’s President is begging for American intervention. Protectionists and Anti NAFTA activists blame this on our Free Trade agreement with Mexico while others refuse to support a complete government bailout. \n",
+            "description": "Mr. President, chaos has erupted in Mexico. The government has devalued the peso by abandoning its exchange rate policy, causing its value to plummet overnight. Now, the Mexican president is urgently requesting American intervention. Protectionists and anti-NAFTA activists are blaming this on our free trade agreement with Mexico, while others are refusing to support a full government bailout.",
             "likelihood": 1
         }
     },
@@ -703,7 +703,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3425,
         "fields": {
             "question": 374,
-            "description": "I will send 100 Billion dollars to the Mexican Government immediately. We shall help our close ally Mexico in their crisis and bring the country back to its pre recession rates. If we don't do this, the US economy will be affected too."
+            "description": "I will send $100 billion to the Mexican government immediately. We must stand by our close ally in this crisis and help Mexico recover to its pre-recession strength. If we don't act now, the effects will ripple back to the U.S. economy as well."
         }
     },
     {
@@ -711,7 +711,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3426,
         "fields": {
             "question": 374,
-            "description": "I will absolutely send a 45 Billion Dollar package to the Government of Mexico to save NAFTA. "
+            "description": "I will absolutely send a $45 billion package to the government of Mexico. We have to stabilize their economy and protect the future of NAFTA. This simply comes down to our relationship with our neighbors and the long-term prosperity of both our nations. "
         }
     },
     {
