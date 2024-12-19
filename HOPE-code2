@@ -615,7 +615,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3388,
         "fields": {
             "question": 364,
-            "description": "This war has been going on far too long. What originally started as a simple display of American strength over Communism has turned into a gruesome field of death that sucks our soldiers into it. \n"
+            "description": "This war has dragged on far too long. What began as a straightforward demonstration of American strength against communism has now become a brutal conflict, a tragic quagmire that continues to claim the lives of our soldiers."
         }
     },
     {
@@ -623,7 +623,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3389,
         "fields": {
             "question": 364,
-            "description": "I will sign this treaty but I want to be very clear that I want Bosnia to be an independent nation and I do not want Serbia or Croatia threatening it's sovereignty"
+            "description": "I’m going to sign this treaty, but let me be clear: I want Bosnia to stand as an independent nation, free from any threats to its sovereignty, whether from Serbia, Croatia, or anyone else."
         }
     },
     {
@@ -783,7 +783,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3481,
         "fields": {
             "question": 389,
-            "description": "It's time to begin the ad campaign. Let's criticize our Opponent on basically being a living fossil. We shall use our appeal among the youth to our advantage and paint him as an out of touch Old Republican. \n"
+            "description": "It's time to roll out the ad campaign. Let's go after our opponent for being a relic of the past. We’ll leverage our appeal with the younger crowd and paint him as a disconnected, out-of-touch old Republican."
         }
     },
     {
@@ -791,7 +791,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3482,
         "fields": {
             "question": 389,
-            "description": "Where do I even begin with frail old Bob Dole? He’s an absolute clown and the Republicans should be embarrassed for picking him. "
+            "description": "Where do I even begin with old Bob Dole? He’s out of touch, and frankly, it's a bit of a joke that the Republicans picked him as their candidate. They should be embarrassed by that choice. "
         }
     },
     {
@@ -799,7 +799,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3483,
         "fields": {
             "question": 389,
-            "description": "Alright, let's be the bigger person here. There will be no mudslinging between opponents, instead we will debate important topics that affect the American people. I will treat my opponent with respect and dignity. \n"
+            "description": "Alright, let’s take the high road here. No mudslinging, no low blows. We’ll focus on the real issues that matter to the American people. I’ll treat my opponent with the respect and dignity he deserves, even if we don’t agree on everything."
         }
     },
     {
@@ -1223,7 +1223,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12636,
         "fields": {
             "question": 364,
-            "description": "Every single Yugoslav War Criminal should be found and prosecuted. If Serbia refuses our demands, I will continue this war for as long as I need. \n"
+            "description": "Every single Yugoslav war criminal must be found and held accountable. If Serbia refuses to meet our demands, I’ll continue this fight for as long as it takes. We will not back down."
         }
     },
     {
@@ -1231,7 +1231,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12685,
         "fields": {
             "question": 389,
-            "description": "We will use a mixture of ads attacking Dole’s character and some ads promoting our policies. I will put Hillary in charge of my PR team. \n"
+            "description": "We’re going to take a two-pronged approach here, ads that highlight Dole’s character flaws and others that emphasize our accomplishments. I’m putting Hillary in charge of the PR team, she’s the one who can really make this work."
         }
     }
 ]
@@ -7071,7 +7071,17 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3388,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.02
+            "global_multiplier": -0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1225,
+        "fields": {
+            "answer": 3388,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.008
         }
     },
     {
@@ -10284,7 +10294,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3481,
             "candidate": 77,
-            "answer_feedback": "The only thing you and Gingrich agree on is your hatred for Bob Dole. Be prepared for a fragmented Republican Party this fall. \n"
+            "answer_feedback": "The only thing you and Gingrich agree on is your disdain for Old Man Bob Dole. Get ready for a divided Republican Party this fall."
         }
     },
     {
@@ -10293,7 +10303,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3482,
             "candidate": 77,
-            "answer_feedback": "Quite a harsh comment on your opponent. You will definitely be getting some negative attention for this ‘gaffe’\n"
+            "answer_feedback": "That was a harsh comment about your opponent. Expect some negative attention for this ''gaffe.''"
         }
     },
     {
@@ -10320,7 +10330,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3382,
             "candidate": 77,
-            "answer_feedback": "Many in your camp were worried about possible hit back from the public, after all, you were a draft dodger. But luckily it went ahead without opposition from the public.\n"
+            "answer_feedback": "Many in your camp feared backlash from the public, especially given your past as a draft dodger. But fortunately, it went forward without any significant opposition."
         }
     },
     {
@@ -10329,7 +10339,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3389,
             "candidate": 77,
-            "answer_feedback": "Both sides act cool but deep down they both want to take each other's guts out. \n"
+            "answer_feedback": "Both sides play it cool, but deep down, they’re both eager to tear each other apart."
         }
     },
     {
@@ -10338,7 +10348,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3388,
             "candidate": 77,
-            "answer_feedback": "America is tired to say the least. It seems they haven't been able to catch a break since World War 2. The people are happy with this response but Hawks and Neoliberals are not. \n"
+            "answer_feedback": "America is weary, to say the least. It feels like they haven’t had a break since World War II. The public is generally happy with this response, but most Republicans and hawks around the capital are NOT."
         }
     },
     {
