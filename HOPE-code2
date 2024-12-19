@@ -200,7 +200,7 @@ campaignTrail_temp.questions_json = [
         "pk": 357,
         "fields": {
             "priority": 3,
-            "description": "Mr. President, we need to start mapping out the re-election strategy. I’m confident we’ll win, but you can never be too sure, things can shift quickly. We don’t want to end up like Dewey and get blindsided... Wait, what are you looking at? ",
+            "description": "You're behind the resolute desk, the weight of your office pressing down, as staff and the Vice President gather. ''Mr. President," one says, ''we need to map out the re-election strategy. I’m confident we’ll win, but things shift fast. We don’t want to end up like Dewey—blindsided... Wait, what are you looking at?'' The room falls silent, all eyes on you as your focus drifts for a moment. ",
             "likelihood": 1
         }
     },
