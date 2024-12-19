@@ -5117,7 +5117,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 77,
             "state": 215,
-            "state_multiplier": 0.87987654321
+            "state_multiplier": 0.88987654321
         }
     },
     {
@@ -5144,7 +5144,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 77,
             "state": 218,
-            "state_multiplier": 0.9995995
+            "state_multiplier": 1.0995995
         }
     },
     {
@@ -5576,7 +5576,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 78,
             "state": 215,
-            "state_multiplier": 0.985
+            "state_multiplier": 0.975
         }
     },
     {
@@ -5603,7 +5603,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 78,
             "state": 218,
-            "state_multiplier": 0.98996
+            "state_multiplier": 0.97996
         }
     },
     {
@@ -8848,6 +8848,17 @@ campaignTrail_temp.answer_score_state_json = [
         "pk": 12299,
         "fields": {
             "answer": 3317,
+            "state": 206,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "state_multiplier": -0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12299,
+        "fields": {
+            "answer": 3317,
             "state": 213,
             "candidate": 77,
             "affected_candidate": 78,
@@ -8984,6 +8995,17 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 77,
             "affected_candidate": 77,
             "state_multiplier": 0.05113634
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12299,
+        "fields": {
+            "answer": 3317,
+            "state": 187,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "state_multiplier": -0.02513634
         }
     },
     {
