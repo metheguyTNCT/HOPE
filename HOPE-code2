@@ -173,7 +173,7 @@ campaignTrail_temp.questions_json = [
         "pk": 360,
         "fields": {
             "priority": 3,
-            "description": "Tomorrow, the Senate will vote on the increasingly polarizating Balanced Budget Amendment. I know from my time as a Political Scientist that you can't really win on this issue. I recommend rally up support from Democrats in Congress as they appear to be acting a bit suspicious. \n",
+            "description": "Tomorrow, the Senate will vote on the increasingly polarizing Balanced Budget Amendment. You can't really win on this issue, as liberal Democrats in Congress are growing more and more negative towards you, and Republicans simply refuse to play ball with you. What's your strategy here? ",
             "likelihood": 1
         }
     },
@@ -182,7 +182,7 @@ campaignTrail_temp.questions_json = [
         "pk": 372,
         "fields": {
             "priority": 3,
-            "description": "Mr President, on the Second Anniversary of the end of the Siege of Waco, The Alfred P. Murrah Federal Building In Oklahoma City has been hit by a truck that housed a homemade bomb. What is your response to this tragedy? \n",
+            "description": "Mr. President, on the second anniversary of the end of the Siege of Waco, the Alfred P. Murrah Federal Building in Oklahoma City has been attacked by a truck bomb, and the 24/7 news coverage is escalating rapidly, and aggressively. What is your response to this tragedy?",
             "likelihood": 1
         }
     },
@@ -191,7 +191,7 @@ campaignTrail_temp.questions_json = [
         "pk": 355,
         "fields": {
             "priority": 3,
-            "description": "With Republicans ascendant, Gingrich's House has passed a set of spending and tax cuts, including Medicare reductions — and seems fully willing to shutdown the federal government, if Newt doesn't have his way. What will you do?",
+            "description": "With Republicans confident, and in power, Gingrich's House has passed a set of spending cuts and tax reductions, including cuts to Medicare - and they seem fully prepared to shut down the federal government if Newt doesn't get his way. How will you respond? ",
             "likelihood": 1
         }
     },
@@ -200,7 +200,7 @@ campaignTrail_temp.questions_json = [
         "pk": 357,
         "fields": {
             "priority": 3,
-            "description": "Hey Bill. We gotta map out this re-election plan. Even though I'm pretty certain we'll win, you never know. We could always end up like Dewey and completely screw-wait what are you looking at?",
+            "description": "Mr. President, we need to start mapping out the re-election strategy. I’m confident we’ll win, but you can never be too sure, things can shift quickly. We don’t want to end up like Dewey and get blindsided... Wait, what are you looking at? ",
             "likelihood": 1
         }
     },
@@ -209,7 +209,7 @@ campaignTrail_temp.questions_json = [
         "pk": 364,
         "fields": {
             "priority": 3,
-            "description": "You find yourself with a choice. A choice to end years of war in the Balkans with Serbia, Croatia and Bosnia. A choice to continue this war until the very last breath is heard upon the battlefield. You find yourself gripping the pen as it reaches the paper; then, you drop it. This cycle repeats over and over again as time slowly passes by. It's getting late now, please may you sign the Bill. \n",
+            "description": "You find yourself facing a difficult choice: to end years of war in the Balkans, with Serbia, Croatia, and Bosnia, or to continue the conflict until the last breath is drawn on the battlefield. As you grip the pen, ready to sign, you hesitate. You drop it. This cycle repeats, and time continues to slip by. It's getting late now. Please, sign the bill.",
             "likelihood": 1
         }
     },
@@ -218,7 +218,7 @@ campaignTrail_temp.questions_json = [
         "pk": 389,
         "fields": {
             "priority": 3,
-            "description": "The Grand Reveal, the moment we’ve all been waiting for…  The Republican National Convention. You’ve been way too busy working your butt off as President to keep track of who was in the lead. Last time you checked, Steve Forbes was winning by a lot. You see a familiar face take the stage, a face that you didn't expect to see. A face of a very old, tired and grumpy man. ",
+            "description": "The moment we've all been waiting for, the Grand Reveal at the Republican National Convention. You've been so focused on your duties as President that you haven’t kept track of the race. The last time you checked, Steve Forbes was leading by a wide margin. But now, you see a familiar face take the stage-one you didn’t expect to see. It’s the face of an old, tired, and grumpy man. ",
             "likelihood": 1
         }
     },
@@ -575,7 +575,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3374,
         "fields": {
             "question": 360,
-            "description": "You’re right, I will call Ted Kennedy, Bennett Johnson, Joe Biden, Bob Graham and Patty Murray and persuade them to vote against the Amendment. "
+            "description": "You're right. I’ll reach out to Ted Kennedy, Bennett Johnson, Joe Biden, Bob Graham, and Patty Murray. I’ll work to persuade them to stand firm and vote against the Amendment. We need to make sure we’re doing what’s best for the people. "
         }
     },
     {
@@ -583,7 +583,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3375,
         "fields": {
             "question": 360,
-            "description": "You are absolutely right, I will call the Maverick, who notoriously goes out of Republican Party line, maybe he can even convince other Republicans to join him. "
+            "description": "You're absolutely right. I’ll give the Maverick a call. He’s never been one to toe the party line, and maybe, just maybe, he can help bring some of the others along with him. It’s worth a shot. "
         }
     },
     {
@@ -1199,7 +1199,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12596,
         "fields": {
             "question": 360,
-            "description": "I will deliver a speech in front of the US Capitol Building. I will call for Democrats of both Chambers to unite against this Bill. Um… it will destroy our chance of being able to finally end poverty. In fact, I propose that next year’s budget will see a huge increase in in Welfare for the most disadvantaged people of our nation. \n"
+            "description": "I’ll deliver a speech in front of the Capitol. I’ll call on Democrats from both Chambers to stand together against this bill. It could set back our progress on ending poverty for years to come. In fact, I’m proposing that next year’s budget includes a significant increase in welfare for our nation’s most disadvantaged. We’ve come too far to let this slip through our fingers."
         }
     },
     {
@@ -7576,6 +7576,16 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 12586,
+        "fields": {
+            "answer": 3425,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 12587,
         "fields": {
             "answer": 3425,
@@ -9539,7 +9549,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3365,
             "candidate": 77,
-            "answer_feedback": "Hi, Mr President. I'm Monica” you were instantly charmed. You couldn't stop looking at her. Sure, she wouldn't be the first, but there was something different this time. As soon as you knew it, she and you were in the most intimate act possible. It felt so good, but so wrong.\n"
+            "answer_feedback": "''Hi, Mr. President. I'm Monica Lewinsky.'' Her voice was confident, almost daring. ''I know who you are,'' you replied with a grin, locking eyes for just a moment too long. Before you knew it, you were alone, together in a moment so reckless, so consuming, it felt too good to question, but the shadow, and guilt of it stayed."
         }
     },
     {
@@ -9548,7 +9558,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3374,
             "candidate": 77,
-            "answer_feedback": "Great, you encouraged only the most loyal Democrats to vote against the Amendment, instead of people who could actually change the fate of the Amendment. You only realize your mistake when you are at the table filling in your signature for the bill. "
+            "answer_feedback": "Great, you encouraged only the most loyal Democrats to vote against the amendment, rather than reaching out to those who could truly influence its outcome. It’s only when you’re sitting at the table, preparing to sign the bill, that you realize the gravity of your mistake."
         }
     },
     {
@@ -9557,7 +9567,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3375,
             "candidate": 77,
-            "answer_feedback": "John McCain agreed to vote nay for the Balanced Budget amendment. Unfortunately, the Bill narrowly managed to pass but several Democrats have threatened to filibuster the bill. The future of the bill is still uncertain. \n"
+            "answer_feedback": "John McCain has agreed to vote ''nay'' on the Balanced Budget amendment. Unfortunately, the bill narrowly passed, but several Democrats have now threatened to filibuster. The future of the bill remains uncertain."
         }
     },
     {
@@ -9566,7 +9576,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3381,
             "candidate": 77,
-            "answer_feedback": "While he watches the footage, he is informed that this is live footage. It’s not, but in that panic-inducing knowledge, he capitulates to the most favorable term he can get. Living the rest of his days peacefully in Panama with three properties to his name.\n"
+            "answer_feedback": "While watching the footage, he is told that it's live. Though it's not, the panic of the moment overwhelms him, and he reluctantly agrees to the most favorable terms he can get. He spends the rest of his days peacefully in Panama, with three properties to his name. "
         }
     },
     {
@@ -9575,7 +9585,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3393,
             "candidate": 77,
-            "answer_feedback": "The “Grand Old Party” attempts to unify against you, but even they see how bad the deficit is. Your budget plans passes with a decent \nmajority in both houses. The deficit will begin to go down, but it was a largely uneventful affair."
+            "answer_feedback": "The Grand Old Party tries to unite against you, but even they can't ignore the severity of the deficit. Your budget plan passes with a solid majority in both houses. While the deficit begins to shrink, the entire process remains largely uneventful."
         }
     },
     {
@@ -9584,7 +9594,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3394,
             "candidate": 77,
-            "answer_feedback": "Your budget passes, albeit with closer margins than you would have liked. You ran on a balanced budget, and the people see this as a \nflip flop."
+            "answer_feedback": "Your budget passes, though with closer margins than you'd hoped. You campaigned on a balanced budget, and now the public sees this as a flip-flop."
         }
     },
     {
@@ -9602,7 +9612,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3396,
             "candidate": 77,
-            "answer_feedback": "The Omnibus Budget Reconciliation act of 1993 faces heavy opposition from Republicans, who oppose any tax increase. Some \nDemocrats are upset with the cuts, and the bill narrowly passes after Gore casts a tie breaking vote, with the hardliners of both parties \nfirmly against."
+            "answer_feedback": "The Omnibus Budget Reconciliation Act of 1993 faces strong opposition from Republicans, who are firmly against any tax increases. Some Democrats are unhappy with the cuts, and the bill narrowly passes after Gore casts the tie-breaking vote, with hardliners from both parties firmly opposed."
         }
     },
     {
@@ -9656,7 +9666,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3425,
             "candidate": 77,
-            "answer_feedback": "“Woah, 100 Billion.. that's a lot!” That was the reaction of Millions of Americans as you announced this. It also doesn't help that Ross Perot and the Anti NAFTA Protesters are pumping out ads that are attacking your position on Trade.\n"
+            "answer_feedback": "''Whoa, 100 billion... that’s a lot!'' That was the reaction of millions of Americans when you made the announcement. It doesn’t help that Ross Perot and the anti-NAFTA protesters are running ads attacking your position on trade."
         }
     },
     {
@@ -9665,7 +9675,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3426,
             "candidate": 77,
-            "answer_feedback": "This is a pretty reasonable amount for a time like this but, remember NAFTA isn't the most popular thing right now. \n"
+            "answer_feedback": "This is a reasonable amount for a situation like this, but remember, NAFTA isn't exactly the most unifying, or popular part of your presidency."
         }
     },
     {
@@ -9764,7 +9774,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3483,
             "candidate": 77,
-            "answer_feedback": "This is a fine answer that appeases Moderates and people that don't vote based on character. The growing Liberal Coalition forming is furious. You really don't care because what are they gonna do? Vote Dole? Please. \n"
+            "answer_feedback": "This is a solid answer that satisfies moderates and those who don't vote based on character. The growing liberal coalition is furious, but frankly, you don't care, what are they gonna do, vote for Old Man Dole? Please."
         }
     },
     {
@@ -9773,7 +9783,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3383,
             "candidate": 77,
-            "answer_feedback": "It was too good to go anywhere, Kim Jong Il, like his father before him, decries you trying to trick him into disarming the nation. In response you order the continuation of the joint US-South Korean military exercise Team Spirit.\n"
+            "answer_feedback": "It was too good to last. Kim Jong Il, like his father before him, accuses you of trying to trick him into disarming the nation. In response, you order the continuation of the joint US-South Korean military exercise, Team Spirit."
         }
     },
     {
@@ -9953,7 +9963,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12334,
             "candidate": 77,
-            "answer_feedback": "\n No one is going to take out 3 hours of their day to read policy unless they get paid. And to those uninformed \nwho do read it, it looks like you approve of this plan! To put it bluntly, This strategy backfires badly. The GOP \nhave won the argument."
+            "answer_feedback": "No one’s going to spend three hours reading policy unless they're being paid for it. And for those who do read it, it looks like you’re endorsing this plan. To put it bluntly, this strategy backfires badly. The GOP has won the argument."
         }
     },
     {
@@ -10043,7 +10053,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12379,
             "candidate": 77,
-            "answer_feedback": "Trade Investment deals, improved energy productivity, and even an international space station are all hammered out in talks. Before \nyou fly home you both depart with a playful kiss cheek to cheek."
+            "answer_feedback": "Trade investment deals, improved energy productivity, and even an international space station are all finalized in the talks. Before you fly home, you both share a playful kiss, cheek to cheek."
         }
     },
     {
@@ -10052,7 +10062,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12383,
             "candidate": 77,
-            "answer_feedback": "You’re way ahead of the curve here Willy. Boris is completely offended by what you’re implying, and boots you and the other powers \nout of russia, bringing negotiations back to square one. Way to squander a friendship."
+            "answer_feedback": "You're ahead of the curve here, Big Dog. Boris is deeply offended by what you're implying and kicks you and the other powers out of Russia, setting the negotiations back to square one. Great job ruining a friendship."
         }
     },
     {
@@ -10061,7 +10071,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12404,
             "candidate": 77,
-            "answer_feedback": "This is a good, stabilizing deal that satisfies everyone involved. Although you do face GOP criticism as to how \nwe’ll know Russia kept their missiles detargeted, you know that Boris wouldn’t lie to you… Right?"
+            "answer_feedback": "This is a solid, stabilizing deal that satisfies everyone involved. While you face GOP criticism about how we'll verify that Russia kept their missiles detargeted, you trust that Boris wouldn't lie to you... right?"
         }
     },
     {
@@ -10079,7 +10089,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12412,
             "candidate": 77,
-            "answer_feedback": "Trade Investment deals, improved energy productivity, and even an international space station are all hammered out in talks. Before \nyou fly home you both depart with a playful kiss cheek to cheek."
+            "answer_feedback": "Trade investment deals, improved energy productivity, and even an international space station are all finalized in the talks. Before you fly home, you both share a playful kiss, cheek to cheek."
         }
     },
     {
@@ -10088,7 +10098,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12416,
             "candidate": 77,
-            "answer_feedback": "You’re way ahead of the curve here Willy. Boris is completely offended by what you’re implying, and boots you and the other powers \nout of russia, bringing negotiations back to square one. Way to squander a friendship."
+            "answer_feedback": "You're way ahead of the curve here, Big Dog. Boris is deeply offended by what you're implying and kicks you and the others out of Russia, setting negotiations back to square one. Nice job squandering a friendship.."
         }
     },
     {
@@ -10097,7 +10107,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12425,
             "candidate": 77,
-            "answer_feedback": "The staff agree to a massive humanitarian aid campaign with military escorts to prevent potential raiders. Though this doesn’t end the genocide, it saves many, many lives that could have been lost to it.\n"
+            "answer_feedback": "The staff agrees to a large-scale humanitarian aid campaign with military escorts to prevent potential raiders. While this doesn't stop the genocide, it saves many lives that would have otherwise been lost. Good job, sir."
         }
     },
     {
@@ -10268,7 +10278,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12596,
             "candidate": 77,
-            "answer_feedback": "What a sight to see! The cheers, the celebrations, the excitement. It was just wonderful. You can help but smile after hearing that the Bill failed. "
+            "answer_feedback": "What a sight to see! The cheers, the celebrations, the excitement. It was just wonderful. You can't help but smile, squeezing Hillary's hand as you hear that the bill failed."
         }
     },
     {
@@ -10277,7 +10287,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12610,
             "candidate": 77,
-            "answer_feedback": "The government shuts down, of course, for almost two months. The Republicans see an enormous hit in their popularity, but your numbers have also decreased slightly. And this certainly can't be good for passing bills later on."
+            "answer_feedback": "The government shuts down for nearly two months. The Republicans take a significant hit to their popularity, but your numbers also dip slightly. This certainly doesn't bode well for passing bills down the line."
         }
     },
     {
@@ -10286,7 +10296,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12631,
             "candidate": 77,
-            "answer_feedback": "You knew you'd make a move, but you didn't expect her to be interested too. Next thing you know, she’s using your cigars as, let's say a toy, and she relieves stress every time you need her to. Sure, you know it's wrong, but screw Hillary, right?\n"
+            "answer_feedback": "You knew you'd make a move, but you didn’t expect her to be so eager. Next thing you know, she’s taking your cigar, and ... She was always there to help you unwind, every time you needed her. Sure, you knew it was wrong, but in the moment, nothing else mattered. Screw Hillary, right? "
         }
     },
     {
