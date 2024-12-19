@@ -567,7 +567,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3365,
         "fields": {
             "question": 357,
-            "description": "Uh, nothing. You know how it is. Say, Al, could you take over this meeting? I just realized I’ve got a few calls scheduled in about five minutes, and I need to take them."
+            "description": "Uh, nothing. Say, Al, could you leave the room for a second? I'm, uh, getting a call from Boris Yeltsin.\n"
         }
     },
     {
@@ -1215,7 +1215,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12631,
         "fields": {
             "question": 357,
-            "description": "Uh, nothing... just something Hillary said to me this morning... You know how it is. Do you think we could take five? Al, you mind taking this over for a bit?"
+            "description": "Uh, nothing. You know, I've always loved my wife, and I'm sure you do too. Why don't you get Tipper to know Hillary better? I'm sure they'd be great friends.\n"
         }
     },
     {
