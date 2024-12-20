@@ -224,6 +224,15 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
+        "pk": 1257411,
+        "fields": {
+            "priority": 0,
+            "description": "After months of negotiations with Congressional Democrats and Republicans on welfare reform, the moment of decision has arrived. During your 1992 campaign, you promised to ''end welfare as we know it,'' and the GOP is holding you to that pledge. You’ve vetoed two previous welfare bills, but on this latest one, you’ve worked with Newt Gingrich to craft something more reasonable. Now, the ''Personal Responsibility and Work Opportunity Act of 1996'' sits on your desk, awaiting your signature. What’s your decision?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
         "pk": 12726,
         "fields": {
             "priority": 0,
@@ -372,15 +381,6 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 0,
             "description": "Jesus, it was a massacre against all things holy. The Republican Party didn’t just sweep Congress, they got Oliver North to beat Chuck Robb in Virginia. How do we even begin to respond to that?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 1257411,
-        "fields": {
-            "priority": 0,
-            "description": "After months of negotiations with Congressional Democrats and Republicans on welfare reform, the moment of decision has arrived. During your 1992 campaign, you promised to ''end welfare as we know it,'' and the GOP is holding you to that pledge. You’ve vetoed two previous welfare bills, but on this latest one, you’ve worked with Newt Gingrich to craft something more reasonable. Now, the ''Personal Responsibility and Work Opportunity Act of 1996'' sits on your desk, awaiting your signature. What’s your decision?",
             "likelihood": 1
         }
     },
