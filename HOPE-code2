@@ -8911,7 +8911,18 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 189,
             "candidate": 77,
             "affected_candidate": 78,
-            "state_multiplier": 0.017
+            "state_multiplier": -0.031
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12299,
+        "fields": {
+            "answer": 3317,
+            "state": 189,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "state_multiplier": 0.015
         }
     },
     {
