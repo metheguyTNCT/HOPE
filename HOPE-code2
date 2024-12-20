@@ -7914,6 +7914,66 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 12669,
+        "fields": {
+            "answer": 3365,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.0093
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12669,
+        "fields": {
+            "answer": 12631,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.0093
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12669,
+        "fields": {
+            "answer": 3365,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.00315
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12669,
+        "fields": {
+            "answer": 12631,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.00315
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12669,
+        "fields": {
+            "answer": 3365,
+            "candidate": 77,
+            "affected_candidate": 80,
+            "global_multiplier": -0.057137
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12669,
+        "fields": {
+            "answer": 12631,
+            "candidate": 77,
+            "affected_candidate": 80,
+            "global_multiplier": -0.057137
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 12670,
         "fields": {
             "answer": 3317,
@@ -10911,7 +10971,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12631,
             "candidate": 77,
-            "answer_feedback": "You knew you'd make a move, but you didn’t expect her to be so eager. Next thing you know, she’s taking your cigar, and ... She was always there to help you unwind, every time you needed her. Sure, you knew it was wrong, but in the moment, nothing else mattered. Screw Hillary, right? "
+            "answer_feedback": "You call your secretary, and the young Monica Lewinsky walks in. You expected something to happen, but didn’t expect her eagerness. Before long, she’s taking your cigar, and... doing things you’ll never have to explain. She was always there when you needed to unwind, and in that moment, nothing else mattered.."
         }
     },
     {
