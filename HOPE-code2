@@ -5108,7 +5108,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 77,
             "state": 202,
-            "state_multiplier": 0.989
+            "state_multiplier": 0.9951
         }
     },
     {
@@ -6849,7 +6849,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3317,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.0285
+            "global_multiplier": 0.0299
         }
     },
     {
