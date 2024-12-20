@@ -660,7 +660,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3388,
         "fields": {
             "question": 364,
-            "description": "This war has dragged on far too long. What began as a straightforward demonstration of American strength against communism has now become a brutal conflict, a tragic quagmire that continues to claim the lives of our soldiers."
+            "description": "This war has dragged on far too long. What began as a straightforward demonstration of American strength against communism has now become a brutal conflict, a tragic quagmire that continues to claim the lives of our soldiers. Of course I'll sign it."
         }
     },
     {
@@ -7059,6 +7059,16 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 1225,
+        "fields": {
+            "answer": 3388,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 1231,
         "fields": {
             "answer": 3311,
@@ -10700,7 +10710,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3388,
             "candidate": 77,
-            "answer_feedback": "America is weary, to say the least. It feels like they haven’t had a break since World War II. The public is generally happy with this response, but most Republicans and hawks around the capital are NOT."
+            "answer_feedback": "America is weary, to say the least. It feels like they haven’t had a break since World War II. The public is generally happy with this response, but many hawks are not. "
         }
     },
     {
