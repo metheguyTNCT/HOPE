@@ -1228,7 +1228,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12697,
         "fields": {
             "question": 12696,
-            "description": "It's time to roll out the ad campaign. Let's go after our opponent for being a relic of the past. We’ll leverage our appeal with the younger crowd and paint him as a disconnected, out-of-touch old Republican."
+            "description": "It's time to roll out the ad campaign. Let's go after our opponent for being a relic of the past. We’ll rely on our appeal with the younger crowd and paint him as simply, a disconnected, out-of-touch old Republican."
         }
     },
     {
@@ -1236,7 +1236,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12702,
         "fields": {
             "question": 12696,
-            "description": "Where do I even start with Bob Dole? The man’s a relic, a shadow of what the party needs. Frankly, the Republicans should be ashamed of themselves for picking him. He’s a clown, and everyone knows it."
+            "description": "Where do I even start with Bob Dole? The man’s a relic, a shadow of what the party needs. Frankly, the Republicans should be ashamed of themselves for picking him. I think our campaign would be well served if we talk more about our accomplishments, and less about the GOP spin-machine.
         }
     },
     {
@@ -1244,7 +1244,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12707,
         "fields": {
             "question": 12696,
-            "description": "Alright, let’s take the high road here. No mudslinging, no low blows. We’ll focus on the real issues that matter to the American people. I’ll treat my opponent with the respect and dignity he deserves, even if we don’t agree on everything."
+            "description": "Alright, let’s take the high road here. No mudslinging or no low blows. We’ll focus on the real issues that matter to the American people. I’ll treat my opponent with the respect and dignity he deserves, even if we don’t agree on everything. Look at the polls, anyway, we don't need to go crazy.  "
         }
     },
     {
