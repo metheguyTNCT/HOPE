@@ -612,7 +612,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3365,
         "fields": {
             "question": 357,
-            "description": "Uh, nothing. You know how it is. Say, Al, could you take over this meeting? I just realized I’ve got a few calls scheduled in about five minutes, and I need to take them."
+            "description": "Uh, nothing... Al? Do you think you could take over the meeting?... Outside the Oval? I just realized I’ve got a few calls scheduled in about five minutes, and I need to take them."
         }
     },
     {
