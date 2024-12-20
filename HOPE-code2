@@ -12270,7 +12270,7 @@ question_insert(12726,
                     question_insert(12726, 
         {
                     "model": "campaign_trail.question",
-        "pk": 12809,
+        "pk": 12744,
         "fields": {
             "priority": -2,
             "description": "Mr. President, it's one week before the debate. You've been swamped with work, and now you're down to the wire with little time to dive into the key issues. Will you cut your losses and wing it, or will you use every minute you have left to study as much as you can?",
