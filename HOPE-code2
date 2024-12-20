@@ -1276,7 +1276,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12727,
         "fields": {
             "question": 12726,
-            "description": "You bet. We are going to bomb the shit out of Iraq; there is no way we can let Saddam get away with this. You have my full authorization to conduct decisive, targeted strikes, focused, strategic, and deep enough to send an unmistakable message: the United States does not tolerate aggression or threats to peace. \n"
+            "description": "You bet. We are going to bomb the shit out of Iraq, we cannot let Saddam get away with this. You have my full authorization to conduct decisive, targeted strikes, focused, strategic, and deep enough to send an unmistakable message: the United States does not tolerate threats to global peace. \n"
         }
     },
     {
@@ -1292,7 +1292,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12729,
         "fields": {
             "question": 12726,
-            "description": "You bet. We are going to bomb the shit out of Iraq, there is no way we can let Saddam get away with this. You have my full authorization to carry out decisive military strikes, targeting Baghdad and other key locations. The United States and its allies will not stand by in the face of this kind of aggression."
+            "description": "You bet. We are going to bomb the shit out of Iraq, we cannot let Saddam get away with this. You have my full authorization to carry out decisive military strikes, targeting Baghdad and other key areas. The United States and its allies will not stand by and let this happen."
         }
     },
     {
