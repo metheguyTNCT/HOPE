@@ -706,15 +706,19 @@ var soundtracks = {
    tracklist: [
      {
        "name": "Fleetwood Mac - Don't Stop",
-       "url": "https://audio.jukehost.co.uk/wKLKcLZd42ooqB6iQB6W2o1bBFTnEOQj"
+       "url": "https://audio.jukehost.co.uk/TmLgh4fOUUg0XL5ld4SABZc0DlUOsp36"
      },
      {
        "name": "Elvis Presley - Don't Be Cruel",
-       "url": "https://audio.jukehost.co.uk/VnlBv4zpWRCZV2vNW1sa9q5ls8ch2PGA"
+       "url": "https://audio.jukehost.co.uk/Mbyk6rgFB5gG7AqAklyPX2LCX1XZZn76"
      },
      {
        "name": "Paul Desmond - Take Five",
        "url": "https://audio.jukehost.co.uk/Iyw0AOUb34dJQugmqoBMdr4ISxxtW6e5"
+     },
+     {
+       "name": "Stevie Wonder - For Once In My Life ",
+       "url": "https://audio.jukehost.co.uk/JJZCEsKd9jgmEsE4N11eAE0OGcpJESFn"
      },
      {
        "name": "Fleetwood Mac - You Make Loving Fun",
