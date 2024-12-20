@@ -218,7 +218,7 @@ campaignTrail_temp.questions_json = [
         "pk": 389,
         "fields": {
             "priority": 3,
-            "description": "Let's turn the page back to 1994 when you were asked what was your position on Don't Ask Don't Tell. Now the issue of same-sex marriage returns. This time it's the so-called ‘Defense of Marriage Act’. Most in your own party are begging for you to support this act. Opposing it will definitely help with Liberals but that comes at the cost of becoming unappealing to the Average American. \n",
+            "description": "Let’s rewind to 1994, when you were asked about your position on Don't Ask, Don't Tell. Now, the issue of same-sex marriage is back, this time with the ''Defense of Marriage Act.'' Many in your own party are urging you to support it. Opposing the act would win you support from liberals, but it could cost you the appeal of the Average American.",
             "likelihood": 1
         }
     },
@@ -227,7 +227,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12726,
         "fields": {
             "priority": 0,
-            "description": "Iraq, led by Saddam Hussein, has launched offensives against Kurdish forces in Northern Iraq, intensifying the ongoing civil war, and violating no-fly zones. In response, some Senators, cabinet officials, and some in the military brass have suggested retaliatory air strikes against Iraq. What do you say, Mr President?\n",
+            "description": "Iraq, under Saddam Hussein, has escalated military aggression against Kurdish forces in Northern Iraq, violating no-fly zone agreements. Some Senators, cabinet officials, and military leaders are calling for airstrikes to enforce the zones and prevent further violations. What's your response, Mr. President?",
             "likelihood": 1
         }
     },
@@ -236,7 +236,7 @@ campaignTrail_temp.questions_json = [
         "pk": 381,
         "fields": {
             "priority": -1,
-            "description": "It's now the morning of November 4th 1996, think about how far you have come since the election of 1992, now you running for reelection, the same position that your opponent in 1992 was in when they lost to you. Of course, you were far ahead in the polls but so was Bush in ‘92. On that note, what will be your final message to the American people as we they get ready to vote tomorrow? \n",
+            "description": "It's the morning of November 4th, 1996. Look how far you've come since 1992, now running for re-election in the same position your opponent was in when they lost to you. You're ahead in the polls, but then again, so was Bush in '92. With that in mind, what will be your final message to the American people as they head to the polls tomorrow?",
             "likelihood": 1
         }
     },
@@ -272,7 +272,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12331,
         "fields": {
             "priority": 2,
-            "description": "The doctor’s finally brought their plan to the public, and it’s a goddamn mess. Gore is scratching his \nhead, Hillary can't understand what they've come up with, and Reich? Well, he was always angry with the doctors from the beginning, but \nnow he’s furious. Any REAL healthcare expert can see this plan looks like something out of a coloring book with GOP flare and a sprinkle \nof big pharma concessions. Many in your party have already disavowed the plan, the Republicans on the other hand, have completely \nendorsed it. You understand why. Those sons of bitches are trying to turn the narrative against you, they think they’re slick huh? Well, no \none out slick’s Slick Willy.",
+            "description": "The doctors have finally unveiled their healthcare plan, and it’s a complete disaster. Gore is scratching his head, Hillary can’t make sense of it, and Reich, who’s been critical from the start, is now outright furious. Any credible healthcare expert can see this plan is a chaotic mix of GOP talking points and big pharma giveaways. Many in your party have already disavowed it, while the Republicans have fully embraced it. You know why, they’re trying to turn the narrative against you. But let’s be clear: no one outmaneuvers the Big Dog.",
             "likelihood": 1
         }
     },
@@ -372,6 +372,15 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 0,
             "description": "Jesus, it was a massacre against all things holy. The Republican Party didn’t just sweep Congress, they got Oliver North to beat Chuck Robb in Virginia. How do we even begin to respond to that?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 1257411,
+        "fields": {
+            "priority": 0,
+            "description": "After months of negotiations with Congressional Democrats and Republicans on welfare reform, the moment of decision has arrived. During your 1992 campaign, you promised to ''end welfare as we know it,'' and the GOP is holding you to that pledge. You’ve vetoed two previous welfare bills, but on this latest one, you’ve worked with Newt Gingrich to craft something more reasonable. Now, the ''Personal Responsibility and Work Opportunity Act of 1996'' sits on your desk, awaiting your signature. What’s your decision?",
             "likelihood": 1
         }
     },
@@ -1152,6 +1161,22 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
+        "pk": 125751,
+        "fields": {
+            "question": 1257411,
+            "description": "The bill isn’t perfect, but after all the hard work, the compromises, and the long road we’ve traveled, it’s the best we can do right now. Given the circumstances, I believe it’s time to move forward. I’ll sign it."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 125752,
+        "fields": {
+            "question": 1257411,
+            "description": "They’re going to bitch, and they’re going to keep bitching, but this... this goes too far. My hand’s shaking, and that’s not something I take lightly. I’m not going to sign it."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
         "pk": 12577,
         "fields": {
             "question": 12574,
@@ -1227,7 +1252,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12712,
         "fields": {
             "question": 12711,
-            "description": "It's time to get in front of the American people. We need to defend our many successes and convince Bush voters that the Republican Party is the party of the past. The Democratic Party is the new way forward. \n"
+            "description": "It's time to step in front of the American people. We need to stand tall and defend our record of progress, while inviting those who supported Bush to join us. The Republican Party may represent the past, but the Democratic Party is the way forward, a party for the future, with a vision that unites us all in building a stronger, fairer America."
         }
     },
     {
@@ -1235,7 +1260,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12717,
         "fields": {
             "question": 12711,
-            "description": "I will use Buchanan’s own inflammatory comments against him and watch his campaign implode. \n"
+            "description": "I’ll take Buchanan’s own words and turn them on him, watch his campaign unravel. He doesn’t represent the real struggles, the real pain of our people, of the rednecks, the folks who know what it’s like to come from a community like mine. Pat Buchanan is a bigot, plain and simple. And we’re going to make sure the American people see it for what it is."
         }
     },
     {
@@ -1243,7 +1268,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12722,
         "fields": {
             "question": 12711,
-            "description": "You know what? Two can play at this game. I will deliver a speech in my hometown of Hope, Arkansas and I will call Buchanan “A danger to our nation”.\n"
+            "description": "You know what? Two can play at this game. I’m going to take this right to the heart of it. I’ll deliver a speech in my hometown of Hope, Arkansas, and I’ll call Buchanan exactly what he is, a danger to our nation and everything we stand for, to the American way of life!"
         }
     },
     {
@@ -1251,7 +1276,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12727,
         "fields": {
             "question": 12726,
-            "description": "You bet. We are going to bomb the shit out of Iraq; there is no way we can let Saddam get away with this. You have my full authorization. \n"
+            "description": "You bet. We are going to bomb the shit out of Iraq; there is no way we can let Saddam get away with this. You have my full authorization to conduct decisive, targeted strikes, focused, strategic, and deep enough to send an unmistakable message: the United States does not tolerate aggression or threats to peace. \n"
         }
     },
     {
@@ -1259,7 +1284,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12728,
         "fields": {
             "question": 12726,
-            "description": "Well, you know, obviously we stand opposed to what Saddam has done here, but a military strike… It doesn’t strike me as proportional. Let’s hold off.  \n"
+            "description": "Well, you know, we stand firmly against what Saddam has done, it’s unacceptable and destabilizing, but I’ve got to say, a military strike right now doesn’t feel proportional to the situation. Let’s take a step back, folks. "
         }
     },
     {
@@ -1267,7 +1292,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12729,
         "fields": {
             "question": 12726,
-            "description": "You bet. We are going to bomb the shit out of Iraq, there is no way we can let Saddam get away with this. You have my full authorization to hit Bagdad, and their major population centers. \n"
+            "description": "You bet. We are going to bomb the shit out of Iraq, there is no way we can let Saddam get away with this. You have my full authorization to carry out decisive military strikes, targeting Baghdad and other key locations. The United States and its allies will not stand by in the face of this kind of aggression."
         }
     },
     {
@@ -1275,7 +1300,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12731,
         "fields": {
             "question": 389,
-            "description": "I will follow the Democratic Congressmen in this particular situation. I believe it's very unwise to oppose something that has very little opposition. \n"
+            "description": "I’ll stand with the Democratic Congress on this one. It’s simply unwise to oppose something that has so little opposition. Sometimes, we have to recognize when the tide is moving in the right direction, and in this case, it's clear where we should be."
         }
     },
     {
@@ -1283,7 +1308,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12732,
         "fields": {
             "question": 389,
-            "description": "This is a question that has a very simple answer. I will veto this act as it does not allow people of the same sex to finally be allowed to have marital relations.  America is headed in a new direction and just as hostile as we were of this in the past, we must be receptive of it.\n"
+            "description": "This is a question with a clear answer. I will veto this act, because it denies same-sex couples the right to marry. America is heading in a new direction, and just as we once resisted progress, we must now embrace it. We can no longer stand in the way of fairness and equality for all."
         }
     },
     {
@@ -1291,7 +1316,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12733,
         "fields": {
             "question": 389,
-            "description": "They call me Slick Willy for a reason. I will finesse this issue and try to stall debates on this issue for as long as possible until people forget. \n"
+            "description": "They call me Slick Willy for a reason. I’ll work this issue, take my time with it, and stall the debates as long as I can until the pressure fades and the heat dies down. Sometimes, the best approach is just to wait for the right moment to let things settle."
         }
     },
     {
@@ -4919,7 +4944,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 77,
             "state": 181,
-            "state_multiplier": 0.70925
+            "state_multiplier": 0.69925
         }
     },
     {
@@ -5126,7 +5151,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 77,
             "state": 204,
-            "state_multiplier": 0.80121266
+            "state_multiplier": 0.79121266
         }
     },
     {
@@ -5252,7 +5277,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 77,
             "state": 218,
-            "state_multiplier": 1.0995995
+            "state_multiplier": 1.08395995
         }
     },
     {
@@ -6854,6 +6879,66 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 1122,
+        "fields": {
+            "answer": 125751,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1122,
+        "fields": {
+            "answer": 125751,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1122,
+        "fields": {
+            "answer": 125751,
+            "candidate": 77,
+            "affected_candidate": 80,
+            "global_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1122,
+        "fields": {
+            "answer": 125752,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1122,
+        "fields": {
+            "answer": 125752,
+            "candidate": 77,
+            "affected_candidate": 80,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1122,
+        "fields": {
+            "answer": 125752,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.0075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 1126,
         "fields": {
             "answer": 3322,
@@ -7109,7 +7194,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3494,
             "candidate": 77,
             "affected_candidate": 80,
-            "global_multiplier": -0.0321543265
+            "global_multiplier": -0.0421543265
         }
     },
     {
@@ -7119,7 +7204,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3493,
             "candidate": 77,
             "affected_candidate": 80,
-            "global_multiplier": -0.0321543265
+            "global_multiplier": -0.0421543265
         }
     },
     {
@@ -7129,7 +7214,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12241,
             "candidate": 77,
             "affected_candidate": 80,
-            "global_multiplier": -0.0321543265
+            "global_multiplier": -0.0421543265
         }
     },
     {
@@ -7139,7 +7224,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12245,
             "candidate": 77,
             "affected_candidate": 80,
-            "global_multiplier": -0.032154331675
+            "global_multiplier": -0.042154331675
         }
     },
     {
@@ -7149,7 +7234,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3494,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.05121543265
+            "global_multiplier": 0.06121543265
         }
     },
     {
@@ -7159,7 +7244,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3493,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.05121543265
+            "global_multiplier": 0.06121543265
         }
     },
     {
@@ -7169,7 +7254,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12241,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.05121543265
+            "global_multiplier": 0.06121543265
         }
     },
     {
@@ -7179,7 +7264,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12245,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.0512154331675
+            "global_multiplier": 0.0612154331675
         }
     },
     {
@@ -7936,6 +8021,36 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12669,
         "fields": {
+            "answer": 12810,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.0711666
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12669,
+        "fields": {
+            "answer": 12814,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.0711666
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12669,
+        "fields": {
+            "answer": 12818,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.0711666
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12669,
+        "fields": {
             "answer": 3365,
             "candidate": 77,
             "affected_candidate": 77,
@@ -8229,7 +8344,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12712,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.02
+            "global_multiplier": 0.12
         }
     },
     {
@@ -8259,7 +8374,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12717,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": -0.02
+            "global_multiplier": 0.11
         }
     },
     {
@@ -8389,7 +8504,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12722,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": -0.03
+            "global_multiplier": 0.1
         }
     },
     {
@@ -8653,6 +8768,26 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 29,
             "issue_score": 0.4,
             "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1006,
+        "fields": {
+            "answer": 125751,
+            "issue": 28,
+            "issue_score": -0.05,
+            "issue_importance": 1.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1006,
+        "fields": {
+            "answer": 125752,
+            "issue": 28,
+            "issue_score": 0.15,
+            "issue_importance": 1.1
         }
     },
     {
@@ -10961,6 +11096,24 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
+        "pk": 12576,
+        "fields": {
+            "answer": 125751,
+            "candidate": 77,
+            "answer_feedback": "This will give liberals more ammunition to use against you, but at the end of the day, most people feel that welfare has gone too far in its current form. This bill, which replaces the New Deal-era Aid to Families with Dependent Children (AFDC) program, is fairly moderate and something that most people can stomach."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12576,
+        "fields": {
+            "answer": 125752,
+            "candidate": 77,
+            "answer_feedback": "You've always seen yourself as more liberal than the press or even your own party gives you credit for, and your restraint on this bill proves that. But having Gingrich and Congressional Republicans come to the White House to work on this, only to veto it when the pressure mounted... it's not a great look, sir."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
         "pk": 12578,
         "fields": {
             "answer": 12577,
@@ -11073,7 +11226,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12731,
             "candidate": 77,
-            "answer_feedback": "Smart choice Bill, if you are hoping to appeal to moderates and Conservatives, it's probably wiser to sign this. \n"
+            "answer_feedback": "Smart choice, sir! If you're aiming to appeal to moderates and conservatives, it would likely be wiser to veto this."
         }
     },
     {
@@ -11082,7 +11235,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12732,
             "candidate": 77,
-            "answer_feedback": "With your eyes glued to the screen in the Oval Office, you watch carefully as the television officially declares voting to be over. You aren't able to see clearly, but you hear something along the lines of, ‘I, speaker or the house, hereby declare…  to be vetoed.' It'll almost certainly be overwritten, but you've sent the gay community a sign that they'll never forget.\n"
+            "answer_feedback": "With your eyes fixed on the screen in the Oval Office, you watch closely as the television announces the end of the voting. It's hard to make out the details, but you hear something like, ''I, Speaker of the House, hereby declare... to be vetoed.'' It’s likely to be overridden, but you've sent the LGBT community a message they’ll never forget."
         }
     },
     {
@@ -11091,7 +11244,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12733,
             "candidate": 77,
-            "answer_feedback": "Compromise Clinton, they call you. The master of compromise and by compromise, they mean stalling. \n"
+            "answer_feedback": "Compromise Clinton, they call you. The master of compromise, though by ''compromise,'' they really mean stalling..."
         }
     },
     {
@@ -11100,7 +11253,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12745,
             "candidate": 77,
-            "answer_feedback": "Revising foreign policy only helped you on one question while Dole held a huge lead on the others. I think it is safe to say that you lost this debate. \n"
+            "answer_feedback": "Revising foreign policy helped you on one question, but Dole dominated the others. It's safe to say you lost this debate."
         }
     },
     {
@@ -11109,7 +11262,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12751,
             "candidate": 77,
-            "answer_feedback": "At first, you appeared incredibly exhausted due to the lack of sleep but you defied all expectations by hitting Dole where it hurts. It is safe to say that you have won. \n"
+            "answer_feedback": "At first, you appeared exhausted from lack of sleep, but you defied expectations by hitting Dole where it hurts. It's safe to say you've won."
         }
     },
     {
@@ -11118,7 +11271,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12757,
             "candidate": 77,
-            "answer_feedback": "It doesn't matter if you get that much sleep because Dole actually had time to rehearse what he was going to say while you appeared lost and seemed to lose your flow. \n"
+            "answer_feedback": "The excuse of not getting much sleep the night before doesn’t cut it; Old Man Dole had time to rehearse, while you seemed off balance and lost your flow. And with the polls shifting in his favor, it’s clear things aren’t going your way."
         }
     },
     {
@@ -11127,7 +11280,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12810,
             "candidate": 77,
-            "answer_feedback": "Not with Buchanan. What are you going to do? Out hawk the hawk himself? \n"
+            "answer_feedback": "While you speak confidently about America's resolve to make the world a better place for future generations, Pat Buchanan rants about the U.S. being a ''debtor nation'' and a ''nation in decline.'' What a loon."
         }
     },
     {
@@ -11136,7 +11289,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12814,
             "candidate": 77,
-            "answer_feedback": "Your speech was an absolute success with hundreds of thousands coming to tune in. The part of your speech that really solidified your victory was the part where you mentioned how Buchanan will just bring the country backwards. \n"
+            "answer_feedback": "Your speech was a resounding success, drawing in hundreds of thousands of viewers. The turning point that truly secured your victory was when you emphasized how Buchanan's policies would drag the country backward."
         }
     },
     {
@@ -11145,7 +11298,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12818,
             "candidate": 77,
-            "answer_feedback": "It doesn't matter if you get that much sleep because Buchanan actually had time to rehearse what he was going to say while you appeared lost and seemed to lose your flow. \n"
+            "answer_feedback": "The excuse of not getting much sleep the night before doesn’t cut it; Buchanan had time to rehearse, while you seemed off balance and lost your flow. And with the polls shifting in his favor, it’s clear things aren’t going your way."
         }
     },
     {
@@ -11154,7 +11307,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12727,
             "candidate": 77,
-            "answer_feedback": "The strikes were focused heavily on military targets, and at the end of the day, they don’t serve much purpose, beyond giving Saddam a bit of a scare, and positive press.  "
+            "answer_feedback": "The strikes were aimed primarily at military targets, but in the end, they don't accomplish much, other than scaring Saddam a bit and giving the press something positive to report.  "
         }
     },
     {
@@ -11172,7 +11325,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12729,
             "candidate": 77,
-            "answer_feedback": "Despite your hopes, the press focuses heavily on the civilian impact of your strikes against Iraq, and is all too happy to show the crying faces of hurt children. For fucks sake. \n"
+            "answer_feedback": "Despite your hopes, the press focuses relentlessly on the civilian impact of your strikes against Iraq, eagerly showing the tearful faces of injured children. For fuck's sake."
         }
     }
 ]
@@ -11273,7 +11426,7 @@ cyoAdventure = function(a) {
         "pk": 12331,
         "fields": {
             "priority": 2,
-            "description": "The doctor’s finally brought their plan to the public, and it’s a goddamn mess. Gore is scratching his \nhead, Hillary can't understand what they've come up with, and Reich? Well, he was always angry with the doctors from the beginning, but \nnow he’s furious. Any REAL healthcare expert can see this plan looks like something out of a coloring book with GOP flare and a sprinkle \nof big pharma concessions. Many in your party have already disavowed the plan, the Republicans on the other hand, have completely \nendorsed it. You understand why. Those sons of bitches are trying to turn the narrative against you, they think they’re slick huh? Well, no \none out slick’s Slick Willy.",
+            "description": "The doctors have finally unveiled their healthcare plan, and it’s a complete disaster. Gore is scratching his head, Hillary can’t make sense of it, and Reich, who’s been critical from the start, is now outright furious. Any credible healthcare expert can see this plan is a chaotic mix of GOP talking points and big pharma giveaways. Many in your party have already disavowed it, while the Republicans have fully embraced it. You know why, they’re trying to turn the narrative against you. But let’s be clear: no one outmaneuvers the Big Dog.",
             "likelihood": 1
             }
         }
@@ -12054,7 +12207,7 @@ if (ans == 12636){
                 "pk": 12711,
                 "fields": {
                     "priority": 3,
-                    "description": "After a long stressful day of hard work, I am here to inform you that the Republican National Convention has officially began. A unique face stands in front of the Republican Delegates. The man speaks of a better tomorrow. He calls you out for shutting down Congress and calls you ‘America’s First Dictator’\n",
+                    "description": "After a long, stressful day of hard work, I'm here to inform you that the Republican National Convention has officially begun. A new figure stands before the Republican delegates, speaking of a brighter future. He criticizes you for shutting down Congress, even going so far as to call you ''America's First Dictator.'' ",
                     "likelihood": 1
                 }
                     }
