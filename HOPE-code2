@@ -1308,7 +1308,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12732,
         "fields": {
             "question": 389,
-            "description": "This is a question with a clear answer. I will veto this act, because it denies same-sex couples the right to marry. America is heading in a new direction, and just as we once resisted progress, we must now embrace it. We can no longer stand in the way of fairness and equality for all."
+            "description": "This is an issue we have to fight for. I will veto this act, because it denies same-sex couples the right to marry. America is heading in a new direction, and just as we once resisted progress, we must now embrace it. We can no longer stand in the way of fairness and equality for all."
         }
     },
     {
@@ -8465,6 +8465,16 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 77,
             "affected_candidate": 77,
             "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12739,
+        "fields": {
+            "answer": 12732,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.031
         }
     },
     {
