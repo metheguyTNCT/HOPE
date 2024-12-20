@@ -1300,7 +1300,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12731,
         "fields": {
             "question": 389,
-            "description": "I’ll stand with the Democratic Congress on this one. It’s simply unwise to jump into one of these culture war issues. Sometimes, we have to recognize when the tide is moving against us on these, and not get caught up in it."
+            "description": "This act is divisive, but I stand with the vast majority of Democrats on this issue, marriage is between one man and one woman, and I have always believed that. I'll sign this bill, but we've got a future to build, and we can't afford to get bogged down in these battles of the moment. "
         }
     },
     {
@@ -8459,6 +8459,16 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 12736,
+        "fields": {
+            "answer": 12731,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.007
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 12739,
         "fields": {
             "answer": 12732,
@@ -8484,7 +8494,17 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12733,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": -0.01
+            "global_multiplier": -0.0111
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12742,
+        "fields": {
+            "answer": 12733,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.0133
         }
     },
     {
@@ -11314,7 +11334,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12733,
             "candidate": 77,
-            "answer_feedback": "Compromise Clinton, they call you. The master of compromise, though by ''compromise,'' they really mean stalling..."
+            "answer_feedback": "You manage to stall the bill, at least for now, but many Democrats are left scratching their heads, wondering why you didn't just sign it, especially with your re-election coming up. The majority of Americans still support the traditional definition of marriage."
         }
     },
     {
