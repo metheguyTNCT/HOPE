@@ -1027,7 +1027,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12442,
         "fields": {
             "question": 12441,
-            "description": "I will congratulate Newt Gingrich on his victory and say ‘I am looking forward to working with the new Speaker of the house’.\n"
+            "description": "I'll congratulate Newt Gingrich on his victory, and I’ll say, ''I look forward to working together with the new Speaker of the House.'' It’s time to put our differences aside and work for the American people."
         }
     },
     {
@@ -1035,7 +1035,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12443,
         "fields": {
             "question": 12441,
-            "description": "Fight. There was a fight to end Nazi Germany, there was a fight to get Civil Rights… heck, we even had to fight to get our independence. We lost the battle… but we didn't lose the war. I will.. Uh, well Stonewall all of Congress's bills."
+            "description": "Look, there’s always been a fight. We fought to end Nazi Germany, we fought for civil rights, heck, we even had to fight for our independence. Sure, we’ve lost some battles along the way, but we never lost the war. And I’ll tell you this, I'll stand firm and fight every step of the way against these bills in Congress!"
         }
     },
     {
@@ -1043,7 +1043,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12444,
         "fields": {
             "question": 12441,
-            "description": "Okay.. Uh so this is the plan: deliver a fiery speech in front of the Capitol Building, begin negotiations with Gingrich,read this uh…. Contract with America thing, Give Foley a cabinet position; um… Attorney General, yes that will be a great fit for him and I will use the time from now to January to get as much things passed as we can get. \n"
+            "description": "Alright, here’s the plan: We’ll kick things off with a strong, fiery speech right in front of the Capitol. Then, we’ll sit down with Newt, start those negotiations, and take a hard look at this Contract with America. Now, I’ll also offer Foley a cabinet position, Attorney General sounds like a great fit for him. And we’ll make the most of these next few months, pushing hard to get as much done as we can before January."
         }
     },
     {
@@ -1051,7 +1051,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12482,
         "fields": {
             "question": 12481,
-            "description": "A call for Party unity. The results of this election show that every vote in the House and Senate will make a difference. \n"
+            "description": "A call for party unity. The results of this election have made one thing clear: every single vote in the House and Senate will count. This is a time for us to come together, put aside our differences, and focus on what truly matters."
         }
     },
     {
@@ -1059,7 +1059,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12506,
         "fields": {
             "question": 12481,
-            "description": "I will congratulate Gingrich on his victory in the… uh, midterms. I will promise to work in the best interests of the American People and collaborate with the Republicans\n"
+            "description": "I'll congratulate Newt Gingrich on his victory, and I’ll say, ''I look forward to working together with the new Speaker of the House.'' It’s time to put our differences aside and work for the American people."
         }
     },
     {
@@ -1067,7 +1067,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12509,
         "fields": {
             "question": 12481,
-            "description": "Get to work. I will try to pass as much laws as I can pass in the next few months. \n"
+            "description": "Alright, it’s time to get to work. I’ll do everything I can to push forward as many bills as possible in these next few months. We’ve got a lot to tackle, and I’m determined to make progress for the American people."
         }
     },
     {
@@ -1075,7 +1075,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12521,
         "fields": {
             "question": 12520,
-            "description": "A call for Party unity. The results of this election show that every vote in the House and Senate will make a difference. \n"
+            "description": "A call for party unity. The results of this election have made one thing clear: every single vote in the House and Senate will count. This is a time for us to come together, put aside our differences, and focus on what truly matters."
         }
     },
     {
@@ -1083,7 +1083,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12524,
         "fields": {
             "question": 12520,
-            "description": "I will congratulate Gingrich on his victory in the… uh, midterms. I will promise to work in the best interests of the American People and collaborate with the Republicans\n"
+            "description": "I will congratulate Newt Gingrich on his victory in the midterms. And I’ll promise to work in the best interests of the American people, reaching across the aisle to collaborate with our Republican colleagues."
         }
     },
     {
@@ -1091,7 +1091,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12527,
         "fields": {
             "question": 12520,
-            "description": "Get to work. I will try to pass as much laws as I can pass in the next few months. \n"
+            "description": "Alright, it’s time to get to work. I’ll do everything I can to push forward as many bills as possible in these next few months. We’ve got a lot to tackle, and I’m determined to make progress for the American people."
         }
     },
     {
@@ -1099,7 +1099,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12531,
         "fields": {
             "question": 12530,
-            "description": "A call for Party unity. The results of this election show that every vote in the House and Senate will make a difference. \n"
+            "description": "A call for party unity. The results of this election have made one thing clear: every single vote in the House and Senate will count. This is a time for us to come together, put aside our differences, and focus on what truly matters."
         }
     },
     {
@@ -1107,7 +1107,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12534,
         "fields": {
             "question": 12530,
-            "description": "I will congratulate Gingrich on his victory in the… uh, midterms. I will promise to work in the best interests of the American People and collaborate with the Republicans\n"
+            "description": "I'll congratulate Newt Gingrich on his victory, and I’ll say, ''I look forward to working together with the new Speaker of the House.'' It’s time to put our differences aside and work for the American people."
         }
     },
     {
@@ -1115,7 +1115,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12537,
         "fields": {
             "question": 12530,
-            "description": "Get to work. I will try to pass as much laws as I can pass in the next few months. \n"
+            "description": "Alright, it’s time to get to work. I’ll do everything I can to push forward as many bills as possible in these next few months. We’ve got a lot to tackle, and I’m determined to make progress for the American people."
         }
     },
     {
@@ -1131,7 +1131,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12565,
         "fields": {
             "question": 12540,
-            "description": "Fight. There was a fight to end Nazi Germany, there was a fight to get Civil Rights… heck, we even had to fight to get our independence. We lost the battle… but we didn't lose the war. I will.. Uh, well Stonewall all of Congress's bills."
+            "description": "Look, there’s always been a fight. We fought to end Nazi Germany, we fought for civil rights, heck, we even had to fight for our independence. Sure, we’ve lost some battles along the way, but we never lost the war. And I’ll tell you this, I'll stand firm and fight every step of the way against these bills in Congress!"
         }
     },
     {
@@ -1139,7 +1139,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12568,
         "fields": {
             "question": 12540,
-            "description": "Okay.. Uh so this is the plan: deliver a fiery speech in front of the Capitol Building, begin negotiations with Gingrich,read this uh…. Contract with America thing, Give Foley a cabinet position; um… Attorney General, yes that will be a great fit for him and I will use the time from now to January to get as much things passed as we can get. \n"
+            "description": "Alright, here’s the plan: We’ll kick things off with a strong, fiery speech right in front of the Capitol. Then, we’ll sit down with Newt, start those negotiations, and take a hard look at this Contract with America. Now, I’ll also offer Foley a cabinet position, Attorney General sounds like a great fit for him. And we’ll make the most of these next few months, pushing hard to get as much done as we can before January."
         }
     },
     {
@@ -1155,7 +1155,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12577,
         "fields": {
             "question": 12574,
-            "description": "Fight. There was a fight to end Nazi Germany, there was a fight to get Civil Rights… heck, we even had to fight to get our independence. We lost the battle… but we didn't lose the war. I will.. Uh, well Stonewall all of Congress's bills."
+            "description": "Look, there’s always been a fight. We fought to end Nazi Germany, we fought for civil rights, heck, we even had to fight for our independence. Sure, we’ve lost some battles along the way, but we never lost the war. And I’ll tell you this, I'll stand firm and fight every step of the way against these bills in Congress!"
         }
     },
     {
@@ -1163,7 +1163,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12580,
         "fields": {
             "question": 12574,
-            "description": "Okay.. Uh so this is the plan: deliver a fiery speech in front of the Capitol Building, begin negotiations with Gingrich,read this uh…. Contract with America thing, Give Foley a cabinet position; um… Attorney General, yes that will be a great fit for him and I will use the time from now to January to get as much things passed as we can get. \n"
+            "description": "Alright, here’s the plan: We’ll kick things off with a strong, fiery speech right in front of the Capitol. Then, we’ll sit down with Newt, start those negotiations, and take a hard look at this Contract with America. Now, I’ll also offer Foley a cabinet position, Attorney General sounds like a great fit for him. And we’ll make the most of these next few months, pushing hard to get as much done as we can before January."
         }
     },
     {
@@ -6879,7 +6879,37 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3349,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": -0.021
+            "global_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1137,
+        "fields": {
+            "answer": 3347,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1137,
+        "fields": {
+            "answer": 3350,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1137,
+        "fields": {
+            "answer": 3348,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.015
         }
     },
     {
@@ -7359,7 +7389,27 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12444,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": -0.0469
+            "global_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12475,
+        "fields": {
+            "answer": 12443,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12475,
+        "fields": {
+            "answer": 12442,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.015
         }
     },
     {
