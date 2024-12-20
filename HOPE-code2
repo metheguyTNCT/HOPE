@@ -218,7 +218,7 @@ campaignTrail_temp.questions_json = [
         "pk": 389,
         "fields": {
             "priority": 3,
-            "description": "Let's turn the page back to 1994 when you were asked what was your position on Don't Ask Don't Tell. Now the issue of same-sex marriage returns. This time it's the so-called ‘Defense of Marriage Act’. Most in your own party are begging for you to support this act. Opposing it will definitely help with Liberals but that comes at the cost of becoming unappealing to the Average American. \n",
+            "description": "Let’s rewind to 1994, when you were asked about your position on Don't Ask, Don't Tell. Now, the issue of same-sex marriage is back, this time with the ''Defense of Marriage Act.'' Many in your own party are urging you to support it. Opposing the act would win you support from liberals, but it could cost you the appeal of the Average American.",
             "likelihood": 1
         }
     },
@@ -227,7 +227,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12726,
         "fields": {
             "priority": 0,
-            "description": "Iraq, led by Saddam Hussein, has launched offensives against Kurdish forces in Northern Iraq, intensifying the ongoing civil war, and violating no-fly zones. In response, some Senators, cabinet officials, and some in the military brass have suggested retaliatory air strikes against Iraq. What do you say, Mr President?\n",
+            "description": "Iraq, under Saddam Hussein, has escalated military aggression against Kurdish forces in Northern Iraq, violating no-fly zone agreements. Some Senators, cabinet officials, and military leaders are calling for airstrikes to enforce the zones and prevent further violations. What's your response, Mr. President?",
             "likelihood": 1
         }
     },
@@ -236,7 +236,7 @@ campaignTrail_temp.questions_json = [
         "pk": 381,
         "fields": {
             "priority": -1,
-            "description": "It's now the morning of November 4th 1996, think about how far you have come since the election of 1992, now you running for reelection, the same position that your opponent in 1992 was in when they lost to you. Of course, you were far ahead in the polls but so was Bush in ‘92. On that note, what will be your final message to the American people as we they get ready to vote tomorrow? \n",
+            "description": "It's the morning of November 4th, 1996. Look how far you've come since 1992, now running for re-election in the same position your opponent was in when they lost to you. You're ahead in the polls, but then again, so was Bush in '92. With that in mind, what will be your final message to the American people as they head to the polls tomorrow?",
             "likelihood": 1
         }
     },
@@ -1251,7 +1251,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12727,
         "fields": {
             "question": 12726,
-            "description": "You bet. We are going to bomb the shit out of Iraq; there is no way we can let Saddam get away with this. You have my full authorization. \n"
+            "description": "You bet. We are going to bomb the shit out of Iraq; there is no way we can let Saddam get away with this. You have my full authorization to conduct decisive, targeted strikes, focused, strategic, and deep enough to send an unmistakable message: the United States does not tolerate aggression or threats to peace. \n"
         }
     },
     {
@@ -1259,7 +1259,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12728,
         "fields": {
             "question": 12726,
-            "description": "Well, you know, obviously we stand opposed to what Saddam has done here, but a military strike… It doesn’t strike me as proportional. Let’s hold off.  \n"
+            "description": "Well, you know, we stand firmly against what Saddam has done, it’s unacceptable and destabilizing, but I’ve got to say, a military strike right now doesn’t feel proportional to the situation. Let’s take a step back, folks. "
         }
     },
     {
@@ -1267,7 +1267,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12729,
         "fields": {
             "question": 12726,
-            "description": "You bet. We are going to bomb the shit out of Iraq, there is no way we can let Saddam get away with this. You have my full authorization to hit Bagdad, and their major population centers. \n"
+            "description": "You bet. We are going to bomb the shit out of Iraq, there is no way we can let Saddam get away with this. You have my full authorization to carry out decisive military strikes, targeting Baghdad and other key locations. The United States and its allies will not stand by in the face of this kind of aggression."
         }
     },
     {
@@ -1275,7 +1275,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12731,
         "fields": {
             "question": 389,
-            "description": "I will follow the Democratic Congressmen in this particular situation. I believe it's very unwise to oppose something that has very little opposition. \n"
+            "description": "I’ll stand with the Democratic Congress on this one. It’s simply unwise to oppose something that has so little opposition. Sometimes, we have to recognize when the tide is moving in the right direction, and in this case, it's clear where we should be."
         }
     },
     {
@@ -1283,7 +1283,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12732,
         "fields": {
             "question": 389,
-            "description": "This is a question that has a very simple answer. I will veto this act as it does not allow people of the same sex to finally be allowed to have marital relations.  America is headed in a new direction and just as hostile as we were of this in the past, we must be receptive of it.\n"
+            "description": "This is a question with a clear answer. I will veto this act, because it denies same-sex couples the right to marry. America is heading in a new direction, and just as we once resisted progress, we must now embrace it. We can no longer stand in the way of fairness and equality for all."
         }
     },
     {
@@ -1291,7 +1291,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12733,
         "fields": {
             "question": 389,
-            "description": "They call me Slick Willy for a reason. I will finesse this issue and try to stall debates on this issue for as long as possible until people forget. \n"
+            "description": "They call me Slick Willy for a reason. I’ll work this issue, take my time with it, and stall the debates as long as I can until the pressure fades and the heat dies down. Sometimes, the best approach is just to wait for the right moment to let things settle."
         }
     },
     {
@@ -11073,7 +11073,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12731,
             "candidate": 77,
-            "answer_feedback": "Smart choice Bill, if you are hoping to appeal to moderates and Conservatives, it's probably wiser to veto this. \n"
+            "answer_feedback": "Smart choice, sir! If you're aiming to appeal to moderates and conservatives, it would likely be wiser to veto this."
         }
     },
     {
@@ -11082,7 +11082,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12732,
             "candidate": 77,
-            "answer_feedback": "With your eyes glued to the screen in the Oval Office, you watch carefully as the television officially declares voting to be over. You aren't able to see clearly, but you hear something along the lines of, ‘I, speaker or the house, hereby declare…  to be vetoed.' It'll almost certainly be overwritten, but you've sent the gay community a sign that they'll never forget.\n"
+            "answer_feedback": "With your eyes fixed on the screen in the Oval Office, you watch closely as the television announces the end of the voting. It's hard to make out the details, but you hear something like, ''I, Speaker of the House, hereby declare... to be vetoed.'' It’s likely to be overridden, but you've sent the LGBT community a message they’ll never forget."
         }
     },
     {
@@ -11091,7 +11091,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12733,
             "candidate": 77,
-            "answer_feedback": "Compromise Clinton, they call you. The master of compromise and by compromise, they mean stalling. \n"
+            "answer_feedback": "Compromise Clinton, they call you. The master of compromise, though by ''compromise,'' they really mean stalling...
         }
     },
     {
@@ -11100,7 +11100,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12745,
             "candidate": 77,
-            "answer_feedback": "Revising foreign policy only helped you on one question while Dole held a huge lead on the others. I think it is safe to say that you lost this debate. \n"
+            "answer_feedback": "Revising foreign policy helped you on one question, but Dole dominated the others. It's safe to say you lost this debate."
         }
     },
     {
@@ -11109,7 +11109,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12751,
             "candidate": 77,
-            "answer_feedback": "At first, you appeared incredibly exhausted due to the lack of sleep but you defied all expectations by hitting Dole where it hurts. It is safe to say that you have won. \n"
+            "answer_feedback": "At first, you appeared exhausted from lack of sleep, but you defied expectations by hitting Dole where it hurts. It's safe to say you've won."
         }
     },
     {
@@ -11118,7 +11118,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12757,
             "candidate": 77,
-            "answer_feedback": "It doesn't matter if you get that much sleep because Dole actually had time to rehearse what he was going to say while you appeared lost and seemed to lose your flow. \n"
+            "answer_feedback": "The excuse of not getting much sleep the night before doesn’t cut it; Old Man Dole had time to rehearse, while you seemed off balance and lost your flow. And with the polls shifting in his favor, it’s clear things aren’t going your way."
         }
     },
     {
@@ -11127,7 +11127,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12810,
             "candidate": 77,
-            "answer_feedback": "Not with Buchanan. What are you going to do? Out hawk the hawk himself? \n"
+            "answer_feedback": "While you speak confidently about America's resolve to make the world a better place for future generations, Pat Buchanan rants about the U.S. being a ''debtor nation'' and a ''nation in decline.'' What a loon."
         }
     },
     {
@@ -11136,7 +11136,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12814,
             "candidate": 77,
-            "answer_feedback": "Your speech was an absolute success with hundreds of thousands coming to tune in. The part of your speech that really solidified your victory was the part where you mentioned how Buchanan will just bring the country backwards. \n"
+            "answer_feedback": "Your speech was a resounding success, drawing in hundreds of thousands of viewers. The turning point that truly secured your victory was when you emphasized how Buchanan's policies would drag the country backward."
         }
     },
     {
@@ -11145,7 +11145,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12818,
             "candidate": 77,
-            "answer_feedback": "It doesn't matter if you get that much sleep because Buchanan actually had time to rehearse what he was going to say while you appeared lost and seemed to lose your flow. \n"
+            "answer_feedback": "The excuse of not getting much sleep the night before doesn’t cut it; Buchanan had time to rehearse, while you seemed off balance and lost your flow. And with the polls shifting in his favor, it’s clear things aren’t going your way."
         }
     },
     {
@@ -11154,7 +11154,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12727,
             "candidate": 77,
-            "answer_feedback": "The strikes were focused heavily on military targets, and at the end of the day, they don’t serve much purpose, beyond giving Saddam a bit of a scare, and positive press.  "
+            "answer_feedback": "The strikes were aimed primarily at military targets, but in the end, they don't accomplish much, other than scaring Saddam a bit and giving the press something positive to report.  "
         }
     },
     {
@@ -11172,7 +11172,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12729,
             "candidate": 77,
-            "answer_feedback": "Despite your hopes, the press focuses heavily on the civilian impact of your strikes against Iraq, and is all too happy to show the crying faces of hurt children. For fucks sake. \n"
+            "answer_feedback": "Despite your hopes, the press focuses relentlessly on the civilian impact of your strikes against Iraq, eagerly showing the tearful faces of injured children. For fuck's sake."
         }
     }
 ]
