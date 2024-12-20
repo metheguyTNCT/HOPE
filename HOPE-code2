@@ -362,7 +362,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12540,
         "fields": {
             "priority": 0,
-            "description": "Jesus, it was a massacre against all things holy. The Republican party not only swept congress, but Mitt Romney beat Ted Kennedy in the Massachusetts race. How could we ever respond?",
+            "description": "Jesus, it was a massacre against all things holy. The Republican Party didn’t just sweep Congress, they even got Mitt Romney to beat Ted Kennedy in Massachusetts. How do we even respond to that?",
             "likelihood": 1
         }
     },
@@ -371,7 +371,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12574,
         "fields": {
             "priority": 0,
-            "description": "Jesus, it was a massacre against all things holy. The Republican party not only swept congress, but Oliver North beat Chuck Robb in the Virginia race. How could we ever respond?",
+            "description": "Jesus, it was a massacre against all things holy. The Republican Party didn’t just sweep Congress, they got Oliver North to beat Chuck Robb in Virginia. How do we even begin to respond to that?",
             "likelihood": 1
         }
     },
@@ -389,7 +389,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12711,
         "fields": {
             "priority": 3,
-            "description": "After a long stressful day of hard work, I am here to inform you that the Republican National Convention has officially began. A unique face stands in front of the Republican Delegates. The man speaks of a better tomorrow. He calls you out for shutting down Congress and calls you ‘America’s First Dictator’\n",
+            "description": "After a long, stressful day of hard work, I'm here to inform you that the Republican National Convention has officially begun. A new figure stands before the Republican delegates, speaking of a brighter future. He criticizes you for shutting down Congress, even going so far as to call you ''America's First Dictator.'' ",
             "likelihood": 1
         }
     },
@@ -398,7 +398,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12744,
         "fields": {
             "priority": -2,
-            "description": "Bill it's one week before the debate. You’ve been incredibly busy and now you have very little time to research the important issues. Will you cut your losses and Wing the debate or will you use all the time you do have to study as much as you can? \n\n",
+            "description": "Mr. President, it's one week before the debate. You've been swamped with work, and now you're down to the wire with little time to dive into the key issues. Will you cut your losses and wing it, or will you use every minute you have left to study as much as you can?",
             "likelihood": 1
         }
     },
@@ -407,7 +407,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12809,
         "fields": {
             "priority": -2,
-            "description": "Bill it's one week before the debate. You’ve been incredibly busy and now you have very little time to research the important issues. Will you cut your losses and Wing the debate or will you use all the time you do have to study as much as you can? \n\n",
+            "description": "Mr. President, it's one week before the debate. You've been swamped with work, and now you're down to the wire with little time to dive into the key issues. Will you cut your losses and wing it, or will you use every minute you have left to study as much as you can?",
             "likelihood": 1
         }
     }
@@ -11734,7 +11734,7 @@ if (ans == 12636){
 					"pk": 12520,
 					"fields": {
 						"priority": 0,
-						"description": "Well, this is interesting…  I have good news and I have bad news. The Bad News is… um how do I say this, you lost. But don't worry Mr. President, the polls were still way off. Also, Governor Richards has defeated George W. Bush in the Texas race. The Republican Majority is slim and all it takes is for John McCain’s vote for most of your policies to pass.",
+						"description": "Well, this is interesting… I’ve got good news and bad news. The bad news? You lost. But don’t worry, Mr. President, the polls were way off. The good news is Governor Richards has defeated George W. Bush in Texas. The Republican majority is razor-thin, and all it takes is John McCain’s vote for most of your policies to pass.",
 						"likelihood": 1
 					}
 				}
@@ -11751,7 +11751,7 @@ if (ans == 12636){
 					"pk": 12520,
 					"fields": {
 						"priority": 0,
-						"description": "Well, this is interesting…  I have good news and I have bad news. The Bad News is… um how do I say this, you lost. But don't worry Mr. President, the polls were still way off. Also, Governor Richards has defeated George W. Bush in the Texas race. The Republican Majority is slim and all it takes is for John McCain’s vote for most of your policies to pass.",
+						"description": "Well, this is interesting… I’ve got good news and bad news. The bad news? You lost. But don’t worry, Mr. President, the polls were way off. The good news is Governor Richards has defeated George W. Bush in Texas. The Republican majority is razor-thin, and all it takes is John McCain’s vote for most of your policies to pass.",
 						"likelihood": 1
 					}
 				}
@@ -11768,7 +11768,7 @@ if (ans == 12636){
 					"pk": 12530,
 					"fields": {
 						"priority": 0,
-						"description": "Well, this is interesting…  I have good news and I have bad news. The Bad News is… um how do I say this, you lost. But don't worry Mr. President, the polls were still way off. Also, Governor Cuomo has defeated George Pataki in the New York race. The Republican Majority is slim and all it takes is for John McCain’s vote for most of your policies to pass.",
+						"description": "Well, this is interesting… I’ve got good news and bad news. The bad news? You lost. But don’t worry, Mr. President, the polls were way off. The good news is Governor Cuomo has defeated George Pataki in New York. The Republican majority is razor-thin, and all it takes is John McCain’s vote for most of your policies to pass.",
 						"likelihood": 1
 					}
 				}
@@ -11783,7 +11783,7 @@ if (ans == 12636){
 					"pk": 12540,
 					"fields": {
 						"priority": 0,
-						"description": "Jesus, it was a massacre against all things holy. The Republican party not only swept congress, but Mitt Romney beat Ted Kennedy in the Massachusetts race. How could we ever respond?",
+						"description": "Jesus, it was a massacre against all things holy. The Republican Party didn’t just sweep Congress, they even got Mitt Romney to beat Ted Kennedy in Massachusetts. How do we even respond to that?",
 						"likelihood": 1
 					}
 				}
@@ -11799,7 +11799,7 @@ if (ans == 12636){
 					"pk": 12574,
 					"fields": {
 						"priority": 0,
-						"description": "Jesus, it was a massacre against all things holy. The Republican party not only swept congress, but Oliver North beat Chuck Robb in the Virginia race. How could we ever respond?",
+						"description": "Jesus, it was a massacre against all things holy. The Republican Party didn’t just sweep Congress, they got Oliver North to beat Chuck Robb in Virginia. How do we even begin to respond to that?",
 						"likelihood": 1
 					}
 				}
@@ -11815,7 +11815,7 @@ if (ans == 12636){
 					"pk": 12574,
 					"fields": {
 						"priority": 0,
-						"description": "Jesus, it was a massacre against all things holy. The Republican party not only swept congress, but Oliver North beat Chuck Robb in the Virginia race. How could we ever respond?",
+						"description": "Jesus, it was a massacre against all things holy. The Republican Party didn’t just sweep Congress, they got Oliver North to beat Chuck Robb in Virginia. How do we even begin to respond to that?",
 						"likelihood": 1
 					}
 				}
@@ -11830,7 +11830,7 @@ if (ans == 12636){
                 "pk": 12441,
                 "fields": {
                     "priority": 0,
-                    "description": "Bad news: The Republican Party emerged as the clear winner in the Congressional elections. Some are even dubbing this a ''Republican Revolution''. What will be your response?",
+                    "description": "Bad news: The Republican Party emerged as the clear winner in the 1994 Congressional elections. Some, including the incoming Speaker are even dubbing this a ''Republican Revolution.'' What will be your response?",
                     "likelihood": 1
                 }
             }
@@ -11846,7 +11846,7 @@ if (ans == 12636){
 				"pk": 12481,
 				"fields": {
 					"priority": 0,
-					"description": "Well, this is interesting…  I have good news and I have bad news. The Bad News is… um how do I say this, you lost. But don't worry Mr. President, the polls were still way off. The Republican Majority is slim and all it takes is for John McCain’s vote for most of your policies to pass.",
+					"description": "Well, this is interesting... I have some good news and some bad news. The bad news is, well, it’s not great, you lost. But don’t worry, Mr. President, the polls were off. The Republican majority is slim, and with John McCain's vote, most of your policies can still get through.",
 					"likelihood": 1
 					}
 				}
