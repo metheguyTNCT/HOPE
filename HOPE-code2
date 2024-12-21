@@ -1,4 +1,4 @@
-e = campaignTrail_temp;
+ e = campaignTrail_temp;
 campaignTrail_temp.cyoa = true;
 const customStyling = document.createElement("style");
 customStyling.innerHTML = `
@@ -460,7 +460,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3318,
         "fields": {
             "question": 345,
-            "description": "Now look, getting crime under control is absolutely critical, and we’ve got to crack down, no two ways about it. Get me that senator from Delaware, Joe Biden, the Judiciary Chair. He’s tough as nails on this issue, and if it came down to it, he’d make himself a martyr if that’s what it took."
+            "description": "Now look, getting crime under control is absolutely critical, and we’ve got to crack down, no two ways about it. Get me that senator from Delaware, Joe Biden, that fella. He’s tough as nails on this issue, and if it came down to it, he’d make himself a martyr if that’s what it took."
         }
     },
     {
@@ -6874,7 +6874,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3317,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.048891121124114114114
+            "global_multiplier": 0.041121121124114114114
         }
     },
     {
@@ -7324,7 +7324,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12344,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.05998998
+            "global_multiplier": 0.051
         }
     },
     {
@@ -11601,9 +11601,24 @@ var PublicSupport = 8
 var HillaryRelationship = 4
 var LibSocial = 0
 cyoAdventure = function(a) {
+    update_EV_dict();
     ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
+    if (ans == 3453 && ev_dict["77"] < 269) {
+    update_EV_dict();
+    campaignTrail_temp.question_number = 34;
+    
+    console.log(ans == 3453 && ev_dict["77"] < 269);
+} else if (ans == 3454 && ev_dict["77"] < 269) {
+    update_EV_dict();
+    campaignTrail_temp.question_number = 34;
+    console.log(ans == 3454 && ev_dict["77"] < 269);
+} else if (ans == 3455 && ev_dict["77"] < 269) {
+    update_EV_dict();
+    campaignTrail_temp.question_number = 34;
+    console.log(ans == 3455 && ev_dict["77"] < 269);
+}
    //Healthcare Update Inserter
-    if (ans == 3330) {
+    if (ans === 3330) {
         
         question_insert(346, 
         {
@@ -11618,7 +11633,7 @@ cyoAdventure = function(a) {
         );
         
     }
-    if (ans == 3331) {
+    if (ans === 3331) {
         
         question_insert(346, 
         {
@@ -11633,7 +11648,7 @@ cyoAdventure = function(a) {
         );
         
     }
-    if (ans == 3332) {
+    if (ans === 3332) {
         
         question_insert(346, 
         {
@@ -11648,7 +11663,7 @@ cyoAdventure = function(a) {
         );
         
     }
-    if (ans == 12252) {
+    if (ans === 12252) {
         
         question_insert(346, 
         {
@@ -11679,7 +11694,6 @@ cyoAdventure = function(a) {
     }
     //Russia Question Inserter
         if (ans == 3493) {
-        
         question_insert(344, 
         {
                 "model": "campaign_trail.question",
@@ -12086,36 +12100,45 @@ cyoAdventure = function(a) {
     }
 //WTC Bombing CYOA
    if (ans ==  3405){
-   DOMWin += 1; 
+   DOMWin += 1;
+   PublicSupport += 1;
    }
    if (ans == 3407){
    FPWin += 1;
    Legacy += 1;
+   PublicSupport += 1;
    }
    //Economic Plan CYOA
    if (ans == 3395){
+    PublicSupport += 1;
     DOMWin += 1;
     }
     if (ans == 3394){
+    PublicSupport -= 1;
     DOMWin -= 1;
     }
     if (ans == 3396){
+    PublicSupport -= 1;
     LEGWin += 1;
     DOMWin -= 1;
     }
     //Waco CYOA
     if (ans == 3310){
+    PublicSupport -= 1;
     DOMWin -= 1;
     }
      if (ans == 3312){
+    PublicSupport -= 2;
     DOMWin -= 1;
     }
      if (ans == 3311){
+    PublicSupport += 1;
     DOMWin += 1;
     Legacy += 1;
     }
     //DADT CYOA
     if (ans == 3335){
+    PublicSupport -= 1;
     LibSocial += 1;
     }
     //Crime CYOA
@@ -12124,60 +12147,75 @@ cyoAdventure = function(a) {
     }
     //Somalia CYOA
     if (ans == 3322){
+    PublicSupport -= 1;
    FPWin -= 1;
    }
       if (ans == 3323){
+    PublicSupport -= 1;
    FPWin -= 1;
    }
       if (ans == 3324){
    FPWin += 1;
    }
       if (ans == 3325){
+    PublicSupport -= 1;
    FPWin -= 1;
    }
    //NAFTA CYOA
    if (ans == 3317){
+    PublicSupport += 1;
     LEGWin += 1; 
     NAFTA += 1; 
     }
   //Russia CYOA (START III SUCCEEDS)
      if (ans == 12371){
+    PublicSupport += 1;
    FPWin += 1;
    }
     if (ans == 12375){
+    PublicSupport += 1;
    FPWin += 1;
    }
     if (ans == 12379){
+    PublicSupport += 1;
    FPWin += 1;
    }
     if (ans == 12383){
+    PublicSupport -= 1;
    FPWin -= 1;
    }
   //Russia CYOA (START III FAILS)
     if (ans == 12404){
+    PublicSupport += 1;
    FPWin += 1;
    }
     if (ans == 12408){
+    PublicSupport -= 1;
    FPWin -= 1;
    }
     if (ans == 12412){
+    PublicSupport += 1;
    FPWin += 1;
    }
     if (ans == 12416){
+    PublicSupport -= 1;
    FPWin -= 1;
    }
    //Healthcare Vote CYOA (Succeeds)
    if (ans == 12344){
+    PublicSupport += 3;
     LEGWin += 1;
     Legacy += 1;
     GotHealthcare += 1;
     }
     //Healthcare Vote CYOA (Fails)
     if (ans == 12351){
+    PublicSupport -= 3;
     LEGWin -= 1;
     }
     //Peso Crisis CYOA
     if (ans == 3425){
+    PublicSupport -= 1;
     FPWin -= 1;
     }
     if (ans == 3426){
@@ -12185,30 +12223,37 @@ cyoAdventure = function(a) {
     }
     //Balanced Budget Ammendment CYOA
     if (ans == 3374){
+    PublicSupport -= 1;
     LEGWin -= 1;
     }
     if (ans == 3375){
+    PublicSupport -= 1;
     LEGWin -= 1;
     }
     if (ans == 12596){
+PublicSupport += 1;
     LEGWin += 1;
     }
     //OKC Bombing CYOA
     if (ans == 3417){
+    PublicSupport += 1;
     DOMWin += 1;
     Legacy += 1;
     }
     if (ans == 3418){
-    DOMWin -= 1;
+    PublicSupport -= 1;
     }
     //Government Shutdown CYOA
     if (ans == 3355){
+    PublicSupport += 1;
     Legacy += 1;
     }
     if (ans == 3356){
+    PublicSupport -= 1;
     LEGWin += 1;
     }
     if (ans == 3357){
+PublicSupport -= 1;
     LEGWin -= 1;
     }
     //1st Lewinsky encounter CYOA
@@ -12220,9 +12265,11 @@ cyoAdventure = function(a) {
     }
     //End of the Bosnian War CYOA
     if (ans == 3388){
+    PublicSupport += 1;
     FPWin += 1;
     }
     if (ans == 12636){
+    PublicSupport -= 1;
     FPWin -= 1;
     }
     //DOMA CYOA
@@ -12230,54 +12277,67 @@ cyoAdventure = function(a) {
     LEGWin += 1;
     }
     if (ans == 12732){
+PublicSupport -= 2;
+    LEGWin -= 1;
+    }
+    //PRWOA CYOA
+    if (ans == 125751){
+PublicSupport += 1;
+    LEGWin += 1;
+    }
+    if (ans == 125752){
+    PublicSupport -= 2;
     LEGWin -= 1;
     }
     //Desert Strike CYOA
     if (ans == 12727){
+    PublicSupport -= 1;
     FPWin -= 1;
     }
     if (ans == 12728){
+    PublicSupport -= 1;
     FPWin -= 1;
     }
     if (ans == 12729){
+    PublicSupport -= 1;
     FPWin -= 1;
     }
     //Bob Dole CYOA
     if (ans == 3388){
         campaignTrail_temp.candidate_json[1]["fields"].last_name = "Dole";
         campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#E4463E";
-        campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/DWHlZFn.png";
+        campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/pz9sYma.jpeg";
         campaignTrail_temp.candidate_json[1]["fields"].first_name = "Bob";
 }
 if (ans == 3389){
     campaignTrail_temp.candidate_json[1]["fields"].last_name = "Dole";
     campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#E4463E";
-    campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/DWHlZFn.png";
+    campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/pz9sYma.jpeg";
     campaignTrail_temp.candidate_json[1]["fields"].first_name = "Bob";
 }
 if(ans == 12636){
     campaignTrail_temp.candidate_json[1]["fields"].last_name = "Dole";
     campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#E4463E";
-    campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/DWHlZFn.png";
+    campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/pz9sYma.jpeg";
     campaignTrail_temp.candidate_json[1]["fields"].first_name = "Bob";
 
 //Pat Buchanan CYOA
 } else if (LibSocial == 2 && GOPSupermajority == 1 && ans == 3388){
     campaignTrail_temp.candidate_json[1]["fields"].last_name = "Buchanan";
-    campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#A70615";
-    campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/2YVgGku.png";
+    campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#800020";
+    campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
     campaignTrail_temp.candidate_json[1]["fields"].first_name = "Patrick";
 }
 if (LibSocial == 2 && GOPSupermajority == 1 && ans == 3389){
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Buchanan";
-campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#A70615";
-campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/2YVgGku.png";
+campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#800020";
+campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
 campaignTrail_temp.candidate_json[1]["fields"].first_name = "Patrick";
 }
 if(LibSocial == 2 && GOPSupermajority == 1 && ans == 12636){
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Buchanan";
-campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#A70615";
-campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/2YVgGku.png";
+campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#800020";
+campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
 campaignTrail_temp.candidate_json[1]["fields"].first_name = "Patrick";
 }
  //Ross Perot CYOA
@@ -12384,7 +12444,7 @@ if (ans == 12636){
             console.log("e.player_answers.includes(3323) &&  e.player_answers.includes(12383) && e.player_answers.includes(12425) && GotHealthcare == 0")
 		} else if (e.player_answers.includes(3323) &&  e.player_answers.includes(12416) && e.player_answers.includes(12425) && GotHealthcare == 0){
 			DemCongress -= 1;
-            RepublicanRevolution += 1;
+            GOPSupermajority += 1;
             NorthWin += 1;
 			question_insert(353, 
 				{
@@ -12561,8 +12621,16 @@ question_insert(12726,
           page_list[1][3] = `<span style="font-weight: bold; color: blue; font-size: 24px;"> Great</span>`; // Style Legacy
       } else if (Legacy === 6) {
           page_list[1][3] = `<span style="font-weight: bold; color: gold; font-size: 24px;"> Perfect</span>`; // Style Legacy
-      } if (PublicSupport === 8) {
-          page_list[1][1] = `<span style="font-weight: bold; color: blue; font-size: 24px;"> High</span>`; // Style PublicSupport
+      } if (PublicSupport <= 0) {
+          page_list[1][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Abysmal</span>`; // Style PublicSupport
+        } else if (PublicSupport >= 1 && PublicSupport <= 5) {
+          page_list[1][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Low</span>`; // Style PublicSupport
+        } else if (PublicSupport >= 6 && PublicSupport <= 10) {
+          page_list[1][1] = `<span style="font-weight: bold; color: gray; font-size: 24px;"> Medium</span>`; // Style PublicSupport
+        } else if (PublicSupport >= 11 && PublicSupport <= 15) {
+          page_list[1][1] = `<span style="font-weight: bold; color: gray; font-size: 24px;"> High</span>`; // Style PublicSupport
+        } else if (PublicSupport >= 16 && PublicSupport <= 20) {
+          page_list[1][1] = `<span style="font-weight: bold; color: gray; font-size: 24px;"> Very High</span>`; // Style PublicSupport
       } if (FPWin <= 0) {
           page_list[2][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Laughingstock</span>`; // Style ForeignReputation
       } else if (FPWin >= 1 && FPWin <=3) {
@@ -12731,7 +12799,21 @@ question_insert(12726,
       }
   }
   
-  
+
+ev_dict={};
+pop_dict={};
+
+  function update_EV_dict() {
+    let pop_vote = e.current_results;
+    ev_dict={};
+    pop_dict={};
+    for (let n = 0; n<e.current_results[0].length; n++) {
+        ev_dict[e.current_results[0][n].pk] = e.current_results[0][n].evvs;
+        pop_dict[e.current_results[0][n].pk] = e.current_results[0][n].pvp;
+    }
+}
+// Access the updated dictionaries
+console.log(ev_dict); // Logs the ev_dict object
   // Since you're going to be doing a lot of inserting, you don't want to be using exact positions. 
   // Position 8 could be any number of questions depending on previous CYOA. 
   // This function goes by pk values.
