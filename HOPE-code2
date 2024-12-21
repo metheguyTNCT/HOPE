@@ -12496,6 +12496,16 @@ if (ans == 3453){
     campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/in5CVjJ.png';
     campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/R9qQM21.png';
 }
+if (ans == 3454){
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://i.imgur.com/aMmEU3J.png";
+    campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/in5CVjJ.png';
+    campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/R9qQM21.png';
+}
+if (ans == 3455){
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://i.imgur.com/aMmEU3J.png";
+    campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/in5CVjJ.png';
+    campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/R9qQM21.png';
+}
 if(ans == 12636){
     DoleNom += 1;
     campaignTrail_temp.candidate_json[1]["fields"].last_name = "Dole";
