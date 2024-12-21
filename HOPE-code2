@@ -155,7 +155,7 @@ campaignTrail_temp.questions_json = [
         "pk": 353,
         "fields": {
             "priority": 3,
-            "description": "Just two years into your presidency, America is already yearning for change. The midterms of ‘94 are coming, and your advisors are sounding the alarm bells. They warn that the '93 gubernatorial losses in New Jersey and Virginia weren’t flukes but a clear warning sign. How do you turn the tide and stop this slide? ",
+            "description": "Just two years into your presidency, America is already yearning for change. The midterms of ‘94 are fast approaching, and your advisors are sounding the alarm bells. They warn that the '93 gubernatorial losses in New Jersey and Virginia weren’t flukes but a clear warning sign. To help steer the ship, you've brought Dick Morris, a political Svengali, onto your team. How do you turn the tide and stop this slide? ",
             "likelihood": 1
         }
     },
@@ -12496,6 +12496,18 @@ if (ans == 3453){
     campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/in5CVjJ.png';
     campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/R9qQM21.png';
     campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.imgur.com/FW60RP2.png';
+}
+if (ans == 3347){
+    campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.imgur.com/qxtUlAx.png';
+}
+if (ans == 3348){
+    campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.imgur.com/qxtUlAx.png';
+}
+if (ans == 3349){
+    campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.imgur.com/qxtUlAx.png';
+}
+if (ans == 3350){
+    campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.imgur.com/qxtUlAx.png';
 }
 if (ans == 3454){
     campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://i.imgur.com/aMmEU3J.png";
