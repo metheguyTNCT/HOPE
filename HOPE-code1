@@ -243,8 +243,25 @@ campaignTrail_temp.running_mate_json = [
 ]
 
 
-campaignTrail_temp.credits = "HopeTeam"
+e.credits = "<button onclick='e.creditsPage()'>HopeTeam</button>"
 
+  e.creditsPage = () => {
+    credits_html = `
+      <p><font color='#b85314'>Agreeable (Creator/Coder/Writer)</font></p>
+      <p><font color='#b85314'>LOLE  (Co-Creator/Writer)</font></p>
+      <p><font color='#6F8FAF'>GOODGAMER (Writer)</font></p>
+      <p><font color='#6F8FAF'>CitySlicker (Writer)</font></p>
+      <p><font color='#6F8FAF'>.theanswerisme (Writer/Coder)</font></p>
+      <p><font color='#6F8FAF'>maskedmalarky (Writer)</font></p>
+      <p><font color='#6F8FAF'>Waffleflef (Writer)</font></p>
+      <p><font color='#6F8FAF'>haramihamlet (Writer)</font></p>
+      <p><font color='#6F8FAF'>Vicx (Writer)</font></p>
+      <p><font color='#6F8FAF'>milothebeast1345 (Writer)</font></p>
+      <p><font color='#6F8FAF'>epicisman7770 (Designer)</font></p>
+      <p><font color='#6F8FAF'>Me: the Fellow (Designer)</font></p>
+      <p><font color='#6F8FAF'>StephRees (Advisor/Planner)</font></p>
+      <p><font color='#B78D58'>WNDIUA [aka Jimbo] (Banner)</font></p>
+      <p><font color='#c0bfff'>THANK YOU TO THE COMMUNITY WHO HAVE SUPPORTED THIS MOD!</font></p>
 
 campaignTrail_temp.global_parameter_json = [
     {
