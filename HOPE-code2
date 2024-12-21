@@ -12499,7 +12499,7 @@ if (ans == 3389){
 }
 if (ans == 3453){
     campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://i.imgur.com/aMmEU3J.png";
-    campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/dG8h0BD.png';
+    campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/KMMjGTZ.png';
     campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/R9qQM21.png';
     campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.imgur.com/FW60RP2.png';
 }
@@ -12517,13 +12517,13 @@ if (ans == 3350){
 }
 if (ans == 3454){
     campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://i.imgur.com/aMmEU3J.png";
-    campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/dG8h0BD.png';
+    campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/KMMjGTZ.png';
     campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/R9qQM21.png';
     campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.imgur.com/FW60RP2.png';
 }
 if (ans == 3455){
     campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://i.imgur.com/aMmEU3J.png";
-    campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/dG8h0BD.png';
+    campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/KMMjGTZ.png';
     campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/R9qQM21.png';
     campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.imgur.com/FW60RP2.png';
 }
