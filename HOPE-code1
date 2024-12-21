@@ -1,3 +1,4 @@
+
 campaignTrail_temp.election_json = [
     {
         "model": "campaign_trail.election",
@@ -768,4 +769,5 @@ newMusicPlayer()
 
 
 RecReading=true
+e.collect_results=true;
 //#endcode
