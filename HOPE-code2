@@ -1173,7 +1173,7 @@ campaignTrail_temp.answers_json = [
         "pk": 125751,
         "fields": {
             "question": 1257411,
-            "description": "The bill isn’t perfect, but after all the hard work, the compromises, and the long road we’ve traveled, it’s the best we can do right now. Given the circumstances, I believe it’s time to move forward. I’ll sign it."
+            "description": "The bill isn’t perfect, but after all the hard work we’ve put into it, it’s the best we can do. I’ll sign it. But let's be clear: if we’re going to move people from welfare to work, we’ve got to have the jobs to make it happen, and I’m working for that. "
         }
     },
     {
@@ -1181,7 +1181,7 @@ campaignTrail_temp.answers_json = [
         "pk": 125752,
         "fields": {
             "question": 1257411,
-            "description": "They’re going to bitch, and they’re going to keep bitching, but this... this goes too far. My hand’s shaking, and that’s not something I take lightly. I’m not going to sign it."
+            "description": "They’re going to bitch, and they’re going to keep bitching, but this... this goes too far. My hand’s shaking, and that’s not something I take lightly. We’ve worked hard to get here, but this bill doesn’t sit right with me. I’m not going to sign it."
         }
     },
     {
@@ -12493,7 +12493,7 @@ if (ans == 3389){
 }
 if (ans == 3453){
     campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://i.imgur.com/aMmEU3J.png";
-    campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/in5CVjJ.png';
+    campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/dG8h0BD.png';
     campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/R9qQM21.png';
     campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.imgur.com/FW60RP2.png';
 }
@@ -12511,13 +12511,13 @@ if (ans == 3350){
 }
 if (ans == 3454){
     campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://i.imgur.com/aMmEU3J.png";
-    campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/in5CVjJ.png';
+    campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/dG8h0BD.png';
     campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/R9qQM21.png';
     campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.imgur.com/FW60RP2.png';
 }
 if (ans == 3455){
     campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://i.imgur.com/aMmEU3J.png";
-    campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/in5CVjJ.png';
+    campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/dG8h0BD.png';
     campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/R9qQM21.png';
     campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.imgur.com/FW60RP2.png';
 }
