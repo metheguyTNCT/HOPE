@@ -251,6 +251,15 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
+        "pk": 564631,
+        "fields": {
+            "priority": -1,
+            "description": "Congratulations, Mr. President. You’ve made history, becoming the first Democrat since FDR to win re-election. Despite some tensions within the coalition, your party is riding high, thanks to the fumes of your victory. As you look ahead to the transition period and the early days of your second term, what would you like to focus on? ",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
         "pk": 12284,
         "fields": {
             "priority": 2,
@@ -12481,6 +12490,11 @@ if (ans == 3389){
     campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#E4463E";
     campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/pz9sYma.jpeg";
     campaignTrail_temp.candidate_json[1]["fields"].first_name = "Bob";
+}
+if (ans == 3453){
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://i.imgur.com/aMmEU3J.png";
+    campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/in5CVjJ.png';
+    campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/R9qQM21.png';
 }
 if(ans == 12636){
     DoleNom += 1;
