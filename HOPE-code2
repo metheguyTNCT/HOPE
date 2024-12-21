@@ -1,4 +1,4 @@
- e = campaignTrail_temp;
+e = campaignTrail_temp;
 campaignTrail_temp.cyoa = true;
 const customStyling = document.createElement("style");
 customStyling.innerHTML = `
@@ -11700,23 +11700,38 @@ var GOPSupermajority = 0
 var PublicSupport = 8
 var HillaryRelationship = 4
 var LibSocial = 0
+var DoleNom = 0
+var BuchananNom = 0
 cyoAdventure = function(a) {
     update_EV_dict();
     ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
-    if (ans == 3453 && ev_dict["77"] < 269) {
-    update_EV_dict();
-    campaignTrail_temp.question_number = 34;
-    
-    console.log(ans == 3453 && ev_dict["77"] < 269);
-} else if (ans == 3454 && ev_dict["77"] < 269) {
-    update_EV_dict();
-    campaignTrail_temp.question_number = 34;
-    console.log(ans == 3454 && ev_dict["77"] < 269);
-} else if (ans == 3455 && ev_dict["77"] < 269) {
-    update_EV_dict();
-    campaignTrail_temp.question_number = 34;
-    console.log(ans == 3455 && ev_dict["77"] < 269);
-}
+    if (ans == 3453 && ev_dict["77"] < 269 && DoleNom == 1) {
+        update_EV_dict();
+        campaignTrail_temp.question_number = 34;
+        
+        console.log(ans == 3453 && ev_dict["77"] < 269 && DoleNom == 1);
+    } else if (ans == 3454 && ev_dict["77"] < 269 && DoleNom == 1) {
+        update_EV_dict();
+        campaignTrail_temp.question_number = 34;
+        console.log(ans == 3454 && ev_dict["77"] < 269 && DoleNom == 1);
+    } else if (ans == 3455 && ev_dict["77"] < 269 && DoleNom == 1) {
+        update_EV_dict();
+        campaignTrail_temp.question_number = 34;
+        console.log(ans == 3455 && ev_dict["77"] < 269 && DoleNom == 1);
+    } else if (ans == 3453 && ev_dict["77"] < 269 && BuchananNom == 1) {
+        update_EV_dict();
+        campaignTrail_temp.question_number = 34;
+        
+        console.log(ans == 3453 && ev_dict["77"] < 269 && BuchananNom == 1);
+    } else if (ans == 3454 && ev_dict["77"] < 269 && BuchananNom == 1) {
+        update_EV_dict();
+        campaignTrail_temp.question_number = 34;
+        console.log(ans == 3454 && ev_dict["77"] < 269 && BuchananNom == 1);
+    } else if (ans == 3455 && ev_dict["77"] < 269 && BuchananNom == 1) {
+        update_EV_dict();
+        campaignTrail_temp.question_number = 34;
+        console.log(ans == 3455 && ev_dict["77"] < 269 && BuchananNom == 1);
+    }
    //Healthcare Update Inserter
     if (ans === 3330) {
         
@@ -12404,18 +12419,21 @@ PublicSupport += 1;
     }
     //Bob Dole CYOA
     if (ans == 3388){
+        DoleNom += 1;
         campaignTrail_temp.candidate_json[1]["fields"].last_name = "Dole";
         campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#E4463E";
         campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/pz9sYma.jpeg";
         campaignTrail_temp.candidate_json[1]["fields"].first_name = "Bob";
 }
 if (ans == 3389){
+    DoleNom += 1;
     campaignTrail_temp.candidate_json[1]["fields"].last_name = "Dole";
     campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#E4463E";
     campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/pz9sYma.jpeg";
     campaignTrail_temp.candidate_json[1]["fields"].first_name = "Bob";
 }
 if(ans == 12636){
+    DoleNom += 1;
     campaignTrail_temp.candidate_json[1]["fields"].last_name = "Dole";
     campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#E4463E";
     campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/pz9sYma.jpeg";
@@ -12423,18 +12441,21 @@ if(ans == 12636){
 
 //Pat Buchanan CYOA
 } else if (LibSocial == 2 && GOPSupermajority == 1 && ans == 3388){
+    BuchananNom += 1;
     campaignTrail_temp.candidate_json[1]["fields"].last_name = "Buchanan";
     campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#800020";
     campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
     campaignTrail_temp.candidate_json[1]["fields"].first_name = "Patrick";
 }
 if (LibSocial == 2 && GOPSupermajority == 1 && ans == 3389){
+    BuchananNom += 1;
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Buchanan";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#800020";
 campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
 campaignTrail_temp.candidate_json[1]["fields"].first_name = "Patrick";
 }
 if(LibSocial == 2 && GOPSupermajority == 1 && ans == 12636){
+    BuchananNom += 1;
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Buchanan";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#800020";
 campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
