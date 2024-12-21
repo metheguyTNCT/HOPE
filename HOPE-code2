@@ -9162,6 +9162,16 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
+        "pk": 1026,
+        "fields": {
+            "answer": 3333,
+            "issue": 28,
+            "issue_score": -0.15,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
         "pk": 1039,
         "fields": {
             "answer": 3374,
