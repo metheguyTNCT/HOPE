@@ -12529,6 +12529,10 @@ cyoAdventure = function(a) {
     if (ans == 125752){
     LibSocial += 1;
     }
+    //reichs plan
+    if (ans == 3394){
+    LibSocial += 1;
+    }
     //Somalia CYOA
     if (ans == 3322){
     PublicSupport -= 1;
