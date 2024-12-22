@@ -1325,6 +1325,30 @@ campaignTrail_temp.answers_json = [
         }
     },
     {
+	    "model": "campaign_trail.answer",
+        "pk": 12722155,
+        "fields": {
+            "question": 12711255,
+            "description": "You know what? Two can play at this game. I’m going to take this right to the heart of it. I’ll deliver a speech in my hometown of Hope, Arkansas, and I’ll speak to the fact that the Speaker’s view of America is not just unrealistic, it’s out of touch with the values of the hardworking people who make this country great. "
+        }
+    },
+    {
+	    "model": "campaign_trail.answer",
+        "pk": 12722122,
+        "fields": {
+            "question": 12711255,
+            "description": "Is this a goddamn joke? We are going to wipe the floor with this asshole. At every turn, we’ll expose the hypocrisy and the kind of boyish cruelty that the Speaker embodies. This is absolutely not the kind of man who should be leading our nation into the 21st century. .  "
+        }
+    },
+    {
+	    "model": "campaign_trail.answer",
+        "pk": 12722135,
+        "fields": {
+            "question": 12711255,
+            "description": "It's time to step in front of the American people. We need to stand tall and defend our record of progress, while inviting those who supported Bush to join us. The Republican Party may represent the past, but the Democratic Party is the way forward, a party for the future, with a vision that unites us all in building a stronger, fairer America. "
+        }
+    },
+    {
         "model": "campaign_trail.answer",
         "pk": 1272212,
         "fields": {
@@ -1402,6 +1426,14 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 127441,
             "description": "I will use my time to focus on the subject of Foreign Policy, this area seems to be a place that we could make huge wins in this upcoming election. \n"
+        }
+    },
+    {
+	    "model": "campaign_trail.answer",
+        "pk": 1274577,
+        "fields": {
+            "question": 12744155,
+            "description": "PLACEHOLDER NEWT DEBATE SOMETHNG SOMETHING EVIL COCAINE MONSTER GUY SOMETHING SOMETHING \n"
         }
     },
     {
@@ -7033,7 +7065,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3317,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.041121121124114114114
+            "global_multiplier": 0.048891121124114114114
         }
     },
     {
@@ -7483,7 +7515,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12344,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.051
+            "global_multiplier": 0.055
         }
     },
     {
@@ -7493,7 +7525,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12344,
             "candidate": 77,
             "affected_candidate": 78,
-            "global_multiplier": -0.011
+            "global_multiplier": -0.02
         }
     },
     {
@@ -7503,7 +7535,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12344,
             "candidate": 77,
             "affected_candidate": 80,
-            "global_multiplier": 0.011
+            "global_multiplier": 0.02
         }
     },
     {
@@ -7703,7 +7735,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3382,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.01
+            "global_multiplier": 0.0125
         }
     },
     {
@@ -8403,7 +8435,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3365,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.012493
+            "global_multiplier": 0.0138493
         }
     },
     {
@@ -8413,7 +8445,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12631,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.012493
+            "global_multiplier": 0.0138493
         }
     },
     {
@@ -8687,6 +8719,26 @@ campaignTrail_temp.answer_score_global_json = [
         }
     },
     {
+	    "model": "campaign_trail.answer_score_global",
+        "pk": 12714,
+        "fields": {
+            "answer": 12722135,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": -0.0151
+        }
+    },
+    {
+		"model": "campaign_trail.answer_score_global",
+        "pk": 12714,
+        "fields": {
+            "answer": 12722135,
+            "candidate": 77,
+            "affected_candidate": 80,
+            "global_multiplier": -0.0512
+        }
+    },
+    {
         "model": "campaign_trail.answer_score_global",
         "pk": 12714,
         "fields": {
@@ -8694,6 +8746,26 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 77,
             "affected_candidate": 77,
             "global_multiplier": 0.0051
+        }
+    },
+    {
+	    "model": "campaign_trail.answer_score_global",
+        "pk": 12714,
+        "fields": {
+            "answer": 12722122,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.0176
+        }
+    },
+    {
+		"model": "campaign_trail.answer_score_global",
+        "pk": 12714,
+        "fields": {
+            "answer": 12722122,
+            "candidate": 77,
+            "affected_candidate": 80,
+            "global_multiplier": -0.051234
         }
     },
     {
@@ -8764,6 +8836,36 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 77,
             "affected_candidate": 78,
             "global_multiplier": 0.009
+        }
+    },
+    {
+	    "model": "campaign_trail.answer_score_global",
+        "pk": 12714,
+        "fields": {
+            "answer": 12722155,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+		"model": "campaign_trail.answer_score_global",
+        "pk": 12714,
+        "fields": {
+            "answer": 12722155,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.008
+        }
+    },
+    {
+		"model": "campaign_trail.answer_score_global",
+        "pk": 12714,
+        "fields": {
+            "answer": 12722155,
+            "candidate": 77,
+            "affected_candidate": 80,
+            "global_multiplier": -0.0598345
         }
     },
     {
@@ -10257,6 +10359,39 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 77,
             "affected_candidate": 78,
             "state_multiplier": -0.0251
+        }
+    },
+    {
+	    "model": "campaign_trail.answer_score_state",
+        "pk": 12300,
+        "fields": {
+            "answer": 12722122,
+            "state": 190,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "state_multiplier": 0.02398
+        }
+    },
+    {
+		"model": "campaign_trail.answer_score_state",
+        "pk": 12300,
+        "fields": {
+            "answer": 12722155,
+            "state": 190,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "state_multiplier": 0.02398
+        }
+    },
+    {
+		"model": "campaign_trail.answer_score_state",
+        "pk": 12300,
+        "fields": {
+            "answer": 12722135,
+            "state": 190,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "state_multiplier": 0.02398
         }
     },
     {
@@ -11791,6 +11926,15 @@ campaignTrail_temp.answer_feedback_json = [
         }
     },
     {
+	    "model": "campaign_trail.answer_feedback",
+        "pk": 12713,
+        "fields": {
+            "answer": 12722135,
+            "candidate": 77,
+            "answer_feedback": "Speaker Gingrich is traveling across the country, painting a divisive, almost hateful picture of America. His campaign is certainly capturing the press's attention, while you stick to your message, pretty strictly. "
+        }
+    },
+    {
         "model": "campaign_trail.answer_feedback",
         "pk": 12713,
         "fields": {
@@ -11800,12 +11944,30 @@ campaignTrail_temp.answer_feedback_json = [
         }
     },
     {
+	    "model": "campaign_trail.answer_feedback",
+        "pk": 12713,
+        "fields": {
+            "answer": 12722122,
+            "candidate": 77,
+            "answer_feedback": "It sounds like, from what many of your advisors are quietly saying, that you're underestimating the Speaker. But with his approval ratings so low, slamming him is obvious. That should be enough, right?  "
+        }
+    },
+    {
         "model": "campaign_trail.answer_feedback",
         "pk": 12713,
         "fields": {
             "answer": 127221,
             "candidate": 77,
             "answer_feedback": "You ended up veering into a sort of uncomfortable anger during your speech, especially when you brought your focus toward Governor Alexander. The American people aren't used to seeing you so off your game. What's going on, President Clinton? "
+        }
+    },
+    {
+	    "model": "campaign_trail.answer_feedback",
+        "pk": 12713,
+        "fields": {
+            "answer": 12722155,
+            "candidate": 77,
+            "answer_feedback": "After your speech, it’s clear that both you and Newt Gingrich are gearing up for a brutal, and at times personal, campaign against each other. The polls show you’re likely to triumph, but this bastard won’t let you win without a fight. "
         }
     },
     {
@@ -13113,6 +13275,31 @@ question_insert(12726,
         {
                     "model": "campaign_trail.question",
         "pk": 127441,
+        "fields": {
+            "priority": -2,
+            "description": "Mr. President, it's one week before the debate. You've been swamped with work, and now you're down to the wire with little time to dive into the key issues. Will you cut your losses and wing it, or will you use every minute you have left to study as much as you can?",
+            "likelihood": 1
+            }
+        }
+                );
+				                } if (LibSocial == 1 && SlimGOPCongress == 1) {
+        
+                question_insert(364, 
+                {
+                    "model": "campaign_trail.question",
+                "pk": 12711255,
+                "fields": {
+                    "priority": 3,
+                    "description": "The moment we've all been waiting for, the Grand Reveal at the Republican National Convention. You've been so focused on your duties as President that you haven’t kept track of the race. The last time you checked, Steve Forbes was leading by a wide margin. Then he emerges... Newt Gingrich, practically vibrating with energy as he stands before the Republican delegates, speaking of a new direction for America.  ",
+                    "likelihood": 1
+                }
+                    }
+                
+                );
+                    question_insert(12726, 
+        {
+                    "model": "campaign_trail.question",
+        "pk": 12744155,
         "fields": {
             "priority": -2,
             "description": "Mr. President, it's one week before the debate. You've been swamped with work, and now you're down to the wire with little time to dive into the key issues. Will you cut your losses and wing it, or will you use every minute you have left to study as much as you can?",
