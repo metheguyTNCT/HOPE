@@ -413,7 +413,25 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
+        "pk": 127112,
+        "fields": {
+            "priority": 3,
+            "description": "After a long, stressful day of hard work, I'm here to inform you that the Republican National Convention has officially begun. A folksy politician stands before the Republican delegates, speaking of his vision for America. He criticizes you for governing as ''simply a liberal,'' presenting his own common-sense conservative worldview, all while weaving in anecdotes from his time as Tennessee's Governor. ",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
         "pk": 12744,
+        "fields": {
+            "priority": -2,
+            "description": "Mr. President, it's one week before the debate. You've been swamped with work, and now you're down to the wire with little time to dive into the key issues. Will you cut your losses and wing it, or will you use every minute you have left to study as much as you can?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 127441,
         "fields": {
             "priority": -2,
             "description": "Mr. President, it's one week before the debate. You've been swamped with work, and now you're down to the wire with little time to dive into the key issues. Will you cut your losses and wing it, or will you use every minute you have left to study as much as you can?",
@@ -1282,6 +1300,30 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
+        "pk": 127221,
+        "fields": {
+            "question": 127112,
+            "description": "You know what? Two can play at this game. I’m going to take this right to the heart of it. I’ll deliver a speech in my hometown of Hope, Arkansas, and I’ll speak about my own time as Governor, and how it directly informed how I govern as President."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1272212,
+        "fields": {
+            "question": 127112,
+            "description": "Lamar Alexander? Are you kidding me? This guy doesn't have the speed, or frankly, the ability to keep up with our campaign. We’re not going to waste too much time on him, except maybe to tie him in with Newt Gingrich, of course. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1272213,
+        "fields": {
+            "question": 127112,
+            "description": "It's time to step in front of the American people. We need to stand tall and defend our record of progress, while inviting those who supported Bush to join us. The Republican Party may represent the past, but the Democratic Party is the way forward, a party for the future, with a vision that unites us all in building a stronger, fairer America. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
         "pk": 12727,
         "fields": {
             "question": 12726,
@@ -1334,6 +1376,30 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 12744,
             "description": "I will use my time to focus on the subject of Foreign Policy, this area seems to be a place that we could make huge wins in this upcoming election. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 12745,
+        "fields": {
+            "question": 127441,
+            "description": "I will use my time to focus on the subject of Foreign Policy, this area seems to be a place that we could make huge wins in this upcoming election. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 12751,
+        "fields": {
+            "question": 127441,
+            "description": "I will stay up all night researching all of Congress’s weak spots and I will make sure to tie Dole to them. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 12757,
+        "fields": {
+            "question": 127441,
+            "description": "I think I will get the extra sleep. I believe that the key to a great performance at the debate is to get loads of sleep so I don't look tired and unalert like Dole. "
         }
     },
     {
@@ -8578,6 +8644,96 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 12714,
+        "fields": {
+            "answer": 1272213,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.0051
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12714,
+        "fields": {
+            "answer": 1272212,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.0051
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12714,
+        "fields": {
+            "answer": 127221,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.0051
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12714,
+        "fields": {
+            "answer": 1272213,
+            "candidate": 77,
+            "affected_candidate": 80,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12714,
+        "fields": {
+            "answer": 1272212,
+            "candidate": 77,
+            "affected_candidate": 80,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12714,
+        "fields": {
+            "answer": 127221,
+            "candidate": 77,
+            "affected_candidate": 80,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12714,
+        "fields": {
+            "answer": 1272213,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.009
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12714,
+        "fields": {
+            "answer": 1272212,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.009
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12714,
+        "fields": {
+            "answer": 127221,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.009
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 12710,
         "fields": {
             "answer": 12707,
@@ -11593,6 +11749,33 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
+        "pk": 12713,
+        "fields": {
+            "answer": 1272213,
+            "candidate": 77,
+            "answer_feedback": "Governor Alexander is eager to present his own vision for America, just as you are presenting yours. The American people are in luck, as this campaign is shaping up to be fair and above the belt. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12713,
+        "fields": {
+            "answer": 1272212,
+            "candidate": 77,
+            "answer_feedback": "While Lamar Alexander clearly doesn’t have the political talent of you or Ronald Reagan, he does come across as down-to-earth, and it's not as easy to tie him to Washington. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12713,
+        "fields": {
+            "answer": 127221,
+            "candidate": 77,
+            "answer_feedback": "You ended up veering into a sort of uncomfortable anger during your speech, especially when you brought your focus toward Governor Alexander. The American people aren't used to seeing you so off your game. What's going on, President Clinton? "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
         "pk": 12718,
         "fields": {
             "answer": 12717,
@@ -11761,6 +11944,7 @@ var HillaryRelationship = 4
 var LibSocial = 0
 var DoleNom = 0
 var BuchananNom = 0
+var LamarNom = 0
 cyoAdventure = function(a) {
     update_EV_dict();
     ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
@@ -11796,6 +11980,22 @@ cyoAdventure = function(a) {
         update_EV_dict();
         campaignTrail_temp.question_number = 34;
         console.log(Buchananwin = true);
+    } else if (ans == 3453 && ev_dict["77"] < 269 && LamarNom == 1) {
+        Lamarwin = true;
+        update_EV_dict();
+        campaignTrail_temp.question_number = 34;
+        
+        console.log(Lamarwin = true);
+    } else if (ans == 3454 && ev_dict["77"] < 269 && LamarNom == 1) {
+        Lamarwin = true;
+        update_EV_dict();
+        campaignTrail_temp.question_number = 34;
+        console.log(Lamarwin = true);
+    } else if (ans == 3455 && ev_dict["77"] < 269 && LamarNom == 1) {
+        Lamarwin = true;
+        update_EV_dict();
+        campaignTrail_temp.question_number = 34;
+        console.log(Lamarwin = true);
     }
    //Healthcare Update Inserter
     if (ans === 3330) {
@@ -12325,6 +12525,10 @@ cyoAdventure = function(a) {
     if (ans == 3319){
     LibSocial += 1;
     }
+    //If you vetoo welfare reform
+    if (ans == 125752){
+    LibSocial += 1;
+    }
     //Somalia CYOA
     if (ans == 3322){
     PublicSupport -= 1;
@@ -12565,6 +12769,13 @@ campaignTrail_temp.candidate_json[3]["fields"].last_name = "Whitman";
 campaignTrail_temp.candidate_json[3]["fields"].first_name = "Christine Todd";
 campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#EAB3A6";
 }
+if(LibSocial == 3 && GOPSupermajority == 1 && ans == 3388){
+    LamarNom += 1;
+campaignTrail_temp.candidate_json[1]["fields"].last_name = "Alexander";
+campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#B2232F";
+campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
+campaignTrail_temp.candidate_json[1]["fields"].first_name = "Lamar";
+}
  //Ross Perot and Ralph Nader CYOA
     if (ans == 3388){
     campaignTrail_temp.candidate_json[3]["fields"].last_name = "Perot";
@@ -12771,6 +12982,32 @@ question_insert(12726,
         );
                 
                 }        
+            console.log("NAFTA == 1 && GotHealthcare == 1")
+            } if (LibSocial == 3 && GOPSupermajority == 1) {
+        
+                question_insert(364, 
+                {
+                    "model": "campaign_trail.question",
+                "pk": 127112,
+                "fields": {
+                    "priority": 3,
+                    "description": "After a long, stressful day of hard work, I'm here to inform you that the Republican National Convention has officially begun. A folksy politician stands before the Republican delegates, speaking of his vision for America. He criticizes you for governing as ''simply a liberal,'' presenting his own common-sense conservative worldview, all while weaving in anecdotes from his time as Tennessee's Governor. ",
+                    "likelihood": 1
+                }
+                    }
+                
+                );
+                    question_insert(12726, 
+        {
+                    "model": "campaign_trail.question",
+        "pk": 127441,
+        "fields": {
+            "priority": -2,
+            "description": "Mr. President, it's one week before the debate. You've been swamped with work, and now you're down to the wire with little time to dive into the key issues. Will you cut your losses and wing it, or will you use every minute you have left to study as much as you can?",
+            "likelihood": 1
+            }
+        }
+                );
 	}}
     endingPicker = (out, totv, aa, quickstats) => {
 
