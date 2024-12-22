@@ -12773,14 +12773,14 @@ campaignTrail_temp.candidate_json[3]["fields"].last_name = "Whitman";
 campaignTrail_temp.candidate_json[3]["fields"].first_name = "Christine Todd";
 campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#EAB3A6";
 }
-if(LibSocial == 3 && GOPSupermajority == 1 && ans == 3388){
+if(LibSocial == 1 && GOPSupermajority == 1 && ans == 3388){
     LamarNom += 1;
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Alexander";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#B2232F";
 campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
 campaignTrail_temp.candidate_json[1]["fields"].first_name = "Lamar";
 }
-if(LibSocial == 3 && GOPSupermajority == 1 && ans == 3389){
+if(LibSocial == 1 && GOPSupermajority == 1 && ans == 3389){
     LamarNom += 1;
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Alexander";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#B2232F";
