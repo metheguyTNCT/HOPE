@@ -11997,9 +11997,11 @@ var LibSocial = 0
 var DoleNom = 0
 var BuchananNom = 0
 var LamarNom = 0
+var NewtNom = 0
 Dolewin = false
 Buchananwin = false
 Lamarwin = false
+Newtwin = false
 cyoAdventure = function(a) {
     update_EV_dict();
     ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
@@ -12051,6 +12053,21 @@ cyoAdventure = function(a) {
         update_EV_dict();
         campaignTrail_temp.question_number = 34;
         console.log(Lamarwin = true);
+    } else if (ans == 3453 && ev_dict["77"] < 269 && NewtNom == 1) {
+        Newtwin = true;
+        update_EV_dict();
+        campaignTrail_temp.question_number = 34;
+        console.log(Newtwin = true);
+    } else if (ans == 3454 && ev_dict["77"] < 269 && NewtNom == 1) {
+        Newtwin = true;
+        update_EV_dict();
+        campaignTrail_temp.question_number = 34;
+        console.log(Newtwin = true);
+    } else if (ans == 3455 && ev_dict["77"] < 269 && NewtNom == 1) {
+        Newtwin = true;
+        update_EV_dict();
+        campaignTrail_temp.question_number = 34;
+        console.log(Newtwin = true);
     }
    //Healthcare Update Inserter
     if (ans === 3330) {
@@ -12533,7 +12550,7 @@ cyoAdventure = function(a) {
         );
     
     }
-    if (Dolewin == false && Buchananwin == false && Lamarwin == false && Legacy >= 3 && (ans == 3453 || ans == 3454 || ans == 3455)) {
+    if (Dolewin == false && Buchananwin == false && Lamarwin == false && Newtwin == false && Legacy >= 3 && (ans == 3453 || ans == 3454 || ans == 3455)) {
     question_insert(381, 
         {
             "model": "campaign_trail.question",
@@ -12546,7 +12563,7 @@ cyoAdventure = function(a) {
         }
         );
     
-    } else if (Dolewin == false && Buchananwin == false && Lamarwin == false && Legacy <= 2 && (ans == 3453 || ans == 3454 || ans == 3455)) {
+    } else if (Dolewin == false && Buchananwin == false && Lamarwin == false && Newtwin == false && Legacy <= 2 && (ans == 3453 || ans == 3454 || ans == 3455)) {
     question_insert(381, 
         {
             "model": "campaign_trail.question",
@@ -12876,6 +12893,27 @@ campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#B2232F";
 campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/ASUAmNe.png";
 campaignTrail_temp.candidate_json[1]["fields"].first_name = "Lamar";
 }
+if (LibSocial == 1 && SlimGOPCongress == 1 && ans == 12636){
+    NewtNom += 1;
+campaignTrail_temp.candidate_json[1]["fields"].last_name = "Gingrich";
+campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#8a0d1e";
+campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/ASUAmNe.png";
+campaignTrail_temp.candidate_json[1]["fields"].first_name = "Newt";
+}
+if (LibSocial == 1 && SlimGOPCongress == 1 && ans == 3388){
+    NewtNom += 1;
+campaignTrail_temp.candidate_json[1]["fields"].last_name = "Gingrich";
+campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#8a0d1e";
+campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/ASUAmNe.png";
+campaignTrail_temp.candidate_json[1]["fields"].first_name = "Newt";
+}
+if (LibSocial == 1 && SlimGOPCongress == 1 && ans == 3389){
+    NewtNom += 1;
+campaignTrail_temp.candidate_json[1]["fields"].last_name = "Gingrich";
+campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#8a0d1e";
+campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/ASUAmNe.png";
+campaignTrail_temp.candidate_json[1]["fields"].first_name = "Newt";
+}
  //Ross Perot and Ralph Nader CYOA
     if (ans == 3388){
     campaignTrail_temp.candidate_json[3]["fields"].last_name = "Perot";
@@ -13111,7 +13149,7 @@ question_insert(12726,
     endingPicker = (out, totv, aa, quickstats) => {
 
 used=false
-if (Dolewin == true && Buchananwin == false && Lamarwin == false) {
+if (Dolewin == true && Buchananwin == false && Newtwin == false && Lamarwin == false) {
   //If you want to enable replacing the image based upon your performance, copy from here....
     if (used != true) {
         setInterval(function () {
@@ -13124,7 +13162,7 @@ if (Dolewin == true && Buchananwin == false && Lamarwin == false) {
     }
     // to here!
      return "<h3>If your seeing this, Bob Dole won.</h3><p>Get ready for Dolemaxxing!</p></p>";
-} else if (Buchananwin == true && Dolewin == false && Lamarwin == false) {
+} else if (Buchananwin == true && Newtwin == false && Dolewin == false && Lamarwin == false) {
     //If you want to enable replacing the image based upon your performance, copy from here....
     if (used != true) {
         setInterval(function () {
@@ -13137,7 +13175,20 @@ if (Dolewin == true && Buchananwin == false && Lamarwin == false) {
     }
     // to here!
     return "<h3>If your seeing this, Pat Buchanan won.</h3><p>Get ready for Buchananmaxxing!</p></p>";
-    } else if (Lamarwin == true && Dolewin == false && Buchananwin == false) {
+} else if (Buchananwin == false && Newtwin == true && Dolewin == false && Lamarwin == false) {
+    //If you want to enable replacing the image based upon your performance, copy from here....
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://i.imgur.com/GAq871H.png";
+            }
+        }, 100);
+    }
+    // to here!
+    return "<h3>If your seeing this, Newt Gingrich won.</h3><p>Get ready for a revolution!</p></p>";
+    } else if (Lamarwin == true && Newtwin == false && Dolewin == false && Buchananwin == false) {
     //If you want to enable replacing the image based upon your performance, copy from here....
     if (used != true) {
         setInterval(function () {
