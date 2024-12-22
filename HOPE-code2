@@ -13509,6 +13509,8 @@ return "<h3>That's odd. The mod seems broken.</h3><p>Contact the creator of the 
           page_list[3][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Lamar Alexander</span>`; // Style ExpectedOpponent
       } else if (LibSocial == 3 && GOPSupermajority == 1 && ans == 12631) {
           page_list[3][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Lamar Alexander</span>`; // Style ExpectedOpponent
+      } else if (LibSocial == 1 && SlimGOPCongress == 1) {
+          page_list[3][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Newt Gingrich</span>`; // Style ExpectedOpponent
       } else if (RepublicanRevolution == 1 && ans == 3365){ 
           page_list[3][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Bob Dole</span>`; // Style ExpectedOpponent
       } else if (LibSocial >= 1 && RepublicanRevolution == 1 && ans == 12631){ 
