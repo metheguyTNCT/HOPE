@@ -12780,6 +12780,13 @@ campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#B2232F";
 campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
 campaignTrail_temp.candidate_json[1]["fields"].first_name = "Lamar";
 }
+if(LibSocial == 3 && GOPSupermajority == 1 && ans == 3389){
+    LamarNom += 1;
+campaignTrail_temp.candidate_json[1]["fields"].last_name = "Alexander";
+campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#B2232F";
+campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
+campaignTrail_temp.candidate_json[1]["fields"].first_name = "Lamar";
+}
  //Ross Perot and Ralph Nader CYOA
     if (ans == 3388){
     campaignTrail_temp.candidate_json[3]["fields"].last_name = "Perot";
