@@ -1325,30 +1325,6 @@ campaignTrail_temp.answers_json = [
         }
     },
     {
-	    "model": "campaign_trail.answer",
-        "pk": 12722155,
-        "fields": {
-            "question": 12711255,
-            "description": "You know what? Two can play at this game. I’m going to take this right to the heart of it. I’ll deliver a speech in my hometown of Hope, Arkansas, and I’ll speak to the fact that the Speaker’s view of America is not just unrealistic, it’s out of touch with the values of the hardworking people who make this country great. "
-        }
-    },
-    {
-	    "model": "campaign_trail.answer",
-        "pk": 12722122,
-        "fields": {
-            "question": 12711255,
-            "description": "Is this a goddamn joke? We are going to wipe the floor with this asshole. At every turn, we’ll expose the hypocrisy and the kind of boyish cruelty that the Speaker embodies. This is absolutely not the kind of man who should be leading our nation into the 21st century. .  "
-        }
-    },
-    {
-	    "model": "campaign_trail.answer",
-        "pk": 12722135,
-        "fields": {
-            "question": 12711255,
-            "description": "It's time to step in front of the American people. We need to stand tall and defend our record of progress, while inviting those who supported Bush to join us. The Republican Party may represent the past, but the Democratic Party is the way forward, a party for the future, with a vision that unites us all in building a stronger, fairer America. "
-        }
-    },
-    {
         "model": "campaign_trail.answer",
         "pk": 1272212,
         "fields": {
@@ -1426,14 +1402,6 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 127441,
             "description": "I will use my time to focus on the subject of Foreign Policy, this area seems to be a place that we could make huge wins in this upcoming election. \n"
-        }
-    },
-    {
-	    "model": "campaign_trail.answer",
-        "pk": 1274577,
-        "fields": {
-            "question": 12744155,
-            "description": "PLACEHOLDER NEWT DEBATE SOMETHNG SOMETHING EVIL COCAINE MONSTER GUY SOMETHING SOMETHING \n"
         }
     },
     {
@@ -7065,7 +7033,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3317,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.048891121124114114114
+            "global_multiplier": 0.041121121124114114114
         }
     },
     {
@@ -7515,7 +7483,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12344,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.055
+            "global_multiplier": 0.051
         }
     },
     {
@@ -7525,7 +7493,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12344,
             "candidate": 77,
             "affected_candidate": 78,
-            "global_multiplier": -0.02
+            "global_multiplier": -0.011
         }
     },
     {
@@ -7535,7 +7503,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12344,
             "candidate": 77,
             "affected_candidate": 80,
-            "global_multiplier": 0.02
+            "global_multiplier": 0.011
         }
     },
     {
@@ -7735,7 +7703,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3382,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.0125
+            "global_multiplier": 0.01
         }
     },
     {
@@ -8435,7 +8403,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3365,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.0138493
+            "global_multiplier": 0.012493
         }
     },
     {
@@ -8445,7 +8413,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12631,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.0138493
+            "global_multiplier": 0.012493
         }
     },
     {
@@ -8719,26 +8687,6 @@ campaignTrail_temp.answer_score_global_json = [
         }
     },
     {
-	    "model": "campaign_trail.answer_score_global",
-        "pk": 12714,
-        "fields": {
-            "answer": 12722135,
-            "candidate": 77,
-            "affected_candidate": 78,
-            "global_multiplier": -0.0151
-        }
-    },
-    {
-		"model": "campaign_trail.answer_score_global",
-        "pk": 12714,
-        "fields": {
-            "answer": 12722135,
-            "candidate": 77,
-            "affected_candidate": 80,
-            "global_multiplier": -0.0512
-        }
-    },
-    {
         "model": "campaign_trail.answer_score_global",
         "pk": 12714,
         "fields": {
@@ -8746,26 +8694,6 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 77,
             "affected_candidate": 77,
             "global_multiplier": 0.0051
-        }
-    },
-    {
-	    "model": "campaign_trail.answer_score_global",
-        "pk": 12714,
-        "fields": {
-            "answer": 12722122,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "global_multiplier": 0.0176
-        }
-    },
-    {
-		"model": "campaign_trail.answer_score_global",
-        "pk": 12714,
-        "fields": {
-            "answer": 12722122,
-            "candidate": 77,
-            "affected_candidate": 80,
-            "global_multiplier": -0.051234
         }
     },
     {
@@ -8836,36 +8764,6 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 77,
             "affected_candidate": 78,
             "global_multiplier": 0.009
-        }
-    },
-    {
-	    "model": "campaign_trail.answer_score_global",
-        "pk": 12714,
-        "fields": {
-            "answer": 12722155,
-            "candidate": 77,
-            "affected_candidate": 78,
-            "global_multiplier": 0.005
-        }
-    },
-    {
-		"model": "campaign_trail.answer_score_global",
-        "pk": 12714,
-        "fields": {
-            "answer": 12722155,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "global_multiplier": 0.008
-        }
-    },
-    {
-		"model": "campaign_trail.answer_score_global",
-        "pk": 12714,
-        "fields": {
-            "answer": 12722155,
-            "candidate": 77,
-            "affected_candidate": 80,
-            "global_multiplier": -0.0598345
         }
     },
     {
@@ -10359,39 +10257,6 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 77,
             "affected_candidate": 78,
             "state_multiplier": -0.0251
-        }
-    },
-    {
-	    "model": "campaign_trail.answer_score_state",
-        "pk": 12300,
-        "fields": {
-            "answer": 12722122,
-            "state": 190,
-            "candidate": 77,
-            "affected_candidate": 78,
-            "state_multiplier": 0.02398
-        }
-    },
-    {
-		"model": "campaign_trail.answer_score_state",
-        "pk": 12300,
-        "fields": {
-            "answer": 12722155,
-            "state": 190,
-            "candidate": 77,
-            "affected_candidate": 78,
-            "state_multiplier": 0.02398
-        }
-    },
-    {
-		"model": "campaign_trail.answer_score_state",
-        "pk": 12300,
-        "fields": {
-            "answer": 12722135,
-            "state": 190,
-            "candidate": 77,
-            "affected_candidate": 78,
-            "state_multiplier": 0.02398
         }
     },
     {
@@ -11926,15 +11791,6 @@ campaignTrail_temp.answer_feedback_json = [
         }
     },
     {
-	    "model": "campaign_trail.answer_feedback",
-        "pk": 12713,
-        "fields": {
-            "answer": 12722135,
-            "candidate": 77,
-            "answer_feedback": "Speaker Gingrich is traveling across the country, painting a divisive, almost hateful picture of America. His campaign is certainly capturing the press's attention, while you stick to your message, pretty strictly. "
-        }
-    },
-    {
         "model": "campaign_trail.answer_feedback",
         "pk": 12713,
         "fields": {
@@ -11944,30 +11800,12 @@ campaignTrail_temp.answer_feedback_json = [
         }
     },
     {
-	    "model": "campaign_trail.answer_feedback",
-        "pk": 12713,
-        "fields": {
-            "answer": 12722122,
-            "candidate": 77,
-            "answer_feedback": "It sounds like, from what many of your advisors are quietly saying, that you're underestimating the Speaker. But with his approval ratings so low, slamming him is obvious. That should be enough, right?  "
-        }
-    },
-    {
         "model": "campaign_trail.answer_feedback",
         "pk": 12713,
         "fields": {
             "answer": 127221,
             "candidate": 77,
             "answer_feedback": "You ended up veering into a sort of uncomfortable anger during your speech, especially when you brought your focus toward Governor Alexander. The American people aren't used to seeing you so off your game. What's going on, President Clinton? "
-        }
-    },
-    {
-	    "model": "campaign_trail.answer_feedback",
-        "pk": 12713,
-        "fields": {
-            "answer": 12722155,
-            "candidate": 77,
-            "answer_feedback": "After your speech, it’s clear that both you and Newt Gingrich are gearing up for a brutal, and at times personal, campaign against each other. The polls show you’re likely to triumph, but this bastard won’t let you win without a fight. "
         }
     },
     {
@@ -12159,11 +11997,9 @@ var LibSocial = 0
 var DoleNom = 0
 var BuchananNom = 0
 var LamarNom = 0
-var NewtNom = 0
 Dolewin = false
 Buchananwin = false
 Lamarwin = false
-Newtwin = false
 cyoAdventure = function(a) {
     update_EV_dict();
     ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
@@ -12215,21 +12051,6 @@ cyoAdventure = function(a) {
         update_EV_dict();
         campaignTrail_temp.question_number = 34;
         console.log(Lamarwin = true);
-    } else if (ans == 3453 && ev_dict["77"] < 269 && NewtNom == 1) {
-        Newtwin = true;
-        update_EV_dict();
-        campaignTrail_temp.question_number = 34;
-        console.log(Newtwin = true);
-    } else if (ans == 3454 && ev_dict["77"] < 269 && NewtNom == 1) {
-        Newtwin = true;
-        update_EV_dict();
-        campaignTrail_temp.question_number = 34;
-        console.log(Newtwin = true);
-    } else if (ans == 3455 && ev_dict["77"] < 269 && NewtNom == 1) {
-        Newtwin = true;
-        update_EV_dict();
-        campaignTrail_temp.question_number = 34;
-        console.log(Newtwin = true);
     }
    //Healthcare Update Inserter
     if (ans === 3330) {
@@ -12712,7 +12533,7 @@ cyoAdventure = function(a) {
         );
     
     }
-    if (Dolewin == false && Buchananwin == false && Lamarwin == false && Newtwin == false && Legacy >= 3 && (ans == 3453 || ans == 3454 || ans == 3455)) {
+    if (Dolewin == false && Buchananwin == false && Lamarwin == false && Legacy >= 3 && (ans == 3453 || ans == 3454 || ans == 3455)) {
     question_insert(381, 
         {
             "model": "campaign_trail.question",
@@ -12725,7 +12546,7 @@ cyoAdventure = function(a) {
         }
         );
     
-    } else if (Dolewin == false && Buchananwin == false && Lamarwin == false && Newtwin == false && Legacy <= 2 && (ans == 3453 || ans == 3454 || ans == 3455)) {
+    } else if (Dolewin == false && Buchananwin == false && Lamarwin == false && Legacy <= 2 && (ans == 3453 || ans == 3454 || ans == 3455)) {
     question_insert(381, 
         {
             "model": "campaign_trail.question",
@@ -13055,27 +12876,6 @@ campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#B2232F";
 campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/ASUAmNe.png";
 campaignTrail_temp.candidate_json[1]["fields"].first_name = "Lamar";
 }
-if (LibSocial == 1 && SlimGOPCongress == 1 && ans == 12636){
-    NewtNom += 1;
-campaignTrail_temp.candidate_json[1]["fields"].last_name = "Gingrich";
-campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#8a0d1e";
-campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/ASUAmNe.png";
-campaignTrail_temp.candidate_json[1]["fields"].first_name = "Newt";
-}
-if (LibSocial == 1 && SlimGOPCongress == 1 && ans == 3388){
-    NewtNom += 1;
-campaignTrail_temp.candidate_json[1]["fields"].last_name = "Gingrich";
-campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#8a0d1e";
-campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/ASUAmNe.png";
-campaignTrail_temp.candidate_json[1]["fields"].first_name = "Newt";
-}
-if (LibSocial == 1 && SlimGOPCongress == 1 && ans == 3389){
-    NewtNom += 1;
-campaignTrail_temp.candidate_json[1]["fields"].last_name = "Gingrich";
-campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#8a0d1e";
-campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/ASUAmNe.png";
-campaignTrail_temp.candidate_json[1]["fields"].first_name = "Newt";
-}
  //Ross Perot and Ralph Nader CYOA
     if (ans == 3388){
     campaignTrail_temp.candidate_json[3]["fields"].last_name = "Perot";
@@ -13282,31 +13082,6 @@ question_insert(12726,
             }
         }
                 );
-				                } if (LibSocial == 1 && SlimGOPCongress == 1) {
-        
-                question_insert(364, 
-                {
-                    "model": "campaign_trail.question",
-                "pk": 12711255,
-                "fields": {
-                    "priority": 3,
-                    "description": "The moment we've all been waiting for, the Grand Reveal at the Republican National Convention. You've been so focused on your duties as President that you haven’t kept track of the race. The last time you checked, Steve Forbes was leading by a wide margin. Then he emerges... Newt Gingrich, practically vibrating with energy as he stands before the Republican delegates, speaking of a new direction for America.  ",
-                    "likelihood": 1
-                }
-                    }
-                
-                );
-                    question_insert(12726, 
-        {
-                    "model": "campaign_trail.question",
-        "pk": 12744155,
-        "fields": {
-            "priority": -2,
-            "description": "Mr. President, it's one week before the debate. You've been swamped with work, and now you're down to the wire with little time to dive into the key issues. Will you cut your losses and wing it, or will you use every minute you have left to study as much as you can?",
-            "likelihood": 1
-            }
-        }
-                );
                 } else {
                     question_insert(364, 
                     {
@@ -13336,7 +13111,7 @@ question_insert(12726,
     endingPicker = (out, totv, aa, quickstats) => {
 
 used=false
-if (Dolewin == true && Buchananwin == false && Newtwin == false && Lamarwin == false) {
+if (Dolewin == true && Buchananwin == false && Lamarwin == false) {
   //If you want to enable replacing the image based upon your performance, copy from here....
     if (used != true) {
         setInterval(function () {
@@ -13349,7 +13124,7 @@ if (Dolewin == true && Buchananwin == false && Newtwin == false && Lamarwin == f
     }
     // to here!
      return "<h3>If your seeing this, Bob Dole won.</h3><p>Get ready for Dolemaxxing!</p></p>";
-} else if (Buchananwin == true && Newtwin == false && Dolewin == false && Lamarwin == false) {
+} else if (Buchananwin == true && Dolewin == false && Lamarwin == false) {
     //If you want to enable replacing the image based upon your performance, copy from here....
     if (used != true) {
         setInterval(function () {
@@ -13362,20 +13137,7 @@ if (Dolewin == true && Buchananwin == false && Newtwin == false && Lamarwin == f
     }
     // to here!
     return "<h3>If your seeing this, Pat Buchanan won.</h3><p>Get ready for Buchananmaxxing!</p></p>";
-} else if (Buchananwin == false && Newtwin == true && Dolewin == false && Lamarwin == false) {
-    //If you want to enable replacing the image based upon your performance, copy from here....
-    if (used != true) {
-        setInterval(function () {
-            used = true;
-            imgg = document.getElementsByClassName("person_image")[0];
-            if (imgg != null) {
-                imgg.src = "https://i.imgur.com/GAq871H.png";
-            }
-        }, 100);
-    }
-    // to here!
-    return "<h3>If your seeing this, Newt Gingrich won.</h3><p>Get ready for a revolution!</p></p>";
-    } else if (Lamarwin == true && Newtwin == false && Dolewin == false && Buchananwin == false) {
+    } else if (Lamarwin == true && Dolewin == false && Buchananwin == false) {
     //If you want to enable replacing the image based upon your performance, copy from here....
     if (used != true) {
         setInterval(function () {
@@ -13509,8 +13271,6 @@ return "<h3>That's odd. The mod seems broken.</h3><p>Contact the creator of the 
           page_list[3][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Lamar Alexander</span>`; // Style ExpectedOpponent
       } else if (LibSocial == 3 && GOPSupermajority == 1 && ans == 12631) {
           page_list[3][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Lamar Alexander</span>`; // Style ExpectedOpponent
-      } else if (LibSocial == 1 && SlimGOPCongress == 1) {
-          page_list[3][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Newt Gingrich</span>`; // Style ExpectedOpponent
       } else if (RepublicanRevolution == 1 && ans == 3365){ 
           page_list[3][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Bob Dole</span>`; // Style ExpectedOpponent
       } else if (LibSocial >= 1 && RepublicanRevolution == 1 && ans == 12631){ 
