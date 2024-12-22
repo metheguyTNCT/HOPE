@@ -11839,6 +11839,8 @@ return "<h3>That's odd. The mod seems broken.</h3><p>Contact the creator of the 
           page_list[0][3] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Abysmal</span>`; // Style Congressional Approval
       } if (Legacy === 0) {
           page_list[1][3] = `<span style="font-weight: bold; color: black; font-size: 24px;"> None</span>`; // Style Legacy
+       } else if (Legacy >= 1 && Legacy <= 2) {
+          page_list[1][3] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Low</span>`; // Style Legacy
       } else if (Legacy >= 1 && Legacy <= 3) {
           page_list[1][3] = `<span style="font-weight: bold; color: teal; font-size: 24px;"> Decent</span>`; // Style Legacy
       } else if (Legacy >= 4 && Legacy <= 5) {
