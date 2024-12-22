@@ -251,15 +251,6 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": 564631,
-        "fields": {
-            "priority": -1,
-            "description": "Congratulations, Mr. President. You’ve made history, becoming the first Democrat since FDR to win re-election. Despite some tensions within the coalition, your party is riding high, thanks to the fumes of your victory. As you look ahead to the transition period and the early days of your second term, what would you like to focus on? ",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
         "pk": 12284,
         "fields": {
             "priority": 2,
@@ -462,6 +453,33 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": -1,
             "description": "Congratulations, Mr. President. You’ve made history, becoming the first Democrat since FDR to win re-election. Despite some tensions within the coalition, your party is riding high, thanks to the fumes of your victory. Mr President! I know it’s only been a few weeks, but it’s time for the APEC Summit in Manila, Philippines. Will you go?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 1272224,
+        "fields": {
+            "priority": 0,
+            "description": "Mr Vice President, we have just received word that President Clinton’s motorcade has spontaneously combusted during his trip to the Philippines. He and The First Lady have been pronounced dead. It’s believed to be an assassination. We are not sure of the details behind this yet but the CIA and Secret Service are warning of potential foreign intervention. After taking the oath, you are now addressing America.\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 1272225,
+        "fields": {
+            "priority": 0,
+            "description": "Mr. President. We have found more information on the assassin, Osama Bin Laden; his goal is to end what he calls ‘American Imperialism’ in the Middle East. The President of Iraq, Saddam Hussein, has openly refused any attempt at US military intervention despite Iraq being the likely residence of Bin Laden. What are we going to do?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 1272253,
+        "fields": {
+            "priority": 0,
+            "description": "if you are seeing this, Bill Clinton has lived!",
             "likelihood": 1
         }
     }
@@ -1474,6 +1492,54 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 1272221,
             "description": "Yes. The election season’s still a little fresh in my head, and I just need a second to be somewhere else than Washington. Additionally, I can’t wait to talk to my fellow leaders.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1272226,
+        "fields": {
+            "question": 1272224,
+            "description": "The United States of America, we are. United we stand, divided we fall. During an era as dark as the one we are entering right now, we shall always remember that we are here today because people United. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1272227,
+        "fields": {
+            "question": 1272224,
+            "description": "I'm so pissed right now. We need to find and punish the person responsible for the death of one of America’s greatest heroes. We shall take a moment to remember what a fantastic man President Bill Clinton was. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1272228,
+        "fields": {
+            "question": 1272224,
+            "description": "Look, let's forget Bill for a second. How is his teenage daughter gonna grow up without either of her parents? go into foster care? It's not fair. I want the person who did this to know they didn't just take our Commander-In-Chief, but a father, husband, son, and friend."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1272229,
+        "fields": {
+            "question": 1272224,
+            "description": "We will honor the legacy Bill Clinton left, while also addressing the problems that face our nation, and what my agenda will be as President."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1272243,
+        "fields": {
+            "question": 1272225,
+            "description": "That man, Osama Bin Laden, must be found prosecuted. It doesn't matter what an irrelevant Third World dictator says; We are going to find that damn assassin whether you like it or not. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1272249,
+        "fields": {
+            "question": 1272225,
+            "description": "We are doing this for Bill Clinton. We have to think; did Bill Clinton want this? I think he wouldn't stand for such an atrocity like invading a country because of a single man.  Instead, focus on destroying Al Qaeda by any means necessary."
         }
     }
 ]
@@ -9135,6 +9201,66 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 80,
             "global_multiplier": 0.015
         }
+    },
+     {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1272231,
+        "fields": {
+            "answer": 1272226,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1272234,
+        "fields": {
+            "answer": 1272227,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1272238,
+        "fields": {
+            "answer": 1272228,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1272241,
+        "fields": {
+            "answer": 1272229,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1272245,
+        "fields": {
+            "answer": 1272243,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1272251,
+        "fields": {
+            "answer": 1272249,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.01
+        }
     }
 ]
 
@@ -9737,6 +9863,56 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 30,
             "issue_score": -0.1,
             "issue_importance": 1.6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1272235,
+        "fields": {
+            "answer": 1272227,
+            "issue": 30,
+            "issue_score": -0.4,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1272246,
+        "fields": {
+            "answer": 1272243,
+            "issue": 30,
+            "issue_score": -0.7,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1272247,
+        "fields": {
+            "answer": 1272227,
+            "issue": 31,
+            "issue_score": 0.4,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1272248,
+        "fields": {
+            "answer": 1272229,
+            "issue": 31,
+            "issue_score": 0.3,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1272252,
+        "fields": {
+            "answer": 1272249,
+            "issue": 30,
+            "issue_score": -0.5,
+            "issue_importance": 2
         }
     }
 ]
@@ -10840,6 +11016,50 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 77,
             "affected_candidate": 77,
             "state_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1272232,
+        "fields": {
+            "answer": 1272226,
+            "state": 184,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "state_multiplier": -0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1272236,
+        "fields": {
+            "answer": 1272227,
+            "state": 184,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "state_multiplier": -0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1272239,
+        "fields": {
+            "answer": 1272228,
+            "state": 184,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "state_multiplier": -0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1272242,
+        "fields": {
+            "answer": 1272229,
+            "state": 184,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "state_multiplier": -0.2
         }
     }
 ]
@@ -11951,6 +12171,60 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 77,
             "answer_feedback": "“Hey Bill? Do you think I should run for senate in 2000?” Hillary says. “Why not? You’re a strong, independent, amazing woman that I’m lucky to have as my wife.” You reply. “Thanks, Bill, that means a lot to me.” She replies. “Any ti-  \n"
         }
+    },
+     {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1272230,
+        "fields": {
+            "answer": 1272226,
+            "candidate": 77,
+            "answer_feedback": "This speech goes down as one of the greatest in the nation's history."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1272233,
+        "fields": {
+            "answer": 1272227,
+            "candidate": 77,
+            "answer_feedback": "People are CLAMORING for revenge in a time like this, and they're happy to see you with that same rage."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1272237,
+        "fields": {
+            "answer": 1272228,
+            "candidate": 77,
+            "answer_feedback": "Chelsea appreciates you saying that you'll be there for her, but you can tell she's still sad. No amount of money, shelter, or condolences you give her will ever bring back her mother and father."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1272240,
+        "fields": {
+            "answer": 1272229,
+            "candidate": 77,
+            "answer_feedback": "Everything is fine until you start talking about climate change. People accuse you of politicizing Clinton's death, but no one seems to care."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1272244,
+        "fields": {
+            "answer": 1272243,
+            "candidate": 77,
+            "answer_feedback": "Your Bill to invade Iraq gets Bipartisan support, in fact, even some Doves voted in favor of it. The final tally comes back, “318 in favor to 107 against ” Gingrich said with glee. Get ready for war.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1272250,
+        "fields": {
+            "answer": 1272249,
+            "candidate": 77,
+            "answer_feedback": "After intelligence reveals Al Qaeda is based in Afghanistan, you submit a bill to Congress that passes with a massive majority. Get ready for war."
+        }
     }
 ]
 
@@ -12559,7 +12833,42 @@ cyoAdventure = function(a) {
         }
         );
     
-    } 
+    } if (ans == 1272222) {
+    question_insert(1272221, 
+        {
+             "model": "campaign_trail.question",
+        "pk": 1272224,
+        "fields": {
+            "priority": 0,
+            "description": "Mr Vice President, we have just received word that President Clinton’s motorcade has spontaneously combusted during his trip to the Philippines. He and The First Lady have been pronounced dead. It’s believed to be an assassination. We are not sure of the details behind this yet but the CIA and Secret Service are warning of potential foreign intervention. After taking the oath, you are now addressing America.\n",
+            "likelihood": 1
+        }
+        }
+        );
+    question_insert(1272224, 
+        {
+            "model": "campaign_trail.question",
+        "pk": 1272225,
+        "fields": {
+            "priority": 0,
+            "description": "Mr. President. We have found more information on the assassin, Osama Bin Laden; his goal is to end what he calls ‘American Imperialism’ in the Middle East. The President of Iraq, Saddam Hussein, has openly refused any attempt at US military intervention despite Iraq being the likely residence of Bin Laden. What are we going to do?\n",
+            "likelihood": 1
+        }
+        }
+        );
+    } else if (ans == 1272216) {
+        question_insert(1272215, 
+        {
+              "model": "campaign_trail.question",
+        "pk": 1272253,
+        "fields": {
+            "priority": 0,
+            "description": "if you are seeing this, Bill Clinton has lived!",
+            "likelihood": 1
+        }
+        }
+        );
+    }
 //WTC Bombing CYOA
    if (ans ==  3405){
    DOMWin += 1;
