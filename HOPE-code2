@@ -12271,57 +12271,57 @@ var LibSocial = 0
 var DoleNom = 0
 var BuchananNom = 0
 var LamarNom = 0
-Dolewin = false
-Buchananwin = false
-Lamarwin = false
+Dolewin=false;
+Buchananwin=false;
+Lamarwin=false;
 cyoAdventure = function(a) {
     update_EV_dict();
     ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
     if (ans == 3453 && ev_dict["77"] < 269 && DoleNom == 1) {
-        Dolewin = true;
+        Dolewin=true;
         update_EV_dict();
         campaignTrail_temp.question_number = 34;
         
         console.log(Dolewin = true);
     } else if (ans == 3454 && ev_dict["77"] < 269 && DoleNom == 1) {
-        Dolewin = true;
+        Dolewin=true;
         update_EV_dict();
         campaignTrail_temp.question_number = 34;
         console.log(Dolewin = true);
     } else if (ans == 3455 && ev_dict["77"] < 269 && DoleNom == 1) {
-        Dolewin = true;
+        Dolewin=true;
         update_EV_dict();
         campaignTrail_temp.question_number = 34;
         console.log(Dolewin = true);
     } else if (ans == 3453 && ev_dict["77"] < 269 && BuchananNom == 1) {
-        Buchananwin = true;
+        Buchananwin=true;
         update_EV_dict();
         campaignTrail_temp.question_number = 34;
         
         console.log(Buchananwin = true);
     } else if (ans == 3454 && ev_dict["77"] < 269 && BuchananNom == 1) {
-        Buchananwin = true;
+        Buchananwin=true;
         update_EV_dict();
         campaignTrail_temp.question_number = 34;
         console.log(Buchananwin = true);
     } else if (ans == 3455 && ev_dict["77"] < 269 && BuchananNom == 1) {
-        Buchananwin = true;
+        Buchananwin=true;
         update_EV_dict();
         campaignTrail_temp.question_number = 34;
         console.log(Buchananwin = true);
     } else if (ans == 3453 && ev_dict["77"] < 269 && LamarNom == 1) {
-        Lamarwin = true;
+        Lamarwin=true;
         update_EV_dict();
         campaignTrail_temp.question_number = 34;
         
         console.log(Lamarwin = true);
     } else if (ans == 3454 && ev_dict["77"] < 269 && LamarNom == 1) {
-        Lamarwin = true;
+        Lamarwin=true;
         update_EV_dict();
         campaignTrail_temp.question_number = 34;
         console.log(Lamarwin = true);
     } else if (ans == 3455 && ev_dict["77"] < 269 && LamarNom == 1) {
-        Lamarwin = true;
+        Lamarwin=true;
         update_EV_dict();
         campaignTrail_temp.question_number = 34;
         console.log(Lamarwin = true);
@@ -13166,14 +13166,12 @@ PublicSupport += 1;
     }
     //Bob Dole CYOA
     if (ans == 3388){
-        DoleNom += 1;
         campaignTrail_temp.candidate_json[1]["fields"].last_name = "Dole";
         campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#E4463E";
         campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/pz9sYma.jpeg";
         campaignTrail_temp.candidate_json[1]["fields"].first_name = "Bob";
 }
 if (ans == 3389){
-    DoleNom += 1;
     campaignTrail_temp.candidate_json[1]["fields"].last_name = "Dole";
     campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#E4463E";
     campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/pz9sYma.jpeg";
@@ -13210,7 +13208,6 @@ if (ans == 3455){
     campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.imgur.com/FW60RP2.png';
 }
 if(ans == 12636){
-    DoleNom += 1;
     campaignTrail_temp.candidate_json[1]["fields"].last_name = "Dole";
     campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#E4463E";
     campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/pz9sYma.jpeg";
@@ -13423,8 +13420,8 @@ if (ans == 12636){
 				}
             );
             console.log("NAFTA == 1 && GotHealthcare == 1")
-            } if (LibSocial == 2 && GOPSupermajority == 1) {
-        
+            } if (LibSocial === 2 && GOPSupermajority === 1) {
+    console.log("Executing block: LibSocial === 2 && GOPSupermajority === 1");
                 question_insert(364, 
                 {
                     "model": "campaign_trail.question",
@@ -13449,8 +13446,8 @@ question_insert(12726,
         }
         );
                 
-                } if (LibSocial == 3 && GOPSupermajority == 1) {
-        
+                } else if (LibSocial === 3 && GOPSupermajority === 1) {
+    console.log("Executing block: LibSocial === 3 && GOPSupermajority === 1");
                 question_insert(364, 
                 {
                     "model": "campaign_trail.question",
@@ -13475,6 +13472,7 @@ question_insert(12726,
         }
                 );
                 } else {
+                DoleNom += 1;
                     question_insert(364, 
                     {
                         "model": "campaign_trail.question",
@@ -13499,7 +13497,8 @@ question_insert(12726,
         }
         );
             
-	}}
+	}
+    }
 endingPicker = (out, totv, aa, quickstats) => {
 
 used=false
@@ -13515,7 +13514,7 @@ used=false
 
 //quickstats[0] is the default, and it tracks your electoral vote count.
 
-if (Dolewin == true && Buchananwin == false && Lamarwin == false) {
+if (Dolewin === true && Buchananwin === false && Lamarwin === false) {
   //If you want to enable replacing the image based upon your performance, copy from here....
     if (used != true) {
         setInterval(function () {
@@ -13528,7 +13527,7 @@ if (Dolewin == true && Buchananwin == false && Lamarwin == false) {
     }
     // to here!
      return "<h3>If your seeing this, Bob Dole won.</h3><p>Get ready for Dolemaxxing!</p></p>";
-} else if (Buchananwin == true && Dolewin == false && Lamarwin == false) {
+} else if (Buchananwin === true && Dolewin === false && Lamarwin === false) {
     //If you want to enable replacing the image based upon your performance, copy from here....
     if (used != true) {
         setInterval(function () {
@@ -13541,7 +13540,7 @@ if (Dolewin == true && Buchananwin == false && Lamarwin == false) {
     }
     // to here!
     return "<h3>If your seeing this, Pat Buchanan won.</h3><p>Get ready for Buchananmaxxing!</p></p>";
-    } else if (Lamarwin == true && Dolewin == false && Buchananwin == false) {
+    } else if (Lamarwin === true && Dolewin === false && Buchananwin === false) {
     //If you want to enable replacing the image based upon your performance, copy from here....
     if (used != true) {
         setInterval(function () {
@@ -13557,7 +13556,6 @@ return "<h3>If your seeing this, Lamar Alexander won.</h3><p>Get ready for Alexa
 } else {
 return "<h3>That's odd. The mod seems broken.</h3><p>Contact the creator of the mod. Congrats if you won, better luck next time if you lost.</p>"
 }
-
 }
 
 campaignTrail_temp.multiple_endings=true
