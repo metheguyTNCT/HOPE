@@ -14039,7 +14039,7 @@ if (ans == 12636){
 				}
             );
             console.log("NAFTA == 1 && GotHealthcare == 1")
-            } if (LibSocial == 2 && RepublicanRevolution == 1 && ans == 3388){
+            } if (LibSocial == 2 && RepublicanRevolution == 1) {
     console.log("Executing block: LibSocial === 2 && RepublicanRevolution == 1");
                 question_insert(364, 
                 {
