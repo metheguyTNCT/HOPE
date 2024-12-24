@@ -14217,7 +14217,7 @@ return "<h3>That's odd. The mod seems broken.</h3><p>Contact the creator of the 
 }
 
 campaignTrail_temp.multiple_endings=true
-if (ans == 20002 && CuomoBeatPataki == 0) {
+if (ans == 20002) {
         window.setTimeout(e.vpSwitcher, 20)
         
 }
@@ -14515,7 +14515,7 @@ e.vpSwitcher = () => {
 
     // Modify exclusions based on conditions
     if (CuomoBeatPataki === 1) {
-        console.log("CuomoBeatPataki is 1, excluding additional IDs...");
+        console.log("Cuomo has been saved, Cuomo unlocked!");
         exclude_running_mate_ids.push(87); // Example: Add specific ID based on condition
     } else {
         console.log("No Cuomo, Kerry unlocked!");
