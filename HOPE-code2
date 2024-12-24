@@ -492,7 +492,7 @@ campaignTrail_temp.questions_json = [
             "likelihood": 1
         }
     },
-    {
+        {
         "model": "campaign_trail.question",
         "pk": 1272254,
         "fields": {
@@ -1593,6 +1593,70 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 20001,
             "description": "Well, I had a shortlist that was planned for 2000, but it seems like I'll use it 3 years early. Hopefully I make the right choice...."
+        }
+    },
+     {
+        "model": "campaign_trail.answer",
+        "pk": 1272255,
+        "fields": {
+            "question": 1272254,
+            "description": "That man, Osama Bin Laden, must be found prosecuted. It doesn't matter what an irrelevant Third World dictator says; We are going to find that damn assassin whether you like it or not. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1272259,
+        "fields": {
+            "question": 1272254,
+            "description": "We are doing this for Bill Clinton. We have to think; did Bill Clinton want this? I think he wouldn't stand for such an atrocity like invading a country because of a single man. Instead, focus on destroying Al Qaeda by any means necessary."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1272264,
+        "fields": {
+            "question": 1272263,
+            "description": "That man, Osama Bin Laden, must be found prosecuted. It doesn't matter what an irrelevant Third World dictator says; We are going to find that damn assassin whether you like it or not. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1272268,
+        "fields": {
+            "question": 1272263,
+            "description": "We are doing this for Bill Clinton. We have to think; did Bill Clinton want this? I think he wouldn't stand for such an atrocity like invading a country because of a single man. Instead, focus on destroying Al Qaeda by any means necessary."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1272273,
+        "fields": {
+            "question": 1272272,
+            "description": "That man, Osama Bin Laden, must be found prosecuted. It doesn't matter what an irrelevant Third World dictator says; We are going to find that damn assassin whether you like it or not. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1272277,
+        "fields": {
+            "question": 1272272,
+            "description": "We are doing this for Bill Clinton. We have to think; did Bill Clinton want this? I think he wouldn't stand for such an atrocity like invading a country because of a single man. Instead, focus on destroying Al Qaeda by any means necessary."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1272282,
+        "fields": {
+            "question": 1272281,
+            "description": "That man, Osama Bin Laden, must be found prosecuted. It doesn't matter what an irrelevant Third World dictator says; We are going to find that damn assassin whether you like it or not. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1272286,
+        "fields": {
+            "question": 1272281,
+            "description": "We are doing this for Bill Clinton. We have to think; did Bill Clinton want this? I think he wouldn't stand for such an atrocity like invading a country because of a single man. Instead, focus on destroying Al Qaeda by any means necessary."
         }
     }
 ]
@@ -5352,7 +5416,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 77,
             "state": 201,
-            "state_multiplier": 0.8221
+            "state_multiplier": 0.7721
         }
     },
     {
@@ -5361,7 +5425,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 77,
             "state": 202,
-            "state_multiplier": 1.000251
+            "state_multiplier": 0.9951
         }
     },
     {
@@ -5415,7 +5479,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 77,
             "state": 208,
-            "state_multiplier": 0.864749989998998
+            "state_multiplier": 0.859989998998
         }
     },
     {
@@ -5451,7 +5515,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 77,
             "state": 212,
-            "state_multiplier": 1.1005
+            "state_multiplier": 1.025
         }
     },
     {
@@ -5514,7 +5578,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 77,
             "state": 219,
-            "state_multiplier": 0.99899
+            "state_multiplier": 0.954
         }
     },
     {
@@ -5667,7 +5731,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 78,
             "state": 185,
-            "state_multiplier": 0.834
+            "state_multiplier": 0.854
         }
     },
     {
@@ -5676,7 +5740,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 78,
             "state": 186,
-            "state_multiplier": 0.9400178976
+            "state_multiplier": 0.9378976
         }
     },
     {
@@ -5685,7 +5749,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 78,
             "state": 187,
-            "state_multiplier": 0.9234576
+            "state_multiplier": 0.9676
         }
     },
     {
@@ -5694,7 +5758,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 78,
             "state": 188,
-            "state_multiplier": 0.9612345
+            "state_multiplier": 0.985
         }
     },
     {
@@ -5721,7 +5785,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 78,
             "state": 191,
-            "state_multiplier": 0.881299812345
+            "state_multiplier": 0.939899812345
         }
     },
     {
@@ -5730,7 +5794,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 78,
             "state": 192,
-            "state_multiplier": 0.93998996789987654321
+            "state_multiplier": 0.93456789987654321
         }
     },
     {
@@ -5739,7 +5803,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 78,
             "state": 193,
-            "state_multiplier": 1.8912345
+            "state_multiplier": 1.935
         }
     },
     {
@@ -5784,7 +5848,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 78,
             "state": 198,
-            "state_multiplier": 0.96983211999
+            "state_multiplier": 0.984999
         }
     },
     {
@@ -5802,7 +5866,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 78,
             "state": 200,
-            "state_multiplier": 0.799995
+            "state_multiplier": 0.854
         }
     },
     {
@@ -5820,7 +5884,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 78,
             "state": 202,
-            "state_multiplier": 0.96189898989
+            "state_multiplier": 0.96989898989
         }
     },
     {
@@ -5892,7 +5956,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 78,
             "state": 210,
-            "state_multiplier": 0.9412345678998
+            "state_multiplier": 0.97998
         }
     },
     {
@@ -6027,7 +6091,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 78,
             "state": 225,
-            "state_multiplier": 0.78998998
+            "state_multiplier": 0.852
         }
     },
     {
@@ -6081,7 +6145,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 78,
             "state": 231,
-            "state_multiplier": 0.979911
+            "state_multiplier": 0.97511
         }
     },
     {
@@ -6549,7 +6613,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 80,
             "state": 181,
-            "state_multiplier": 0.285
+            "state_multiplier": 0.22
         }
     },
     {
@@ -6585,7 +6649,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 80,
             "state": 185,
-            "state_multiplier": 0.52153
+            "state_multiplier": 0.54153
         }
     },
     {
@@ -6621,7 +6685,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 80,
             "state": 189,
-            "state_multiplier": 0.68991991
+            "state_multiplier": 0.702
         }
     },
     {
@@ -6756,7 +6820,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 80,
             "state": 204,
-            "state_multiplier": 0.27251
+            "state_multiplier": 0.19
         }
     },
     {
@@ -6765,7 +6829,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 80,
             "state": 205,
-            "state_multiplier": 0.58251122334455
+            "state_multiplier": 0.66251122334455
         }
     },
     {
@@ -7222,7 +7286,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3322,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.00111
+            "global_multiplier": -0.01
         }
     },
     {
@@ -9314,6 +9378,86 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 77,
             "global_multiplier": 0.01
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1272257,
+        "fields": {
+            "answer": 1272255,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1272261,
+        "fields": {
+            "answer": 1272259,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1272266,
+        "fields": {
+            "answer": 1272264,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1272270,
+        "fields": {
+            "answer": 1272268,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1272275,
+        "fields": {
+            "answer": 1272273,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1272279,
+        "fields": {
+            "answer": 1272277,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1272284,
+        "fields": {
+            "answer": 1272282,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1272288,
+        "fields": {
+            "answer": 1272286,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.01
+        }
     }
 ]
 
@@ -11114,6 +11258,86 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 77,
             "state_multiplier": -0.2
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1272258,
+        "fields": {
+            "answer": 1272255,
+            "issue": 30,
+            "issue_score": -0.7,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1272262,
+        "fields": {
+            "answer": 1272259,
+            "issue": 30,
+            "issue_score": -0.5,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1272267,
+        "fields": {
+            "answer": 1272264,
+            "issue": 30,
+            "issue_score": -0.7,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1272271,
+        "fields": {
+            "answer": 1272268,
+            "issue": 30,
+            "issue_score": -0.5,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1272276,
+        "fields": {
+            "answer": 1272273,
+            "issue": 30,
+            "issue_score": -0.7,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1272280,
+        "fields": {
+            "answer": 1272277,
+            "issue": 30,
+            "issue_score": -0.5,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1272285,
+        "fields": {
+            "answer": 1272282,
+            "issue": 30,
+            "issue_score": -0.7,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1272289,
+        "fields": {
+            "answer": 1272286,
+            "issue": 30,
+            "issue_score": -0.5,
+            "issue_importance": 2
+        }
     }
 ]
 
@@ -12278,6 +12502,78 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 77,
             "answer_feedback": "After intelligence reveals Al Qaeda is based in Afghanistan, you submit a bill to Congress that passes with a massive majority. Get ready for war."
         }
+    },
+        {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1272256,
+        "fields": {
+            "answer": 1272255,
+            "candidate": 77,
+            "answer_feedback": "Your Bill to invade Iraq gets Bipartisan support, in fact, even some Doves voted in favor of it. The final tally comes back, “318 in favor to 107 against ” Gingrich said with glee. Get ready for war.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1272260,
+        "fields": {
+            "answer": 1272259,
+            "candidate": 77,
+            "answer_feedback": "After intelligence reveals Al Qaeda is based in Afghanistan, you submit a bill to Congress that passes with a massive majority. Get ready for war."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1272265,
+        "fields": {
+            "answer": 1272264,
+            "candidate": 77,
+            "answer_feedback": "Your Bill to invade Iraq gets Bipartisan support, in fact, even some Doves voted in favor of it. The final tally comes back, “318 in favor to 107 against ” Gingrich said with glee. Get ready for war.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1272269,
+        "fields": {
+            "answer": 1272268,
+            "candidate": 77,
+            "answer_feedback": "After intelligence reveals Al Qaeda is based in Afghanistan, you submit a bill to Congress that passes with a massive majority. Get ready for war."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1272274,
+        "fields": {
+            "answer": 1272273,
+            "candidate": 77,
+            "answer_feedback": "Your Bill to invade Iraq gets Bipartisan support, in fact, even some Doves voted in favor of it. The final tally comes back, “318 in favor to 107 against ” Gingrich said with glee. Get ready for war.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1272278,
+        "fields": {
+            "answer": 1272277,
+            "candidate": 77,
+            "answer_feedback": "After intelligence reveals Al Qaeda is based in Afghanistan, you submit a bill to Congress that passes with a massive majority. Get ready for war."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1272283,
+        "fields": {
+            "answer": 1272282,
+            "candidate": 77,
+            "answer_feedback": "Your Bill to invade Iraq gets Bipartisan support, in fact, even some Doves voted in favor of it. The final tally comes back, “318 in favor to 107 against ” Gingrich said with glee. Get ready for war.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1272287,
+        "fields": {
+            "answer": 1272286,
+            "candidate": 77,
+            "answer_feedback": "After intelligence reveals Al Qaeda is based in Afghanistan, you submit a bill to Congress that passes with a massive majority. Get ready for war."
+        }
     }
 ]
 
@@ -13043,7 +13339,6 @@ ClintonDead=true
      if (ans == 3311){
     PublicSupport += 1;
     DOMWin += 1;
-    Legacy += 1;
     }
     //DADT CYOA
     if (ans == 3335){
@@ -13400,6 +13695,7 @@ if (ans == 12636){
 					}
 				}
             );
+            console.log("e.player_answers.includes(3405) &&  e.player_answers.includes(3348) && GotHealthcare == 1")
         } else if (LEGWin <= 2 && DOMWin <= 3 && FPWin <= 3 && KennedyFails == 1){
 			DemCongress -= 1;
             GOPSupermajority += 1;
@@ -13621,9 +13917,7 @@ campaignTrail_temp.multiple_endings=true
 if (ans == 20002 && CuomoBeatPataki == 0) {
         window.setTimeout(e.vpSwitcher, 20)
         
-} else if (ans == 20002 && CuomoBeatPataki == 1) {
-        window.setTimeout(e.alternatevpSwitchervpSwitcher, 20)
-        } 
+}
 }
     function addGovernmentButton() {
         if (document.getElementById('government_button')) {
@@ -13902,11 +14196,6 @@ pop_dict={};
         pop_dict[e.current_results[0][n].pk] = e.current_results[0][n].pvp;
     }
 }
-
-    function switcheroo() {
-    campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 155, \"fields\": {\"candidate\": 142, \"running_mate\": 150}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 72, \"fields\": {\"candidate\": 106, \"running_mate\": 112}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 151, \"fields\": {\"candidate\": 143, \"running_mate\": 149}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 33, \"fields\": {\"candidate\": 23, \"running_mate\": 55}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 156, \"fields\": {\"candidate\": 142, \"running_mate\": 147}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 160, \"fields\": {\"candidate\": 144, \"running_mate\": 214}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 161, \"fields\": {\"candidate\": 145, \"running_mate\": 215}}]");
-    }
-
 var changeGameDisp = (hide) => {
     disp = "";
     if (hide) {
@@ -13919,8 +14208,19 @@ var changeGameDisp = (hide) => {
   };
 
 e.vpSwitcher = () => {
-    
-    let exclude_running_mate_ids = [81, 85, 86, 89, 90]; // Add all IDs you want to exclude here
+    let exclude_running_mate_ids = [81, 85, 89, 90]; // Default exclusions
+
+    // Modify exclusions based on conditions
+    if (CuomoBeatPataki === 1) {
+        console.log("CuomoBeatPataki is 1, excluding additional IDs...");
+        exclude_running_mate_ids.push(87); // Example: Add specific ID based on condition
+    } else {
+        console.log("No Cuomo, Kerry unlocked!");
+        exclude_running_mate_ids.push(86); // Exclude different IDs
+    }
+
+    // Ensure no duplicates
+    exclude_running_mate_ids = [...new Set(exclude_running_mate_ids)];
 
 let potential_running_mate_pks = e.running_mate_json
     .filter(f => !exclude_running_mate_ids.includes(f.fields.running_mate)) // Exclude specific running mates
@@ -14005,292 +14305,343 @@ let potential_running_mate_pks = e.running_mate_json
             $("#running_mate_pic").attr("src", e.running_mate_image_url)
         }
 
-	if(e.running_mate_last_name==="Biden"){
-    question_insert(20001, 
-            {
-				"model": "campaign_trail.question",
-        "pk": 1272225,
-        "fields": {
-            "priority": 0,
-            "description": "It's been a few weeks since you selected Joe Biden as VP and we have a new development, Mr. President. We have found more information on the assassin, Osama Bin Laden; his goal is to end what he calls ‘American Imperialism’ in the Middle East. The President of Iraq, Saddam Hussein, has openly refused any attempt at US military intervention despite Iraq being the likely residence of Bin Laden. What are we going to do?\n",
-            "likelihood": 1
-        }
-				}
-            );
-    
-	var button1 = document.getElementById('view_electoral_map');	
+	if (e.running_mate_last_name === "Biden") {
+        customStyling.innerHTML = `
+#campaign_sign {
+    background-image: url("https://i.imgur.com/ifhk3LP.png");
+    background-size: cover;
+    border-color: #c9c9c9;    
+    border-width: .01em;
+    margin: 0 auto;
+    background-position: center;
+    width: 100%; 
+    height: 104px; 
+    margin-left: -0.033em;
+    margin-right: -0.033em;
+  }
+#campaign_sign p {
+    color: rgb(0 0 0 / 0%);
+}
+.inner_window_sign_display {
+  margin: 0;
+    margin-right: 0.033px;
+    margin-left: 0.033px;
+  height: 25%;
+  position: relative;
+  width: 35%;
+  height: 28%;
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: double;
+  border-color: #C9C9C9;
+}
+#state_info {
+  margin: 5% 0 0;
+  height: 120%;
+  background-color: #FFFFFF;
+  border-style: double;
+  border-color: #C9C9C9;
+}
+.inner_window_question {
+  background-color: #FFFFFF;
+  margin: 0
+  padding-top: .3em;
+  border-style: double;
+  border-color: #C9C9C9;
+  text-align: center;
+  height: 54%;
+  position: relative;
+  clear: both;
+}
+`;
+document.head.appendChild(customStyling);
+function getQuestionNumberFromPk(pk) {
+    return campaignTrail_temp.questions_json.map(q=>q.pk).indexOf(pk)-1;
+}
+    question_insert(20001, {
+        model: "campaign_trail.question",
+        pk: 1272225,
+        fields: {
+            priority: 0,
+            description: "It's been a few weeks since you selected Joe Biden as VP and we have a new development, Mr. President. We have found more information on the assassin, Osama Bin Laden; his goal is to end what he calls ‘American Imperialism’ in the Middle East. The President of Iraq, Saddam Hussein, has openly refused any attempt at US military intervention despite Iraq being the likely residence of Bin Laden. What are we going to do?\n",
+            likelihood: 1,
+        },
+    });
 
-	button1.click();
+    console.log(campaignTrail_temp.questions_json[28]);
+}
 
-
-	setTimeout(function(){
-	var button2 = document.getElementById('resume_questions_button');	
-        button2.click();
-	}, 50);
-    console.log(campaignTrail_temp.questions_json[28])
-	}
-    if(e.running_mate_last_name==="Feinstein"){
-    question_insert(20001, 
-            {
-				"pk": 1272254,
+if (e.running_mate_last_name === "Feinstein") {
+            customStyling.innerHTML = `
+#campaign_sign {
+    background-image: url("https://i.imgur.com/oityD9C.png");
+    background-size: cover;
+    border-color: #c9c9c9;    
+    border-width: .01em;
+    margin: 0 auto;
+    background-position: center;
+    width: 100%; 
+    height: 104px; 
+    margin-left: -0.033em;
+    margin-right: -0.033em;
+  }
+#campaign_sign p {
+    color: rgb(0 0 0 / 0%);
+}
+.inner_window_sign_display {
+  margin: 0;
+    margin-right: 0.033px;
+    margin-left: 0.033px;
+  height: 25%;
+  position: relative;
+  width: 35%;
+  height: 28%;
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: double;
+  border-color: #C9C9C9;
+}
+#state_info {
+  margin: 5% 0 0;
+  height: 120%;
+  background-color: #FFFFFF;
+  border-style: double;
+  border-color: #C9C9C9;
+}
+.inner_window_question {
+  background-color: #FFFFFF;
+  margin: 0
+  padding-top: .3em;
+  border-style: double;
+  border-color: #C9C9C9;
+  text-align: center;
+  height: 54%;
+  position: relative;
+  clear: both;
+}
+`;
+document.head.appendChild(customStyling);
+function getQuestionNumberFromPk(pk) {
+    return campaignTrail_temp.questions_json.map(q=>q.pk).indexOf(pk)-1;
+}
+    question_insert(20001, {
+        "model": "campaign_trail.question",
+        "pk": 1272254,
         "fields": {
             "priority": 0,
             "description": "It's been a few weeks since you selected the first woman to serve as VP, Diane Feinstein, and we have a new development, Mr. President. We have found more information on the assassin, Osama Bin Laden; his goal is to end what he calls ‘American Imperialism’ in the Middle East. The President of Iraq, Saddam Hussein, has openly refused any attempt at US military intervention despite Iraq being the likely residence of Bin Laden. What are we going to do?\n",
             "likelihood": 1
-        }
-				}
-            );
+        },
+    });
 
-            var button1 = document.getElementById('view_electoral_map');	
-
-	button1.click();
-
-
-	setTimeout(function(){
-	var button2 = document.getElementById('resume_questions_button');	
-        button2.click();
-	}, 50);
-    console.log(campaignTrail_temp.questions_json[28])
-	}
-            if(e.running_mate_last_name==="Miller"){
-    question_insert(20001, 
-            {
-				"model": "campaign_trail.question",
+    console.log(campaignTrail_temp.questions_json[28]);
+}
+if (e.running_mate_last_name === "Miller") {
+     customStyling.innerHTML = `
+#campaign_sign {
+    background-image: url("https://i.imgur.com/KKFbx1s.png");
+    background-size: cover;
+    border-color: #c9c9c9;    
+    border-width: .01em;
+    margin: 0 auto;
+    background-position: center;
+    width: 100%; 
+    height: 104px; 
+    margin-left: -0.033em;
+    margin-right: -0.033em;
+  }
+#campaign_sign p {
+    color: rgb(0 0 0 / 0%);
+}
+.inner_window_sign_display {
+  margin: 0;
+    margin-right: 0.033px;
+    margin-left: 0.033px;
+  height: 25%;
+  position: relative;
+  width: 35%;
+  height: 28%;
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: double;
+  border-color: #C9C9C9;
+}
+#state_info {
+  margin: 5% 0 0;
+  height: 120%;
+  background-color: #FFFFFF;
+  border-style: double;
+  border-color: #C9C9C9;
+}
+.inner_window_question {
+  background-color: #FFFFFF;
+  margin: 0
+  padding-top: .3em;
+  border-style: double;
+  border-color: #C9C9C9;
+  text-align: center;
+  height: 54%;
+  position: relative;
+  clear: both;
+}
+`;
+document.head.appendChild(customStyling);
+function getQuestionNumberFromPk(pk) {
+    return campaignTrail_temp.questions_json.map(q=>q.pk).indexOf(pk)-1;
+}
+    question_insert(20001, {
+       "model": "campaign_trail.question",
         "pk": 1272263,
         "fields": {
             "priority": 0,
             "description": "It's been a few weeks since you selected Zell Miller as VP and we have a new development, Mr. President. We have found more information on the assassin, Osama Bin Laden; his goal is to end what he calls ‘American Imperialism’ in the Middle East. The President of Iraq, Saddam Hussein, has openly refused any attempt at US military intervention despite Iraq being the likely residence of Bin Laden. What are we going to do?\n",
             "likelihood": 1
-        }
-				}
-            );
+        },
+    });
 
-            var button1 = document.getElementById('view_electoral_map');	
-
-	button1.click();
-
-
-	setTimeout(function(){
-	var button2 = document.getElementById('resume_questions_button');	
-        button2.click();
-	}, 50);
-    console.log(campaignTrail_temp.questions_json[28])
-	}
-             if(e.running_mate_last_name==="Kerry"){
-    question_insert(20001, 
-            {
-				"model": "campaign_trail.question",
+    console.log(campaignTrail_temp.questions_json[28]);
+}
+     if (e.running_mate_last_name === "Kerry") {
+        customStyling.innerHTML = `
+#campaign_sign {
+    background-image: url("https://i.imgur.com/K7QTN14.png");
+    background-size: cover;
+    border-color: #c9c9c9;    
+    border-width: .01em;
+    margin: 0 auto;
+    background-position: center;
+    width: 100%; 
+    height: 104px; 
+    margin-left: -0.033em;
+    margin-right: -0.033em;
+  }
+#campaign_sign p {
+    color: rgb(0 0 0 / 0%);
+}
+.inner_window_sign_display {
+  margin: 0;
+    margin-right: 0.033px;
+    margin-left: 0.033px;
+  height: 25%;
+  position: relative;
+  width: 35%;
+  height: 28%;
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: double;
+  border-color: #C9C9C9;
+}
+#state_info {
+  margin: 5% 0 0;
+  height: 120%;
+  background-color: #FFFFFF;
+  border-style: double;
+  border-color: #C9C9C9;
+}
+.inner_window_question {
+  background-color: #FFFFFF;
+  margin: 0
+  padding-top: .3em;
+  border-style: double;
+  border-color: #C9C9C9;
+  text-align: center;
+  height: 54%;
+  position: relative;
+  clear: both;
+}
+`;
+document.head.appendChild(customStyling);
+function getQuestionNumberFromPk(pk) {
+    return campaignTrail_temp.questions_json.map(q=>q.pk).indexOf(pk)-1;
+}
+    question_insert(20001, {
+       "model": "campaign_trail.question",
         "pk": 1272281,
         "fields": {
             "priority": 0,
             "description": "It's been a few weeks since you selected John Kerry as VP and we have a new development, Mr. President. We have found more information on the assassin, Osama Bin Laden; his goal is to end what he calls ‘American Imperialism’ in the Middle East. The President of Iraq, Saddam Hussein, has openly refused any attempt at US military intervention despite Iraq being the likely residence of Bin Laden. What are we going to do?\n",
             "likelihood": 1
-        }
-				}
-            );
-	var button1 = document.getElementById('view_electoral_map');	
+        },
+    });
 
-	button1.click();
-
-
-	setTimeout(function(){
-	var button2 = document.getElementById('resume_questions_button');	
-        button2.click();
-	}, 50);
-    console.log(campaignTrail_temp.questions_json[28])
-	}
-
-        $("#inner_window_4").remove();
-        changeGameDisp(false);
-    })
+    console.log(campaignTrail_temp.questions_json[28]);
+}
+if (e.running_mate_last_name === "Cuomo") {
+ customStyling.innerHTML = `
+#campaign_sign {
+    background-image: url("https://i.imgur.com/PdOg3kX.png");
+    background-size: cover;
+    border-color: #c9c9c9;    
+    border-width: .01em;
+    margin: 0 auto;
+    background-position: center;
+    width: 100%; 
+    height: 104px; 
+    margin-left: -0.033em;
+    margin-right: -0.033em;
   }
-  e.alternatevpSwitcher = () => {
-    
-    let exclude_running_mate_ids = [81, 85, 87, 89, 90, ]; // Add all IDs you want to exclude here
-
-let potential_running_mate_pks = e.running_mate_json
-    .filter(f => !exclude_running_mate_ids.includes(f.fields.running_mate)) // Exclude specific running mates
-    .map(f => f.fields.running_mate); // Include all others
-    let pot_run_mat = potential_running_mate_pks.map(f=>e.candidate_json.find(_f=>_f.pk===f));
-    let running_mate_options = ``;
-    pot_run_mat.forEach(f=> {
-        running_mate_options += `<option value="${f.pk}">${f.fields.first_name} ${f.fields.last_name}</option>\n`
-    });
-
-    let vp_html = `
-        <div id="running_mate_form">
-            <form name="running mate">
-                <p></p>
-                <h3>Please select your running mate:</h3> 
-                <select name="running_mate_id" id="running_mate_id">
-                    ${running_mate_options}
-                </select>
-                <p></p>
-            </form>
-        </div>
-        <div class="person_description_window" id="running_mate_description_window">
-            <div class="person_image" id="running_mate_image"> <img src="${pot_run_mat[0].fields.image_url}" width="210" height="250"> </div>
-            <div class="person_summary" id="running_mate_summary">
-                <ul>
-                    <li>Name: ${pot_run_mat[0].fields.first_name} ${pot_run_mat[0].fields.last_name}</li>
-                    <li>Party: ${pot_run_mat[0].fields.party}</li>
-                    <li>Home State: ${pot_run_mat[0].fields.state}</li>
-                </ul>
-                ${pot_run_mat[0].fields.description_as_running_mate}
-            </div>
-        </div>
-        <p> <button class="person_button" id="running_mate_id_button">Continue</button> </p>
-    `
-
-    let vp_screen = document.createElement("div");
-    vp_screen.classList.add("inner_window_w_desc");
-    vp_screen.id = "inner_window_4";
-    vp_screen.innerHTML = vp_html;
-
-    changeGameDisp(true);
-
-    gameWindow.appendChild(vp_screen);
-
-    // now we make the stuff do stuff!
-
-    $("#running_mate_id").change((_e)=>{
-        _e.preventDefault()
-
-        let value = Number($("#running_mate_id").val());
-        let i = potential_running_mate_pks.findIndex(f=>f === value);
-
-        let screen_html = `
-            <div class="person_image" id="running_mate_image"> <img src="${pot_run_mat[i].fields.image_url}" width="210" height="250"> </div>
-            <div class="person_summary" id="running_mate_summary">
-                <ul>
-                    <li>Name: ${pot_run_mat[i].fields.first_name} ${pot_run_mat[i].fields.last_name}</li>
-                    <li>Party: ${pot_run_mat[i].fields.party}</li>
-                    <li>Home State: ${pot_run_mat[i].fields.state}</li>
-                </ul>
-                ${pot_run_mat[i].fields.description_as_running_mate}
-            </div>
-        `
-
-        $("#running_mate_description_window").html(screen_html);
-
-    });
-    // VP selected!
-
-    $("#running_mate_id_button").click((_e)=>{
-        _e.preventDefault();
-
-        let value = Number($("#running_mate_id").val());
-        let i = potential_running_mate_pks.findIndex(f=>f === value);
-
-        e.running_mate_last_name = pot_run_mat[i].fields.last_name;
-        e.running_mate_image_url = pot_run_mat[i].fields.image_url;
-        e.selected_running_mate = pot_run_mat[i];
-
-        if ($("#campaign_sign")[0]) {
-            $("#campaign_sign").html(`<p>${e.candidate_last_name}</p><p>${e.running_mate_last_name}</p>`);
-            $("#running_mate_pic").attr("src", e.running_mate_image_url)
-        }
-
-	if(e.running_mate_last_name==="Biden"){
-    question_insert(20001, 
-            {
-				"model": "campaign_trail.question",
-        "pk": 1272225,
-        "fields": {
-            "priority": 0,
-            "description": "It's been a few weeks since you selected Joe Biden as VP and we have a new development, Mr. President. We have found more information on the assassin, Osama Bin Laden; his goal is to end what he calls ‘American Imperialism’ in the Middle East. The President of Iraq, Saddam Hussein, has openly refused any attempt at US military intervention despite Iraq being the likely residence of Bin Laden. What are we going to do?\n",
-            "likelihood": 1
-        }
-				}
-            );
-    
-	var button1 = document.getElementById('view_electoral_map');	
-
-	button1.click();
-
-
-	setTimeout(function(){
-	var button2 = document.getElementById('resume_questions_button');	
-        button2.click();
-	}, 50);
-    console.log(campaignTrail_temp.questions_json[28])
-	}
-    if(e.running_mate_last_name==="Feinstein"){
-    question_insert(20001, 
-            {
-				"pk": 1272254,
-        "fields": {
-            "priority": 0,
-            "description": "It's been a few weeks since you selected the first woman to serve as VP, Diane Feinstein, and we have a new development, Mr. President. We have found more information on the assassin, Osama Bin Laden; his goal is to end what he calls ‘American Imperialism’ in the Middle East. The President of Iraq, Saddam Hussein, has openly refused any attempt at US military intervention despite Iraq being the likely residence of Bin Laden. What are we going to do?\n",
-            "likelihood": 1
-        }
-				}
-            );
-
-            var button1 = document.getElementById('view_electoral_map');	
-
-	button1.click();
-
-
-	setTimeout(function(){
-	var button2 = document.getElementById('resume_questions_button');	
-        button2.click();
-	}, 50);
-    console.log(campaignTrail_temp.questions_json[28])
-	}
-            if(e.running_mate_last_name==="Miller"){
-    question_insert(20001, 
-            {
-				"model": "campaign_trail.question",
-        "pk": 1272263,
-        "fields": {
-            "priority": 0,
-            "description": "It's been a few weeks since you selected Zell Miller as VP and we have a new development, Mr. President. We have found more information on the assassin, Osama Bin Laden; his goal is to end what he calls ‘American Imperialism’ in the Middle East. The President of Iraq, Saddam Hussein, has openly refused any attempt at US military intervention despite Iraq being the likely residence of Bin Laden. What are we going to do?\n",
-            "likelihood": 1
-        }
-				}
-            );
-
-            var button1 = document.getElementById('view_electoral_map');	
-
-	button1.click();
-
-
-	setTimeout(function(){
-	var button2 = document.getElementById('resume_questions_button');	
-        button2.click();
-	}, 50);
-    console.log(campaignTrail_temp.questions_json[28])
-	}
-             if(e.running_mate_last_name==="Cuomo"){
-    question_insert(20001, 
-            {
-				"model": "campaign_trail.question",
+#campaign_sign p {
+    color: rgb(0 0 0 / 0%);
+}
+.inner_window_sign_display {
+  margin: 0;
+    margin-right: 0.033px;
+    margin-left: 0.033px;
+  height: 25%;
+  position: relative;
+  width: 35%;
+  height: 28%;
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: double;
+  border-color: #C9C9C9;
+}
+#state_info {
+  margin: 5% 0 0;
+  height: 120%;
+  background-color: #FFFFFF;
+  border-style: double;
+  border-color: #C9C9C9;
+}
+.inner_window_question {
+  background-color: #FFFFFF;
+  margin: 0
+  padding-top: .3em;
+  border-style: double;
+  border-color: #C9C9C9;
+  text-align: center;
+  height: 54%;
+  position: relative;
+  clear: both;
+}
+`;
+document.head.appendChild(customStyling);
+function getQuestionNumberFromPk(pk) {
+    return campaignTrail_temp.questions_json.map(q=>q.pk).indexOf(pk)-1;
+}
+    question_insert(20001, {
+       "model": "campaign_trail.question",
         "pk": 1272272,
         "fields": {
             "priority": 0,
             "description": "It's been a few weeks since you selected Mario Cuomo as VP and we have a new development, Mr. President. We have found more information on the assassin, Osama Bin Laden; his goal is to end what he calls ‘American Imperialism’ in the Middle East. The President of Iraq, Saddam Hussein, has openly refused any attempt at US military intervention despite Iraq being the likely residence of Bin Laden. What are we going to do?\n",
             "likelihood": 1
         }
-				}
-            );
-	var button1 = document.getElementById('view_electoral_map');	
+    });
 
-	button1.click();
-
-
-	setTimeout(function(){
-	var button2 = document.getElementById('resume_questions_button');	
-        button2.click();
-	}, 50);
-    console.log(campaignTrail_temp.questions_json[28])
-	}
+    console.log(campaignTrail_temp.questions_json[28]);
+}
 
         $("#inner_window_4").remove();
         changeGameDisp(false);
     })
   }
-// Access the updated dictionaries
+ // Access the updated dictionaries
 console.log(ev_dict); // Logs the ev_dict object
   // Since you're going to be doing a lot of inserting, you don't want to be using exact positions. 
   // Position 8 could be any number of questions depending on previous CYOA. 
