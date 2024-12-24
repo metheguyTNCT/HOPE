@@ -291,7 +291,7 @@ campaignTrail_temp.election_json = [
            "electoral_victory_message": "''",
            "electoral_loss_message": "''",
            "no_electoral_majority_message": "''",
-           "description_as_running_mate": "<p>Mario Matthew Cuomo, 11 year years as Governor of New York. 3 years as Lieutenant Governor of New York and 3 years as Secretary of State of New York. All of this totals to a long 17 years of experience in politics. Cuomo's record is almost perfect with only one more job to add to it. That's the job of Vice President.</p>Similarly to Kerry, Cuomo is a Liberal from a Democratic stronghold. But, unlike Kerry, he wasn't born with a silver spoon in his mouth.</p>",
+           "description_as_running_mate": "<p>Mario Matthew Cuomo, 11 years as Governor of New York. 3 years as Lieutenant Governor of New York and 3 years as Secretary of State of New York. All of this totals to a long 17 years of experience in politics. Cuomo's record is almost perfect with only one more job to add to it. That's the job of Vice President.</p>Similarly to Kerry, Cuomo is a Liberal from a Democratic stronghold. But, unlike Kerry, he wasn't born with a silver spoon in his mouth.</p>",
            "candidate_score": 0,
            "running_mate": true
        }
