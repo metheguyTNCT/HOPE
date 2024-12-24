@@ -1364,6 +1364,14 @@ campaignTrail_temp.answers_json = [
         }
     },
     {
+	    "model": "campaign_trail.answer",
+        "pk": 9987,
+        "fields": {
+            "question": 127115,
+            "description": "It's time to step in front of the American people. We need to stand tall and defend our record of progress, while inviting those who supported Bush to join us. The Republican Party may represent the past, but the Democratic Party is the way forward, a party for the future, with a vision that unites us all in building a stronger, fairer America."
+        }
+    },
+    {
         "model": "campaign_trail.answer",
         "pk": 12717,
         "fields": {
@@ -1372,11 +1380,27 @@ campaignTrail_temp.answers_json = [
         }
     },
     {
+	    "model": "campaign_trail.answer",
+        "pk": 9988,
+        "fields": {
+            "question": 127115,
+            "description": "You know, Arlen Specter might be a good guy, and I respect him, I truly do. But the forces inside the Republican Party, especially from the far-right, they're dangerous. They scare a lot of Americans. I just don't think Specter can represent all of America."
+        }
+    },
+    {
         "model": "campaign_trail.answer",
         "pk": 12722,
         "fields": {
             "question": 12711,
             "description": "You know what? Two can play at this game. I’m going to take this right to the heart of it. I’ll deliver a speech in my hometown of Hope, Arkansas, and I’ll call Buchanan exactly what he is, a danger to our nation and everything we stand for, to the American way of life!"
+        }
+    },
+    {
+	    "model": "campaign_trail.answer",
+        "pk": 9986,
+        "fields": {
+            "question": 127115,
+            "description": "Let’s take things easy. I want to address the American people from my hometown of Hope, Arkansas, and talk about the real, tangible efforts we’ve made—and the real, tangible results we’ve seen. I’ve got respect for Senator Specter, but let’s ask ourselves: are you better off now than you were four years ago?"
         }
     },
     {
@@ -1508,11 +1532,35 @@ campaignTrail_temp.answers_json = [
         }
     },
     {
+	    "model": "campaign_trail.answer",
+        "pk": 128105,
+        "fields": {
+            "question": 128091,
+            "description": "I will use my time to focus on the subject of Foreign Policy, this area seems to be a place that we could make huge wins in this upcoming election. \n"
+        }
+    },
+    {
         "model": "campaign_trail.answer",
         "pk": 12814,
         "fields": {
             "question": 12809,
             "description": "The reason why Buchanan has been getting so much attention is because they want an outsider that will change everything. I will begin writing my speech on why Buchanan isn't a real outsider. \n"
+        }
+    },
+    {
+	    "model": "campaign_trail.answer",
+        "pk": 128145,
+        "fields": {
+            "question": 128091,
+            "description": "Honestly, I don’t think we need to prepare too much. I know the issues, and I know the facts inside and out. The Senator knows them too, but he’s too insulated, too disconnected. And let’s be real, the man just doesn’t bring the goods. Did you all watch the convention?"
+        }
+    },
+    {
+	    "model": "campaign_trail.answer",
+        "pk": 1281818,
+        "fields": {
+            "question": 128091,
+            "description": "I think I will get the extra sleep. I believe that the key to a great performance at the debate is to get loads of sleep so I look more presentable than Specter. \n"
         }
     },
     {
@@ -8560,6 +8608,16 @@ campaignTrail_temp.answer_score_global_json = [
         }
     },
     {
+	    "model": "campaign_trail.answer_score_global",
+        "pk": 12669,
+        "fields": {
+            "answer": 1281818,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.0351234333
+        }
+    },
+    {
         "model": "campaign_trail.answer_score_global",
         "pk": 12669,
         "fields": {
@@ -8970,6 +9028,66 @@ campaignTrail_temp.answer_score_global_json = [
         }
     },
     {
+	    "model": "campaign_trail.answer_score_global",
+        "pk": 12714,
+        "fields": {
+            "answer": 9987,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.024
+        }
+    },
+    {
+		"model": "campaign_trail.answer_score_global",
+        "pk": 12714,
+        "fields": {
+            "answer": 9986,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+		"model": "campaign_trail.answer_score_global",
+        "pk": 12714,
+        "fields": {
+            "answer": 9986,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.0075
+        }
+    },
+    {
+		"model": "campaign_trail.answer_score_global",
+        "pk": 12714,
+        "fields": {
+            "answer": 9986,
+            "candidate": 77,
+            "affected_candidate": 80,
+            "global_multiplier": -0.015
+        }
+    },
+    {
+		"model": "campaign_trail.answer_score_global",
+        "pk": 12714,
+        "fields": {
+            "answer": 9988,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.015
+        }
+    },
+    {
+		"model": "campaign_trail.answer_score_global",
+        "pk": 12714,
+        "fields": {
+            "answer": 9988,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": -0.01
+        }
+    },
+    {
         "model": "campaign_trail.answer_score_global",
         "pk": 12715,
         "fields": {
@@ -9200,6 +9318,16 @@ campaignTrail_temp.answer_score_global_json = [
         }
     },
     {
+	    "model": "campaign_trail.answer_score_global",
+        "pk": 12812,
+        "fields": {
+            "answer": 128105,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.0333
+        }
+    },
+    {
         "model": "campaign_trail.answer_score_global",
         "pk": 12812,
         "fields": {
@@ -9227,6 +9355,16 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 77,
             "affected_candidate": 77,
             "global_multiplier": 0.03
+        }
+    },
+    {
+	    "model": "campaign_trail.answer_score_global",
+        "pk": 12816,
+        "fields": {
+            "answer": 128145,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.019898
         }
     },
     {
@@ -11073,6 +11211,39 @@ campaignTrail_temp.answer_score_state_json = [
         }
     },
     {
+	    "model": "campaign_trail.answer_score_state",
+        "pk": 12472,
+        "fields": {
+            "answer": 9986,
+            "state": 218,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "state_multiplier": 0.02545
+        }
+    },
+    {
+		"model": "campaign_trail.answer_score_state",
+        "pk": 12472,
+        "fields": {
+            "answer": 9987,
+            "state": 218,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "state_multiplier": 0.02547
+        }
+    },
+    {
+		"model": "campaign_trail.answer_score_state",
+        "pk": 12472,
+        "fields": {
+            "answer": 9988,
+            "state": 218,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "state_multiplier": 0.02549
+        }
+    },
+    {
         "model": "campaign_trail.answer_score_state",
         "pk": 12473,
         "fields": {
@@ -12275,7 +12446,34 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12712,
             "candidate": 77,
-            "answer_feedback": "Luckily for you, Buchanan’s gaffes cause his popularity to fade pretty quickly. It seems that you might make a Comeback in time fore the Democratic National Convention. \n"
+            "answer_feedback": "Luckily for you, Buchanan’s gaffes are still dominating the conversation. While you may not be as exciting or entertaining, you're likely to win big."
+        }
+    },
+    {
+	    "model": "campaign_trail.answer_feedback",
+        "pk": 12713,
+        "fields": {
+            "answer": 9987,
+            "candidate": 77,
+            "answer_feedback": "Arlen Specter, though not a nationally famous Republican, is generally respected, though considered more of a moderate. It looks like he’ll put up a fight."
+        }
+    },
+    {
+		"model": "campaign_trail.answer_feedback",
+        "pk": 12713,
+        "fields": {
+            "answer": 9986,
+            "candidate": 77,
+            "answer_feedback": "It seems like this is shaping up to be a relatively tame contest. Both you and Specter clearly respect each other, or perhaps see it as advantageous, and Perot isn't gaining much traction. May the best man win."
+        }
+    },
+    {
+		"model": "campaign_trail.answer_feedback",
+        "pk": 12713,
+        "fields": {
+            "answer": 9988,
+            "candidate": 77,
+            "answer_feedback": "This might be a bit too aggressive. Most Americans were introduced to Arlen Specter at the RNC, where he came across as intelligent and affably moderate. Your characterization of him doesn’t quite line up with how the public sees him."
         }
     },
     {
@@ -12387,12 +12585,30 @@ campaignTrail_temp.answer_feedback_json = [
         }
     },
     {
+	    "model": "campaign_trail.answer_feedback",
+        "pk": 12811,
+        "fields": {
+            "answer": 128105,
+            "candidate": 77,
+            "answer_feedback": "While you spoke about the promise of the coming 21st century, Arlen Specter seemed unusually focused on the scandals and drama surrounding your White House. Of course, he kept it subtle, but what an ass."
+        }
+    },
+    {
         "model": "campaign_trail.answer_feedback",
         "pk": 12815,
         "fields": {
             "answer": 12814,
             "candidate": 77,
-            "answer_feedback": "Your speech was a resounding success, drawing in hundreds of thousands of viewers. The turning point that truly secured your victory was when you emphasized how Buchanan's policies would drag the country backward."
+            "answer_feedback": "The debate was apparently a resounding success, drawing in hundreds of thousands of viewers. The turning point that truly secured your victory was when you emphasized how Buchanan's policies would drag the country backward."
+        }
+    },
+    {
+	    "model": "campaign_trail.answer_feedback",
+        "pk": 12815,
+        "fields": {
+            "answer": 128145,
+            "candidate": 77,
+            "answer_feedback": "The debate was clearly a success, at least according to the polls. Senator Specter, though respectful, came across as ''sleepy'' and even a bit bored, while you spoke with your usual easy confidence. "
         }
     },
     {
@@ -12402,6 +12618,15 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 12818,
             "candidate": 77,
             "answer_feedback": "The excuse of not getting much sleep the night before doesn’t cut it; Buchanan had time to rehearse, while you seemed off balance and lost your flow. And with the polls shifting in his favor, it’s clear things aren’t going your way."
+        }
+    },
+    {
+	    "model": "campaign_trail.answer_feedback",
+        "pk": 12819,
+        "fields": {
+            "answer": 1281818,
+            "candidate": 77,
+            "answer_feedback": "The excuse of not getting much sleep the night before doesn’t cut it; Specter had time to rehearse, while you seemed off balance and lost your flow. And with the polls shifting in his favor, it’s clear things aren’t going your way."
         }
     },
     {
@@ -12619,6 +12844,7 @@ var HillaryRelationship = 4
 var LibSocial = 0
 var DoleNom = 0
 var BuchananNom = 0
+var SpecterNom = 0
 var LamarNom = 0
 Dolewin=false;
 Buchananwin=false;
@@ -12675,6 +12901,22 @@ cyoAdventure = function(a) {
         update_EV_dict();
         campaignTrail_temp.question_number = 34;
         console.log(Lamarwin = true);
+	} else if (ans == 3453 && ev_dict["77"] < 269 && SpecterNom == 1) {
+        Specterwin=true;
+        update_EV_dict();
+        campaignTrail_temp.question_number = 34;
+        
+        console.log(Specterwin = true);
+    } else if (ans == 3454 && ev_dict["77"] < 269 && SpecterNom == 1) {
+        Specterwin=true;
+        update_EV_dict();
+        campaignTrail_temp.question_number = 34;
+        console.log(Specterwin = true);
+    } else if (ans == 3455 && ev_dict["77"] < 269 && SpecterNom == 1) {
+        Specterwin=true;
+        update_EV_dict();
+        campaignTrail_temp.question_number = 34;
+        console.log(Specterwin = true);
     }
    //Healthcare Update Inserter
     if (ans === 3330) {
@@ -13598,6 +13840,28 @@ campaignTrail_temp.candidate_json[3]["fields"].last_name = "Whitman";
 campaignTrail_temp.candidate_json[3]["fields"].first_name = "Christine Todd";
 campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#EAB3A6";
 
+//Specter CYOA
+} else if (LibSocial == 2 && RepublicanRevolution == 1 && ans == 3388){
+    SpecterNom += 1;
+    campaignTrail_temp.candidate_json[1]["fields"].last_name = "Specter";
+    campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#CE6B6B";
+    campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
+    campaignTrail_temp.candidate_json[1]["fields"].first_name = "Arlen";
+}
+if (LibSocial == 2 && RepublicanRevolution == 1 && ans == 3389){
+    SpecterNom += 1;
+campaignTrail_temp.candidate_json[1]["fields"].last_name = "Specter";
+campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#CE6B6B";
+campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
+campaignTrail_temp.candidate_json[1]["fields"].first_name = "Arlen";
+}
+if(LibSocial == 2 && RepublicanRevolution == 1 && ans == 12636){
+    SpecterNom += 1;
+campaignTrail_temp.candidate_json[1]["fields"].last_name = "Specter";
+campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#CE6B6B";
+campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
+campaignTrail_temp.candidate_json[1]["fields"].first_name = "Arlen";
+
 } else if (LibSocial == 3 && GOPSupermajority == 1 && ans == 3388){
     LamarNom += 1;
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Alexander";
@@ -13775,6 +14039,32 @@ if (ans == 12636){
 				}
             );
             console.log("NAFTA == 1 && GotHealthcare == 1")
+            } if (LibSocial == 2 && RepublicanRevolution == 1 && ans == 3388){
+    console.log("Executing block: LibSocial === 2 && RepublicanRevolution == 1");
+                question_insert(364, 
+                {
+                    "model": "campaign_trail.question",
+                "pk": 127115,
+                "fields": {
+                    "priority": 3,
+                    "description": "After a long, stressful day of hard work, I'm here to inform you that the Republican National Convention has officially begun. Senator Arlen Specter stands before the delegates. He talks about a better future, calling out your leadership for the lack of bipartisanship, accusing you of playing politics rather than governing. He even dares to say that your actions have turned Washington into ''a place where compromise is forgotten.'' ",
+                    "likelihood": 1
+                }
+                    }
+                
+                );
+question_insert(12726, 
+        {
+                    "model": "campaign_trail.question",
+        "pk": 128091,
+        "fields": {
+            "priority": -2,
+            "description": "Mr. President, it's one week before the debate. You've been swamped with work, and now you're down to the wire with little time to dive into the key issues. Will you cut your losses and wing it, or will you use every minute you have left to study as much as you can?",
+            "likelihood": 1
+            }
+        }
+        );
+		            console.log("NAFTA == 1 && GotHealthcare == 1")
             } if (LibSocial === 2 && GOPSupermajority === 1) {
     console.log("Executing block: LibSocial === 2 && GOPSupermajority === 1");
                 question_insert(364, 
@@ -13869,7 +14159,7 @@ used=false
 
 //quickstats[0] is the default, and it tracks your electoral vote count.
 
-if (Dolewin === true && Buchananwin === false && Lamarwin === false) {
+if (Dolewin === true && Buchananwin === false && Specterwin === false && Lamarwin === false) {
   //If you want to enable replacing the image based upon your performance, copy from here....
     if (used != true) {
         setInterval(function () {
@@ -13882,7 +14172,20 @@ if (Dolewin === true && Buchananwin === false && Lamarwin === false) {
     }
     // to here!
      return "<h3>If your seeing this, Bob Dole won.</h3><p>Get ready for Dolemaxxing!</p></p>";
-} else if (Buchananwin === true && Dolewin === false && Lamarwin === false) {
+} else if (Buchananwin === true && Specterwin === false && Dolewin === false && Lamarwin === false) {
+    //If you want to enable replacing the image based upon your performance, copy from here....
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://i.imgur.com/GAq871H.png";
+            }
+        }, 100);
+    }
+	// to here!
+     return "<h3>If your seeing this, Bob Dole won.</h3><p>Get ready for Dolemaxxing!</p></p>";
+} else if (Buchananwin === false && Specterwin === true && Dolewin === false && Lamarwin === false) {
     //If you want to enable replacing the image based upon your performance, copy from here....
     if (used != true) {
         setInterval(function () {
@@ -13894,8 +14197,8 @@ if (Dolewin === true && Buchananwin === false && Lamarwin === false) {
         }, 100);
     }
     // to here!
-    return "<h3>If your seeing this, Pat Buchanan won.</h3><p>Get ready for Buchananmaxxing!</p></p>";
-    } else if (Lamarwin === true && Dolewin === false && Buchananwin === false) {
+    return "<h3>If your seeing this, Arlen Specter won.</h3><p>Get ready for PA SENATOR!</p></p>";
+    } else if (Lamarwin === true && Specterwin === false && Dolewin === false && Buchananwin === false) {
     //If you want to enable replacing the image based upon your performance, copy from here....
     if (used != true) {
         setInterval(function () {
