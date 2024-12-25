@@ -14339,6 +14339,8 @@ if (ans == 20002) {
       } else if (LibSocial == 3 && GOPSupermajority == 1 && ans == 12631) {
           page_list[3][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Lamar Alexander</span>`; // Style ExpectedOpponent
       } else if (RepublicanRevolution == 1 && ans == 3365){ 
+          page_list[3][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Arlen Specter</span>`; // Style ExpectedOpponent
+      } else if (LibSocial == 2 && RepublicanRevolution == 1){ 
           page_list[3][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Bob Dole</span>`; // Style ExpectedOpponent
       } else if (LibSocial >= 1 && RepublicanRevolution == 1 && ans == 12631){ 
           page_list[3][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Bob Dole</span>`; // Style ExpectedOpponent
