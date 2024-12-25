@@ -12849,6 +12849,7 @@ var LamarNom = 0
 Dolewin=false;
 Buchananwin=false;
 Lamarwin=false;
+Specterwin=false
 ClintonDead=false
 cyoAdventure = function(a) {
     update_EV_dict();
@@ -13841,21 +13842,21 @@ campaignTrail_temp.candidate_json[3]["fields"].first_name = "Christine Todd";
 campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#EAB3A6";
 
 //Specter CYOA
-} else if (LibSocial == 1 && RepublicanRevolution == 1 && ans == 3388){
+} else if (LibSocial == 2 && RepublicanRevolution == 1 && ans == 3388){
     SpecterNom += 1;
     campaignTrail_temp.candidate_json[1]["fields"].last_name = "Specter";
     campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#CE6B6B";
     campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/NxU555l.png";
     campaignTrail_temp.candidate_json[1]["fields"].first_name = "Arlen";
 }
-if (LibSocial == 1 && RepublicanRevolution == 1 && ans == 3389){
+if (LibSocial == 2 && RepublicanRevolution == 1 && ans == 3389){
     SpecterNom += 1;
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Specter";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#CE6B6B";
 campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/NxU555l.png";
 campaignTrail_temp.candidate_json[1]["fields"].first_name = "Arlen";
 }
-if(LibSocial == 1 && RepublicanRevolution == 1 && ans == 12636){
+if(LibSocial == 2 && RepublicanRevolution == 1 && ans == 12636){
     SpecterNom += 1;
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Specter";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#CE6B6B";
@@ -14039,32 +14040,6 @@ if (ans == 12636){
 				}
             );
             console.log("NAFTA == 1 && GotHealthcare == 1")
-            } if (LibSocial == 1 && RepublicanRevolution == 1) {
-    console.log("Executing block: LibSocial === 2 && RepublicanRevolution == 1");
-                question_insert(364, 
-                {
-                    "model": "campaign_trail.question",
-                "pk": 127115,
-                "fields": {
-                    "priority": 3,
-                    "description": "After a long, stressful day of hard work, I'm here to inform you that the Republican National Convention has officially begun. Senator Arlen Specter stands before the delegates. He talks about a better future, calling out your leadership for the lack of bipartisanship, accusing you of playing politics rather than governing. He even dares to say that your actions have turned Washington into ''a place where compromise is forgotten.'' ",
-                    "likelihood": 1
-                }
-                    }
-                
-                );
-question_insert(12726, 
-        {
-                    "model": "campaign_trail.question",
-        "pk": 128091,
-        "fields": {
-            "priority": -2,
-            "description": "Mr. President, it's one week before the debate. You've been swamped with work, and now you're down to the wire with little time to dive into the key issues. Will you cut your losses and wing it, or will you use every minute you have left to study as much as you can?",
-            "likelihood": 1
-            }
-        }
-        );
-		            console.log("NAFTA == 1 && GotHealthcare == 1")
             } if (LibSocial === 2 && GOPSupermajority === 1) {
     console.log("Executing block: LibSocial === 2 && GOPSupermajority === 1");
                 question_insert(364, 
@@ -14116,6 +14091,31 @@ question_insert(12726,
             }
         }
                 );
+                } else if (LibSocial == 2 && RepublicanRevolution == 1) {
+    console.log("Executing block: LibSocial === 2 && RepublicanRevolution == 1");
+                question_insert(364, 
+                {
+                    "model": "campaign_trail.question",
+                "pk": 127115,
+                "fields": {
+                    "priority": 3,
+                    "description": "After a long, stressful day of hard work, I'm here to inform you that the Republican National Convention has officially begun. Senator Arlen Specter stands before the delegates. He talks about a better future, calling out your leadership for the lack of bipartisanship, accusing you of playing politics rather than governing. He even dares to say that your actions have turned Washington into ''a place where compromise is forgotten.'' ",
+                    "likelihood": 1
+                }
+                    }
+                
+                );
+question_insert(12726, 
+        {
+                    "model": "campaign_trail.question",
+        "pk": 128091,
+        "fields": {
+            "priority": -2,
+            "description": "Mr. President, it's one week before the debate. You've been swamped with work, and now you're down to the wire with little time to dive into the key issues. Will you cut your losses and wing it, or will you use every minute you have left to study as much as you can?",
+            "likelihood": 1
+            }
+        }
+        );
                 } else {
                 DoleNom += 1;
                     question_insert(364, 
@@ -14339,8 +14339,6 @@ if (ans == 20002) {
       } else if (LibSocial == 3 && GOPSupermajority == 1 && ans == 12631) {
           page_list[3][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Lamar Alexander</span>`; // Style ExpectedOpponent
       } else if (RepublicanRevolution == 1 && ans == 3365){ 
-          page_list[3][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Arlen Specter</span>`; // Style ExpectedOpponent
-      } else if (LibSocial == 1 && RepublicanRevolution == 1){ 
           page_list[3][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Bob Dole</span>`; // Style ExpectedOpponent
       } else if (LibSocial >= 1 && RepublicanRevolution == 1 && ans == 12631){ 
           page_list[3][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Bob Dole</span>`; // Style ExpectedOpponent
