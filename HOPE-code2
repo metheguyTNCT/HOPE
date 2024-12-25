@@ -13845,21 +13845,21 @@ campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#EAB3A6";
     SpecterNom += 1;
     campaignTrail_temp.candidate_json[1]["fields"].last_name = "Specter";
     campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#CE6B6B";
-    campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
+    campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/NxU555l.png";
     campaignTrail_temp.candidate_json[1]["fields"].first_name = "Arlen";
 }
 if (LibSocial == 1 && RepublicanRevolution == 1 && ans == 3389){
     SpecterNom += 1;
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Specter";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#CE6B6B";
-campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
+campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/NxU555l.png";
 campaignTrail_temp.candidate_json[1]["fields"].first_name = "Arlen";
 }
 if(LibSocial == 1 && RepublicanRevolution == 1 && ans == 12636){
     SpecterNom += 1;
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Specter";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#CE6B6B";
-campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
+campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/NxU555l.png";
 campaignTrail_temp.candidate_json[1]["fields"].first_name = "Arlen";
 
 } else if (LibSocial == 3 && GOPSupermajority == 1 && ans == 3388){
