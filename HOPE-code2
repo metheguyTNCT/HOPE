@@ -13841,21 +13841,21 @@ campaignTrail_temp.candidate_json[3]["fields"].first_name = "Christine Todd";
 campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#EAB3A6";
 
 //Specter CYOA
-} else if (LibSocial == 2 && RepublicanRevolution == 1 && ans == 3388){
+} else if (LibSocial == 1 && RepublicanRevolution == 1 && ans == 3388){
     SpecterNom += 1;
     campaignTrail_temp.candidate_json[1]["fields"].last_name = "Specter";
     campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#CE6B6B";
     campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
     campaignTrail_temp.candidate_json[1]["fields"].first_name = "Arlen";
 }
-if (LibSocial == 2 && RepublicanRevolution == 1 && ans == 3389){
+if (LibSocial == 1 && RepublicanRevolution == 1 && ans == 3389){
     SpecterNom += 1;
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Specter";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#CE6B6B";
 campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
 campaignTrail_temp.candidate_json[1]["fields"].first_name = "Arlen";
 }
-if(LibSocial == 2 && RepublicanRevolution == 1 && ans == 12636){
+if(LibSocial == 1 && RepublicanRevolution == 1 && ans == 12636){
     SpecterNom += 1;
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Specter";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#CE6B6B";
@@ -14039,7 +14039,7 @@ if (ans == 12636){
 				}
             );
             console.log("NAFTA == 1 && GotHealthcare == 1")
-            } if (LibSocial == 2 && RepublicanRevolution == 1) {
+            } if (LibSocial == 1 && RepublicanRevolution == 1) {
     console.log("Executing block: LibSocial === 2 && RepublicanRevolution == 1");
                 question_insert(364, 
                 {
@@ -14340,7 +14340,7 @@ if (ans == 20002) {
           page_list[3][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Lamar Alexander</span>`; // Style ExpectedOpponent
       } else if (RepublicanRevolution == 1 && ans == 3365){ 
           page_list[3][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Arlen Specter</span>`; // Style ExpectedOpponent
-      } else if (LibSocial == 2 && RepublicanRevolution == 1){ 
+      } else if (LibSocial == 1 && RepublicanRevolution == 1){ 
           page_list[3][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Bob Dole</span>`; // Style ExpectedOpponent
       } else if (LibSocial >= 1 && RepublicanRevolution == 1 && ans == 12631){ 
           page_list[3][1] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Bob Dole</span>`; // Style ExpectedOpponent
