@@ -14197,7 +14197,7 @@ if (Dolewin === true && Buchananwin === false && Specterwin === false && Lamarwi
             used = true;
             imgg = document.getElementsByClassName("person_image")[0];
             if (imgg != null) {
-                imgg.src = "https://i.imgur.com/GAq871H.png";
+                imgg.src = "https://i.imgur.com/j8XkGJ2.png";
             }
         }, 100);
     }
